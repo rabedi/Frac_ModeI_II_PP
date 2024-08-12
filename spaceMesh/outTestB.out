@@ -1,0 +1,517 @@
+{
+time	9.975
+folder	../../../old_2017_09_29_MicriUST_NA064_NP00_infxinf_tau1ep16em2_x_a013/physics/output_front
+fileNameDat	../../../old_2017_09_29_MicriUST_NA064_NP00_infxinf_tau1ep16em2_x_a013/physics/output_front/MicroSLfrontSync0000000399.txt
+fileNameStat	../../../old_2017_09_29_MicriUST_NA064_NP00_infxinf_tau1ep16em2_x_a013/physics/output_front/MicroSLfrontSync0000000399.stat
+countSegment	768
+countPt	2688
+domainCentroid	[ ( 2 , 1 )	1e-16	1e-16 ]	
+area	1
+circumference	4
+boundingBox	[ ( 1 , 4 )	-0.5	-0.5	0.5	0.5 ]	
+ratio_Rhoab_2_stress	4.87657e-07
+ratio_crackStrain2totalStrain	0.0564946
+ave_Deviation_Rhoab	[ ( 2 , 1 )	-2.42534e-08	-6.35281e-09 ]	
+fractureDissPower	3.1591e-05
+fractureDissPower_0	3.15802e-05
+fractureDissPower_1	1.08735e-08
+fractureDissPower_1toTotal	0.000344195
+bcPower_0	0
+bcPower_1	0
+bcPower	0
+sym	1
+raw	2
+sts_Bhomog	1
+sts_Bsimple	2
+stress_homogenized	rows	2	cols	2
+	[ 1 , 1 ]	[ ( 2 , 2 )	0.0514125	8.80733e-10	8.80733e-10	0.013264 ]	
+	[ 1 , 2 ]	[ ( 2 , 2 )	0.0514139	-2.90912e-09	-2.90912e-09	0.0132659 ]	
+	[ 2 , 1 ]	[ ( 2 , 2 )	0.0514125	-1.18303e-08	1.35918e-08	0.013264 ]	
+	[ 2 , 2 ]	[ ( 2 , 2 )	0.0514139	-1.18043e-08	5.98611e-09	0.0132659 ]	
+stn_Bhomog	1
+stn_Ihomog	2
+stn_Chomog	3
+strain_homogenized	rows	2	cols	3
+	[ 1 , 1 ]	[ ( 2 , 2 )	0.129673	-1.17935e-09	-1.17935e-09	2.34715e-07 ]	
+	[ 1 , 2 ]	[ ( 2 , 2 )	0.122348	-1.14585e-09	-1.14585e-09	2.34715e-07 ]	
+	[ 1 , 3 ]	[ ( 2 , 2 )	0.00732585	-3.35038e-11	-3.35038e-11	0 ]	
+	[ 2 , 1 ]	[ ( 2 , 2 )	0.129673	-2.35888e-09	1.72506e-13	2.34715e-07 ]	
+	[ 2 , 2 ]	[ ( 2 , 2 )	0.122348	-2.35888e-09	6.71801e-11	2.34715e-07 ]	
+	[ 2 , 3 ]	[ ( 2 , 2 )	0.00732585	0	-6.70076e-11	0 ]	
+newNormalizationsUVSEps	[ ( 1 , 3 )	0.0001	2	0.1 ]	
+factorDelU	[ ( 1 , 8 )	0	0.0001	0.0001	0.001	0.0001	0	0	0.0001 ]	
+factorS	[ ( 1 , 8 )	0	0.1	0.1	0.1	0.1	0	0	0.1 ]	
+factorDelV	[ ( 1 , 8 )	0	2	2	2	2	0	0	2 ]	
+factorU	[ ( 1 , 8 )	0	1	1	1	1	0	0	1 ]	
+factorV	[ ( 1 , 8 )	0	2	2	2	2	0	0	2 ]	
+strainScale	0.1
+E	1
+rho	1
+nu	0.3
+planeMode	1
+cd	1.16024
+cs	0.620174
+taus	[ ( 1 , 8 )	0	0.00116024	0.00116024	0.00116024	0.00116024	0	0	0.00116024 ]	
+step4ScalarCDFs	0.1
+simpleBC	1
+
+maxBCFlag	5
+domainBCEdgesCombined
+	{
+	totalLength	4
+	int_xn	2
+	int_sn	[ ( 2 , 1 )	-2.42534e-08	-6.35281e-09 ]	
+	int_snox	[ ( 2 , 2 )	0.0514125	-1.18303e-08	1.35918e-08	0.013264 ]	
+	int_un	[ ( 2 , 2 )	0.129673	-2.35888e-09	1.72506e-13	2.34715e-07 ]	
+	int_vsn_0	0
+	int_vsn_1	0
+	int_vsn	0
+	crdMin	[ ( 1 , 2 )	-0.5	-0.5 ]	
+	crdMax	[ ( 1 , 2 )	0.5	0.5 ]	
+	edgeCentroid	[ ( 1 , 2 )	0	0 ]	
+	orientation	[ ( 1 , 2 )	0	0 ]	
+	normal	[ ( 1 , 2 )	0	0 ]	
+	domainCentroid	[ ( 2 , 1 )	0	0 ]	
+	}
+
+maxInteriorFlag	8
+domainInteriorEdgesByFlagCombined
+	{
+	count	256
+	totalLength	2
+	int_vsn_0	3.15802e-05
+	int_vsn_1	1.08735e-08
+	int_vsn	3.1591e-05
+	int_vsn_1toTotal	0.000344195
+	int_un	[ ( 2 , 2 )	0.00732585	0	-6.70076e-11	0 ]	
+	crdMin	[ ( 1 , 2 )	-0.484375	-0.5 ]	
+	crdMax	[ ( 1 , 2 )	0.484375	0.5 ]	
+	hlengths	[ ( 9 , 8 )	[row1]	2	0	2	0	2	0	0	0	[row2]	2	0	2	0	2	0	0	0	[row3]	2	0	2	0	2	0	0	0	[row4]	2	0	2	0	2	0	0	0	[row5]	2	0	2	0	2	0	0	0	[row6]	2	0	2	0	2	0	0	0	[row7]	2	0	2	0	2	0	0	0	[row8]	2	0	2	0	2	0	0	0	[row9]	2	0	2	0	2	0	0	0 ]	
+	hlengthsRel	[ ( 9 , 8 )	[row1]	1	0	1	0	1	0	0	0	[row2]	1	0	1	0	1	0	0	0	[row3]	1	0	1	0	1	0	0	0	[row4]	1	0	1	0	1	0	0	0	[row5]	1	0	1	0	1	0	0	0	[row6]	1	0	1	0	1	0	0	0	[row7]	1	0	1	0	1	0	0	0	[row8]	1	0	1	0	1	0	0	0	[row9]	1	0	1	0	1	0	0	0 ]	
+	ave_scalars	[ ( 1 , 12 )	0.999978	0	1	5.25256e-06	0.999995	0	0	0	1	-0	1	5.25026e-05 ]	
+	int_scalars	[ ( 1 , 12 )	1.99996	0	2	1.05051e-05	1.99999	0	0	0	2	-0	2	0.000105005 ]	
+	min_scalars	[ ( 1 , 12 )	0.999622	0	1	0	0.999911	0	0	0	1	-0	1	0 ]	
+	max_scalars	[ ( 1 , 12 )	1	0	1	8.94794e-05	1	0	0	0	1	-0	1	0.000894394 ]	
+	crackAngleBin_size	180
+	crackAngleBin_minAngleDeg	0
+	crackAngleBin_maxAngleDeg	180
+	crackAngleBin_DelAngleDeg	180
+	crackAngleBin_DelAngleDeg	180
+	crackAngleBin_totCrackLengths	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleBin_totCounts	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	256	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleBin_perCrackLengths	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleBin_perCounts	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleStatWNumber
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	3.14159
+		averageSin	0
+		averageCos	-1
+		sumSin	0
+		sumCos	-1
+		optm4	1
+		numSegments	2
+		wieghtEqCracklength	0
+		sumWeight	1
+		}
+	crackAngleStatWLength
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	3.14159
+		averageSin	0
+		averageCos	-1
+		sumSin	0
+		sumCos	-0.005628
+		optm4	1
+		numSegments	2
+		wieghtEqCracklength	1
+		sumWeight	0.005628
+		}
+	crackAngleStatXYSymWNumber
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	1.5708
+		averageSin	1
+		averageCos	0
+		sumSin	1
+		sumCos	0
+		optm4	1
+		numSegments	-4
+		wieghtEqCracklength	0
+		sumWeight	1
+		}
+	crackAngleStatXYSymWLength
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	1.5708
+		averageSin	1
+		averageCos	0
+		sumSin	0.005628
+		sumCos	0
+		optm4	1
+		numSegments	-4
+		wieghtEqCracklength	1
+		sumWeight	0.005628
+		}
+step4ScalarCDFs	0.1	numBins4ScalarCDFs	9	step4ScalarCDFsVals	[ ( 1 , 9 )	0.1	0.2	0.3	0.4	0.5	0.6	0.7	0.8	0.9 ]	
+	}
+
+numBCSegments	[ ( 1 , 5 )	0	128	128	128	128 ]	
+domainBCEdges	sz	5
+	[ 1 ]
+	null
+	[ 2 ]
+	{
+	totalLength	1
+	int_xn	0.5
+	int_sn	[ ( 2 , 1 )	5.52467e-11	-0.0132659 ]	
+	int_snox	[ ( 2 , 2 )	-7.04744e-07	-2.76234e-11	2.54519e-09	0.00663293 ]	
+	int_un	[ ( 2 , 2 )	0	-9.62772e-09	0	1.17357e-07 ]	
+	int_vsn_0	0
+	int_vsn_1	0
+	int_vsn	0
+	crdMin	[ ( 1 , 2 )	-0.5	-0.5 ]	
+	crdMax	[ ( 1 , 2 )	0.5	-0.5 ]	
+	edgeCentroid	[ ( 1 , 2 )	0	0 ]	
+	orientation	[ ( 2 , 1 )	1	-0 ]	
+	normal	[ ( 1 , 2 )	-0	-1 ]	
+	domainCentroid	[ ( 2 , 1 )	0	0 ]	
+	}
+	[ 3 ]
+	{
+	totalLength	1
+	int_xn	0.5
+	int_sn	[ ( 2 , 1 )	0.0514139	7.30408e-09 ]	
+	int_snox	[ ( 2 , 2 )	0.0257069	-5.89728e-09	3.65204e-09	-9.43458e-07 ]	
+	int_un	[ ( 2 , 2 )	0.0648367	0	3.50334e-13	0 ]	
+	int_vsn_0	0
+	int_vsn_1	0
+	int_vsn	0
+	crdMin	[ ( 1 , 2 )	0.5	-0.5 ]	
+	crdMax	[ ( 1 , 2 )	0.5	0.5 ]	
+	edgeCentroid	[ ( 1 , 2 )	0	0 ]	
+	orientation	[ ( 2 , 1 )	-0	1 ]	
+	normal	[ ( 1 , 2 )	1	0 ]	
+	domainCentroid	[ ( 2 , 1 )	0	0 ]	
+	}
+	[ 4 ]
+	{
+	totalLength	1
+	int_xn	0.5
+	int_sn	[ ( 2 , 1 )	3.28051e-12	0.0132659 ]	
+	int_snox	[ ( 2 , 2 )	-7.04743e-07	1.64025e-12	3.44092e-09	0.00663293 ]	
+	int_un	[ ( 2 , 2 )	0	7.26884e-09	0	1.17358e-07 ]	
+	int_vsn_0	0
+	int_vsn_1	0
+	int_vsn	0
+	crdMin	[ ( 1 , 2 )	-0.5	0.5 ]	
+	crdMax	[ ( 1 , 2 )	0.5	0.5 ]	
+	edgeCentroid	[ ( 1 , 2 )	0	0 ]	
+	orientation	[ ( 2 , 1 )	-1	-0 ]	
+	normal	[ ( 1 , 2 )	-0	1 ]	
+	domainCentroid	[ ( 2 , 1 )	0	0 ]	
+	}
+	[ 5 ]
+	{
+	totalLength	1
+	int_xn	0.5
+	int_sn	[ ( 2 , 1 )	-0.0514139	-7.90728e-09 ]	
+	int_snox	[ ( 2 , 2 )	0.025707	-5.90706e-09	3.95364e-09	-9.43654e-07 ]	
+	int_un	[ ( 2 , 2 )	0.0648367	0	-1.77827e-13	0 ]	
+	int_vsn_0	0
+	int_vsn_1	0
+	int_vsn	0
+	crdMin	[ ( 1 , 2 )	-0.5	-0.5 ]	
+	crdMax	[ ( 1 , 2 )	-0.5	0.5 ]	
+	edgeCentroid	[ ( 1 , 2 )	0	0 ]	
+	orientation	[ ( 2 , 1 )	-0	-1 ]	
+	normal	[ ( 1 , 2 )	-1	0 ]	
+	domainCentroid	[ ( 2 , 1 )	0	0 ]	
+	}
+
+numInteriorSegmentsByFlagByFlag	[ ( 1 , 8 )	0	0	0	0	0	0	0	256 ]	
+domainInteriorEdgesByFlagByFlag	sz	8
+	[ 1 ]
+	null
+	[ 2 ]
+	null
+	[ 3 ]
+	null
+	[ 4 ]
+	null
+	[ 5 ]
+	null
+	[ 6 ]
+	null
+	[ 7 ]
+	null
+	[ 8 ]
+	{
+	count	256
+	totalLength	2
+	int_vsn_0	3.15802e-05
+	int_vsn_1	1.08735e-08
+	int_vsn	3.1591e-05
+	int_vsn_1toTotal	0.000344195
+	int_un	[ ( 2 , 2 )	0.00732585	0	-6.70076e-11	0 ]	
+	crdMin	[ ( 1 , 2 )	-0.484375	-0.5 ]	
+	crdMax	[ ( 1 , 2 )	0.484375	0.5 ]	
+	hlengths	[ ( 9 , 8 )	[row1]	2	0	2	0	2	0	0	0	[row2]	2	0	2	0	2	0	0	0	[row3]	2	0	2	0	2	0	0	0	[row4]	2	0	2	0	2	0	0	0	[row5]	2	0	2	0	2	0	0	0	[row6]	2	0	2	0	2	0	0	0	[row7]	2	0	2	0	2	0	0	0	[row8]	2	0	2	0	2	0	0	0	[row9]	2	0	2	0	2	0	0	0 ]	
+	hlengthsRel	[ ( 9 , 8 )	[row1]	1	0	1	0	1	0	0	0	[row2]	1	0	1	0	1	0	0	0	[row3]	1	0	1	0	1	0	0	0	[row4]	1	0	1	0	1	0	0	0	[row5]	1	0	1	0	1	0	0	0	[row6]	1	0	1	0	1	0	0	0	[row7]	1	0	1	0	1	0	0	0	[row8]	1	0	1	0	1	0	0	0	[row9]	1	0	1	0	1	0	0	0 ]	
+	ave_scalars	[ ( 1 , 12 )	0.999978	0	1	5.25256e-06	0.999995	0	0	0	1	-0	1	5.25026e-05 ]	
+	int_scalars	[ ( 1 , 12 )	1.99996	0	2	1.05051e-05	1.99999	0	0	0	2	-0	2	0.000105005 ]	
+	min_scalars	[ ( 1 , 12 )	0.999622	0	1	0	0.999911	0	0	0	1	-0	1	0 ]	
+	max_scalars	[ ( 1 , 12 )	1	0	1	8.94794e-05	1	0	0	0	1	-0	1	0.000894394 ]	
+	crackAngleBin_size	180
+	crackAngleBin_minAngleDeg	0
+	crackAngleBin_maxAngleDeg	180
+	crackAngleBin_DelAngleDeg	180
+	crackAngleBin_DelAngleDeg	180
+	crackAngleBin_totCrackLengths	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleBin_totCounts	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	256	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleBin_perCrackLengths	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleBin_perCounts	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleStatWNumber
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	3.14159
+		averageSin	0
+		averageCos	-1
+		sumSin	0
+		sumCos	-1
+		optm4	1
+		numSegments	2
+		wieghtEqCracklength	0
+		sumWeight	1
+		}
+	crackAngleStatWLength
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	3.14159
+		averageSin	0
+		averageCos	-1
+		sumSin	0
+		sumCos	-0.005628
+		optm4	1
+		numSegments	2
+		wieghtEqCracklength	1
+		sumWeight	0.005628
+		}
+	crackAngleStatXYSymWNumber
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	1.5708
+		averageSin	1
+		averageCos	0
+		sumSin	1
+		sumCos	0
+		optm4	1
+		numSegments	-4
+		wieghtEqCracklength	0
+		sumWeight	1
+		}
+	crackAngleStatXYSymWLength
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	1.5708
+		averageSin	1
+		averageCos	0
+		sumSin	0.005628
+		sumCos	0
+		optm4	1
+		numSegments	-4
+		wieghtEqCracklength	1
+		sumWeight	0.005628
+		}
+step4ScalarCDFs	0.1	numBins4ScalarCDFs	9	step4ScalarCDFsVals	[ ( 1 , 9 )	0.1	0.2	0.3	0.4	0.5	0.6	0.7	0.8	0.9 ]	
+	}
+numAngleRanges	18
+delAngleRanges	10
+minAngleRanges	-5
+
+numInteriorSegmentsByFlagByAngle	[ ( 18 , 1 )	0	0	0	0	0	0	0	0	0	256	0	0	0	0	0	0	0	0 ]	
+domainInteriorEdgesByAngle	sz	18
+	[ 1 ]
+	null
+	[ 2 ]
+	null
+	[ 3 ]
+	null
+	[ 4 ]
+	null
+	[ 5 ]
+	null
+	[ 6 ]
+	null
+	[ 7 ]
+	null
+	[ 8 ]
+	null
+	[ 9 ]
+	null
+	[ 10 ]
+	{
+	count	256
+	totalLength	2
+	int_vsn_0	3.15802e-05
+	int_vsn_1	1.08735e-08
+	int_vsn	3.1591e-05
+	int_vsn_1toTotal	0.000344195
+	int_un	[ ( 2 , 2 )	0.00732585	0	-6.70076e-11	0 ]	
+	crdMin	[ ( 1 , 2 )	-0.484375	-0.5 ]	
+	crdMax	[ ( 1 , 2 )	0.484375	0.5 ]	
+	hlengths	[ ( 9 , 8 )	[row1]	2	0	2	0	2	0	0	0	[row2]	2	0	2	0	2	0	0	0	[row3]	2	0	2	0	2	0	0	0	[row4]	2	0	2	0	2	0	0	0	[row5]	2	0	2	0	2	0	0	0	[row6]	2	0	2	0	2	0	0	0	[row7]	2	0	2	0	2	0	0	0	[row8]	2	0	2	0	2	0	0	0	[row9]	2	0	2	0	2	0	0	0 ]	
+	hlengthsRel	[ ( 9 , 8 )	[row1]	1	0	1	0	1	0	0	0	[row2]	1	0	1	0	1	0	0	0	[row3]	1	0	1	0	1	0	0	0	[row4]	1	0	1	0	1	0	0	0	[row5]	1	0	1	0	1	0	0	0	[row6]	1	0	1	0	1	0	0	0	[row7]	1	0	1	0	1	0	0	0	[row8]	1	0	1	0	1	0	0	0	[row9]	1	0	1	0	1	0	0	0 ]	
+	ave_scalars	[ ( 1 , 12 )	0.999978	0	1	5.25256e-06	0.999995	0	0	0	1	-0	1	5.25026e-05 ]	
+	int_scalars	[ ( 1 , 12 )	1.99996	0	2	1.05051e-05	1.99999	0	0	0	2	-0	2	0.000105005 ]	
+	min_scalars	[ ( 1 , 12 )	0.999622	0	1	0	0.999911	0	0	0	1	-0	1	0 ]	
+	max_scalars	[ ( 1 , 12 )	1	0	1	8.94794e-05	1	0	0	0	1	-0	1	0.000894394 ]	
+	crackAngleBin_size	180
+	crackAngleBin_minAngleDeg	85
+	crackAngleBin_maxAngleDeg	95
+	crackAngleBin_DelAngleDeg	10
+	crackAngleBin_DelAngleDeg	10
+	crackAngleBin_totCrackLengths	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleBin_totCounts	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	256	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleBin_perCrackLengths	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleBin_perCounts	[ ( 180 , 1 )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 ]	
+	crackAngleStatWNumber
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	3.14159
+		averageSin	0
+		averageCos	-1
+		sumSin	0
+		sumCos	-1
+		optm4	1
+		numSegments	2
+		wieghtEqCracklength	0
+		sumWeight	1
+		}
+	crackAngleStatWLength
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	3.14159
+		averageSin	0
+		averageCos	-1
+		sumSin	0
+		sumCos	-0.005628
+		optm4	1
+		numSegments	2
+		wieghtEqCracklength	1
+		sumWeight	0.005628
+		}
+	crackAngleStatXYSymWNumber
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	1.5708
+		averageSin	1
+		averageCos	0
+		sumSin	1
+		sumCos	0
+		optm4	1
+		numSegments	-4
+		wieghtEqCracklength	0
+		sumWeight	1
+		}
+	crackAngleStatXYSymWLength
+		{
+		thetaMeanDegree	90
+		r	1
+		sdiv	-0
+		thetaMeanRad	1.5708
+		thetaMeanRadBase	1.5708
+		averageSin	1
+		averageCos	0
+		sumSin	0.005628
+		sumCos	0
+		optm4	1
+		numSegments	-4
+		wieghtEqCracklength	1
+		sumWeight	0.005628
+		}
+step4ScalarCDFs	0.1	numBins4ScalarCDFs	9	step4ScalarCDFsVals	[ ( 1 , 9 )	0.1	0.2	0.3	0.4	0.5	0.6	0.7	0.8	0.9 ]	
+	}
+	[ 11 ]
+	null
+	[ 12 ]
+	null
+	[ 13 ]
+	null
+	[ 14 ]
+	null
+	[ 15 ]
+	null
+	[ 16 ]
+	null
+	[ 17 ]
+	null
+	[ 18 ]
+	null
+
+pos		{
+	fldNames	[ ( 29 )	D	cr	str	ba	sa	ca	sta	sla	pf	p	df	ds	ldid	dset	delu0	delu1	delus	s0	s1	ss	delv0	delv1	delvs	uin0	uin1	uins	uout0	uout1	uouts ]	
+	Dind	1
+	crind	2
+	strind	3
+	baind	4
+	saind	5
+	caind	6
+	staind	7
+	slaind	8
+	pfind	9
+	dfind	11
+	delu0ind	15
+	s0ind	18
+	delv0ind	21
+	u0ind	24
+	v0ind	21
+	STDIM	3
+	xindex	2
+	tindex	4
+	bindex	6
+	flgindex	10
+	szindex	12
+	valsindex	14
+	u0indabs	37
+	v0indabs	34
+	s0indabs	31
+	delu0indabs	28
+	delv0indabs	34
+	interiorFracPosSt	14
+	interiorFracPosEn	25
+	}
+}

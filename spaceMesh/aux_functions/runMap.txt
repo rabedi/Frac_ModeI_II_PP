@@ -1,0 +1,3 @@
+{	( serialMax	399 )	( timeMax 9.975 ) ( serialMin	0 )
+	( damageInitiationZeroTol	0.01 ) 
+}

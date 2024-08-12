@@ -1,0 +1,86 @@
+# START_OF_FILE
+{
+#{
+	=============================================================================
+	Configuration File for VDataStat plotting structure
+	
+	Version: 1.0
+	Created: 03/16/2017
+	=============================================================================
+#}
+
+#{
+	=============================================================================
+	Default Plot Specifications
+	=============================================================================
+#}
+_defaults
+{
+	# FIGURE SPECIFICATONS:
+	fig_visible			off
+	fig_fullscreen		no
+	fig_save			yes  { png fig eps }
+	
+	# LINE SPECIFICATIONS:
+	line_all_spec		{ ms none  mw 3 ls -    	  lw 1.0 }
+	line_bfit_spec		{ ms none 	    ls --   lc k  lw 1.0 }
+	
+	# AXIS SPECIFICATIONS:
+	ax_fontsize			20
+	ax_interpreter		latex
+	ax_tic_active		1
+	ax_grid_on			1
+	ax_xlab_vert_align	top
+	ax_ylab_vert_align	top
+	ax_zlab_vert_align	top
+	ax_x_limit			auto
+	ax_y_limit			auto
+	ax_z_limit			auto	
+	
+	# LEGEND SPECIFICATIONS:
+	leg_location		northeast
+	leg_orientation		vertical
+	leg_in_or_out		outside		
+	leg_fontsize		20
+	leg_interpreter		latex
+	leg_box_on			0
+	leg_box_width		1.0
+}
+
+#{
+	=============================================================================
+	New Config File for Sigma Epsilon, ... plots (2019)
+	=============================================================================
+#}
+
+_configSyncNew
+# options: 
+#	default:	reads it from _config_AllRun.txt
+#	direct: 	reads this file from here
+#	anyOther	e.g. _config_AllRun_Test.txt : reads it from that file
+
+_config_AllRun_TensileY.txt
+
+# default
+	
+#{
+	=============================================================================
+	Data Field Plot Specifications
+	=============================================================================
+#}
+
+#	Index	String  latexSymbol  	LineSpecs    	limitsBool 	limitVals
+_data
+{
+	0		D		D			 { ms o    ls - }  [ 0 0 ]  	[ -inf inf ]
+	1		s0		\sigma_{0}	 { ms * ls - }  [ 0 0 ]  	[ -inf inf ]
+    2       pf      p_{frac}     { ms +  }         [ 0 0 ]      [ -inf inf ]
+}
+	
+#{
+	=============================================================================
+	Simulation Runs Plot Specifications
+	=============================================================================
+#}
+#	Folder				latexSymbol		LineSpecs
+_runs

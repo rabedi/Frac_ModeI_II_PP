@@ -1,0 +1,33 @@
+{
+{	energy	1	2	}
+}
+
+{
+{	energy }	{	error 3 }
+}
+
+
+# Outer
+{
+	dataPoss	
+	# sz	
+	2
+	{	pos		2	vals	{	0.013	0.13	}	}
+	{	pos		3	vals	{	}	}
+}
+
+{
+	dataPoss	
+	# sz	
+	2
+	{	pos		1	vals	{	}	}
+	{	pos		4	vals	{	}	}
+}
+
+{
+	dataPoss	
+	# sz	
+	1
+	{	pos		1	vals	{	}	}
+}
+

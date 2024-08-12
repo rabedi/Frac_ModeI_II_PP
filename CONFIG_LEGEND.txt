@@ -1,0 +1,73 @@
+crackOpeningZero2MaxStress			CrackOpening from completely damaged point (Stress = 0) to the point that has maximum stress
+							This is the difference of crack opening between end points of process zone size
+rackOpeningZero2ZeroStress			This is only the absolute crack opening of the end point of process zone
+
+
+For each plot data we have
+plotAdditionalCurvesONPlots option 
+	if > 0 it adds all the theoretical curves to the plots
+	
+	value 1 corresponds to TSL models and only print those relevant to this model
+	value 2 corresponds to DAMAGE models and only print those relevant to this model
+
+
+
+Number	Active	AdditionalPlotInfo		title ...
+
+
+AdditionalPlotInfo:
+
+optionNumber	lineColorOrBKNum	xlogFlag 	ylogFlag	    xAxisRegularSpace plotRegAheadCrackTip label
+
+style and width of line are the same as Yu-Suo data
+
+lineColorOrBKNum
+-1 means it's number of input curves + 1
+
+xAxisRegularSpace:
+for plots of given time value (not crack tip ones) this set to 1 means x axis is space in regular scale (not velocity for example)
+
+plotRegAheadCrackTip:
+only applies to quasi-singular field plots where this set to 1, plot ahead of the crack tip as well (set to 0 only plots behind crack tip)
+options are:	plotActual-Velocity-vs-x-x0-data			plot-Regression-line
+-1 			0								0
+0			1								0
+1			1								1		
+
+whether x or y data is log type
+xlogBase 	ylogBase	
+value 0 means this option is inactive
+
+example is
+	-1	-1	0	0	0	0	theory
+	-1	-1	10	10	0	0	theory
+
+
+optionNumber:
+-1	Inactive
+
+% all quantities are normalized
+%PZ process zone size
+% v velocity
+% t time
+% a crack length (increment)
+% vMax is maximum material velocity normal to crack surface (for mode I)
+% vc: is cohesive time scale
+
+AddCRVSopt_a_t = 0;
+AddCRVSopt_v_t = 1;
+AddCRVSopt_PZ_v = 2;
+AddCRVSopt_00_11Unbounded = 3;
+AddCRVSopt_00_11Bounded = 4;
+AddCRVSopt_1_Unbounded = 5;
+AddCRVSopt_1Bounded = 6;
+AddCRVSopt_vMax_rp2rsv = 7;
+AddCRVSopt_rp_rsv_GivenSigmaForceSigmaC = 8;
+AddCRVSopt_vMax_vc = 9;
+AddCRVSopt_rprss_sigmaForceSigmaCUnbounded = 10;
+AddCRVSopt_rprss_sigmaForceSigmaCBounded = 11;
+AddCRVSopt_rprss_velocityUnbounded = 12;
+AddCRVSopt_rprss_velocityBounded = 13;
+
+
+

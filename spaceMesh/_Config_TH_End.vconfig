@@ -1,0 +1,100 @@
+
+#{
+	=============================================================================
+	Plot Axis Data
+	=============================================================================
+#}
+#	xData   yData  	singleRunBool    multiRunBool   bestFitBool	  legendLocation
+#	NB: concatenate yy and yyn fields with '|' symbol...e.g. D|p or D|s0
+
+_plots  
+{
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_stssh_xx zpr_stssh_yy }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_stssh_xx_ny zpp_d zpr_stn_rel }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_stnst_xx }  			y { zpp_d zpr_stn_rel }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_scalar_d_mean zpr_fraca_scalar_cr_mean	zpr_fraca_scalar_str_mean }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_scalar_sa_mean zpr_fraca_scalar_sla_mean zpr_fraca_scalar_sta_mean }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_scalar_d_max zpr_fraca_scalar_cr_max	zpr_fraca_scalar_str_max }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_scalar_sa_max zpr_fraca_scalar_sla_max zpr_fraca_scalar_sta_max }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_dynerr_rel zpr_dynerr_ind0 zpr_dynerr_ind1 zpr_dynerr_ind2 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_time	zpr_stnst_xx }  			y { zpr_dynerr_ind0 zpr_dynerr_ind1 zpr_dynerr_ind2 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fpow_rel }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fpow_indn zpr_fpow_indt }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_mean }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_r zpr_fraca_angle_stat_len_sdiv }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_sym_len_mean }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_sym_len_r zpr_fraca_angle_stat_sym_len_sdiv }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_mean  zpr_fraca_angle_stat_sym_len_mean  }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_r zpr_fraca_angle_stat_sym_len_r }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_sdiv zpr_fraca_angle_stat_sym_len_sdiv }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_stssh_xx zpr_stssh_yy }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_stnst_xx_ny }  			y { zpr_stssh_xx_ny zpr_stssh_yy_ny }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar }  			y { zpp_sig_scalar zpp_d zppr_stn_rel zpp_ddot_ny }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar }  			y { zpp_psi_t zpp_psi_r zpp_psi_d }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar }  			y { zpp_psi_t_npsif zpp_psi_r_npsif zpp_psi_d_npsif }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar } 			y { zppr_fpow	zppr_fpow_indn zppr_fpow_indt }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_dcracklength zpr_fraca_scalar_d_len_revind0 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+	{ x { time }  			y { measure }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+    { x { time }  			y { D }             srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { time }  			y { EN0501 EN0601 EN0107 EN0108 }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { time }  			y { EN0101 EN0501 EN0601 EN0701 EN0107 EN0108 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+    { x { time }  			y { EN0101 EN0501 EN0601 EN0107 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0107 EN0108 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0102 EN0502 EN0602 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0103 }                    srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0104 }                    srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0106 }                    srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0108 EN0208 EN0308 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0109 EN0209 EN0309 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+}
+
+#{
+	=============================================================================
+	APENDIX A: Convention on critical field suffix
+	=============================================================================
+	critXXpXX_i denotes the field i being greater than some critical value XXpXX where 'p'
+	denotes the decimal in a floating point value and index 'i' to field can be found below
+	i	fields_enum
+	0	D 
+	1	cr
+	2	str 
+	3	ba 
+	4	sa 
+	5	ca
+	6	sta
+	7	sla
+	8	pf 
+	9	p 
+	10	df
+	11	ds
+#}
+
+} # END_OF_FILE

@@ -1,0 +1,258 @@
+{
+# if the file exists do we want to regenerate that (1) or simply read the file
+# Base file
+regenerateBaseFile	0
+
+# brief file
+regenerateBriefFile	0
+
+
+# size 0: 
+#		for each run normalization valus for displacement, velocity, stress, and strain are taken from cohesive values
+# 		that iis deltaC, velC, sigmaC, and sigmaC/E
+# size == 4::	The user specifies the normalization values that are shared for ALL runs
+newNormalizationsUVSEps
+	{
+# 		U
+# 			1
+# 		V
+# 			2
+# 		S
+# 			3
+# 		eps
+#			4
+	}
+
+
+# additional fields to be reported in summary file (some already exist in the file; others are read from the main file
+fld2printInBrief_zpr
+	{
+# #####################################		time + strain / stress
+
+		zpr_time				t
+		zpr_stssh_xx				\sigma_{xx}                  
+		zpr_stssh_yy				\sigma_{yy}                  
+		zpr_stssh_xy				\sigma_{xy}                  
+		zpr_stnst_xx				\epsilon_{xx}                  
+		zpr_stnst_yy				\epsilon_{yy}                  
+		zpr_stnst_xy				\epsilon_{xy}                  
+
+		zpr_stssh_xx_ny				\sigma_{xx}/\tilde{\sigma}
+		zpr_stnst_xx_ny				\epsilon_{xx}/\tilde{\epsilon}                  
+
+		zpr_stssh_yy_ny				\sigma_{yy}/\tilde{\sigma}
+		zpr_stnst_yy_ny				\epsilon_{yy}/\tilde{\epsilon}                  
+
+# #####################################		Errors in having a static equiloibrium
+#							dynamic error (error in div. stress = 0, divided by appropriate scale)
+		zpr_dynerr_rel				E_{rdyn}
+#							absolute value
+		zpr_dynerr_ind0				|E_{dyn}|
+#							component 1 (x)
+		zpr_dynerr_ind1				E_{dyn_x}
+		zpr_dynerr_ind2				E_{dyn_y}
+	
+# #####################################		Interesting parameters
+
+#						# power of shear fracture to total power on fracture surfaces
+		zpr_fpow_rel			P_t/P	
+
+# #####################################		contact / fracture fractions
+		zpr_fraca_scalar_d_mean			{E}(D)
+		zpr_fraca_scalar_d_max			\mathrm{max}(D)
+
+		zpr_fraca_scalar_cr_mean			{E}(\eta)
+		zpr_fraca_scalar_cr_max			\mathrm{max}(\eta)
+
+		zpr_fraca_scalar_str_mean			{E}(\gamma)
+		zpr_fraca_scalar_str_max			\mathrm{max}(\gamma)
+
+		zpr_fraca_scalar_sa_mean			{E}(a_\mathrm{S})
+		zpr_fraca_scalar_sa_max			\mathrm{max}(a_\mathrm{S})
+
+		zpr_fraca_scalar_sla_mean			{E}(a_\mathrm{SL})
+		zpr_fraca_scalar_sla_max			\mathrm{max}(a_\mathrm{SL})
+
+		zpr_fraca_scalar_sta_mean			{E}(a_\mathrm{ST})
+		zpr_fraca_scalar_sta_max			\mathrm{max}(a_\mathrm{ST})
+
+# what length of cracks have damage greater than the largest break point (e.g. 0.9)
+		zpr_fraca_scalar_d_len_revind0			l_{D_{\mathrm{max}}}
+
+
+# #####################################		crack angle: theta and theta + 180 the same
+
+		zpr_fraca_angle_stat_len_mean		{E}(\theta)
+		zpr_fraca_angle_stat_len_r		r_\theta
+		zpr_fraca_angle_stat_len_sdiv		\mathrm{\sigma}_\theta
+
+# #####################################		crack angle: theta and theta + 180 the same plus (-theta) and 180 - pi (symmetric w.r.t. x, t. gd
+
+		zpr_fraca_angle_stat_sym_len_mean		{E}^s(\theta)
+		zpr_fraca_angle_stat_sym_len_r		r^s_\theta
+		zpr_fraca_angle_stat_sym_len_sdiv		\mathrm{\sigma}^s_\theta
+
+# #####################################		crack angle
+
+		zpr_fraca_angle_stat_len_mean		{E}(\theta)
+		zpr_fraca_angle_stat_len_r		r_\theta
+		zpr_fraca_angle_stat_len_sdiv		\mathrm{\sigma}_\theta
+
+# #####################################		measures of degradation / damage
+
+		zpr_dcracklength			l_\mathrm{tot}
+		zpr_stn_rel				\bar{\epsilon}_{cr}/\bar{\epsilon}
+#							number of crack segments
+		zpr_dcount				N_{cr}
+
+
+		zpr_bcpow				P_{\mathrm{BC}}
+		zpr_fpow				P_{cr}
+		zpr_fpow_indn				P_{cr}^n
+		zpr_fpow_indt				P_{cr}^t
+	}
+
+
+fld2printInBrief_zpp
+	{
+		zpp_sn					n
+		zpp_sv					t
+		zpp_eps_scalar				\epsilon
+		zpp_sig_scalar				\sigma
+		zpp_y					Y
+		zpp_psi_t				\psi
+		zpp_psi_r				\psi_r
+		zpp_psi_d				\psi_d
+		zpp_psi_t_npsif				\psi/\psi_0
+		zpp_psi_r_npsif				\psi_r/\psi_0
+		zpp_psi_d_npsif				\psi_d/\psi_0
+		zpp_d					D
+		zpp_ddot				\dot{D}
+		zpp_ddot_ny				\tilde{\tau}\dot{D}
+
+
+		zpp_eps_scalar_ny				\epsilon/\tilde{\epsilon}
+		zpp_sig_scalar_ny				\sigma/\tilde{\sigma}
+
+
+		zppr_bcpow				E_{bc}
+		zppr_fpow				E_{cr}
+		zppr_fpow_indn				E_{cr}^n
+		zppr_fpow_indt				E_{cr}^t
+	}
+
+# step size between 0-1 for scalar values
+step4ScalarCDFs	0.1
+
+# pp_energyDispInterior's are generated wach one containing angles between 0-180
+numAngleRanges	18
+
+
+# within each run, how many crack angle bins are created for calculating PDFs within them
+crackBinSize  180
+
+# some runs start from nonzero IC, this flag = 0 means IC is zero, 1 -> it's 1, -1 means it's not determined
+nonzeroSlnTimeZero	-1
+
+# extension for processed sync files (complete data)
+extCompleteFile		ppSync
+
+# extension for brief sync files (includes files that only include requested data fields)
+briefFileExt		ppBSync
+
+# extension for the header of the brief file. Options are
+# 	none:	field names printed for every single pt
+#	same:   names are printed in the same data file, but only in the beginning of the file
+#	any other extension (e.g. ppBSyncHeader): a file with the given extension is created, where only field names are printed
+briefFileExtHeader	same
+
+# which file includes bounding box information
+	bbFile		boundingBox.txt
+
+
+
+
+
+
+
+# ##############################################################################################################################################
+# zpp config file
+
+zppConfig
+
+# bProcess_zpp_data
+
+1
+
+{
+# file extension
+
+zppExt		zppBSync
+
+
+# map of values, string, etc.
+
+gMapAllRuns	
+	{	( damageInitiationZeroTol	0.01 ) 
+#			name of stress field in raw data (name_xx, name_yy, etc)
+		( rawStressNameBase		zpr_stssh )
+#			name of strain field in raw data (name_xx, name_yy, etc)
+		( rawStrainNameBase		zpr_stnst )
+
+#			1D (sxx)	2D (sxx, syy, sxy)	3D (sxx, syy, szz, sxy, syz, szx)
+		( scalarStrsVoigtPos		1	)
+		( scalarStrsSign		1	)
+
+#			0 not specified: last point is chosen
+#			1 hard specified 
+#			2 indexEnd is just the first point beyond which indexEnd is to be found
+#			3 indexEnd is the location of maximum point
+
+		( indexEndMode			3	)
+		( indexEnd			nan	)
+
+# 			if run starts with nonzero stress and strain, at what prior time did the load start?
+		(	t0 			0	)
+#			valid points are up to the stage where full damage has not occured, if the flag below is on, past this point nan is used for data. Otherwise, data is resized such that only valid points are included.
+#			flag 1 may be more appropriate in combining zpp data and zpr (raw data) such that they have the same size
+		(	pData_addDataPastFullDamage	1	)
+
+	}
+
+# what damage values from raw data is added to zpp data as an external damage indicator (beside the damage value being homogenized)
+rawDataDamageNames
+{
+		zpr_dcracklength
+		zpr_stn_rel
+}
+
+
+# fields that are integrated in time (they are often powers whose integration gives energy). Example of normal, shear, total powers on BCs and on fracture surfaces
+rawData2IntegrateInTimeNames 
+{
+# power from BCs
+		zpr_bcpow
+# power on fracture surfaces
+		zpr_fpow
+# and it's normal and tangential components
+		zpr_fpow_indn
+		zpr_fpow_indt
+}
+
+# stiffness provided (Overwirtes value of E, nu, planeMode for anirostropic / inhomogeneous domains)
+# Use2: 	if domain is homogeneous but anisotropic
+#		if domain is inhomogeneous C is homogenized C
+# stiffnessAllRuns
+# [ ( 3 , 3 )	
+#    1.3462    0.5769         0
+#    0.5769    1.3462         0
+#         0         0    0.7692
+# ]
+
+
+}
+
+# ##############################################################################################################################################
+
+
+}

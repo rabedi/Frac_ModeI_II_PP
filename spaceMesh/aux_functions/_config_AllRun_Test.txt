@@ -1,0 +1,68 @@
+{
+# if the file exists do we want to regenerate that (1) or simply read the file
+# Base file
+regenerateBriefFile	1
+
+# brief file
+regenerateBriefFile	0
+
+
+# size 0: 
+#		for each run normalization valus for displacement, velocity, stress, and strain are taken from cohesive values
+# 		that iis deltaC, velC, sigmaC, and sigmaC/E
+# size == 4::	The user specifies the normalization values that are shared for ALL runs
+newNormalizationsUVSEps
+	{
+# 		U
+# 			1
+# 		V
+# 			2
+# 		S
+# 			3
+# 		eps
+#			4
+	}
+
+
+# additional fields to be reported in summary file (some already exist in the file; others are read from the main file
+fld2printInBriefRaw
+	{
+#		zpr_fraca_angle_stat_len_sdiv		\mathrm{\sigma}_\theta
+		zpr_stssh_xx				\sigma_{xx}
+		zpr_stssh_yy				\sigma_{yy}
+		zpr_stssh_xy				\sigma_{xy}
+		zpr_stnst_xx				\epsilon_{xx}
+		zpr_stnst_yy				\epsilon_{yy}
+		zpr_stnst_xy				\epsilon_{xy}
+		zpr_fraca_angle_stat_len_mean		\mathbb{E}(\theta)
+		zpr_fraca_angle_stat_len_r		r_\theta
+	}
+
+# step size between 0-1 for scalar values
+step4ScalarCDFs	0.1
+
+# pp_energyDispInterior's are generated wach one containing angles between 0-180
+numAngleRanges	18
+
+
+# within each run, how many crack angle bins are created for calculating PDFs within them
+crackBinSize  180
+
+# some runs start from nonzero IC, this flag = 0 means IC is zero, 1 -> it's 1, -1 means it's not determined
+nonzeroSlnTimeZero	-1
+
+# extension for processed sync files (complete data)
+extCompleteFile		ppSync
+
+# extension for brief sync files (includes files that only include requested data fields)
+briefFileExt		ppBSync
+
+# extension for the header of the brief file. Options are
+# 	none:	field names printed for every single pt
+#	same:   names are printed in the same data file, but only in the beginning of the file
+#	any other extension (e.g. ppBSyncHeader): a file with the given extension is created, where only field names are printed
+briefFileExtHeader	same
+
+# which file includes bounding box information
+	bbFile		boundingBox.txt
+}

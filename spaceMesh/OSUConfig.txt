@@ -1,0 +1,10 @@
+{
+# map of values, string, etc.
+numLCs	
+4
+ConfigFiles
+zpp_configtenx.txt
+zpp_configteny.txt
+zpp_configcompx.txt
+zpp_configcompy.txt
+}

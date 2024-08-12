@@ -1,0 +1,62 @@
+# DIRECTORY & FILE NAME ==================================================================
+# NB: '{ }' brace enclosure allows for better free-form reading
+# and safer way to indicate empty runPreName field
+
+runPreName:		{ ../../.. } 
+BaseConfigName:		Config_IJNAMGI_sMesh.txt
+
+# =========================================================================================
+
+
+#{ ==========================================================================================
+Each following line should have the following format:
+RunFolder		 list_of_numPlots2generate
+
+Where each list item is in the form
+
+tag { NumPlots2generate		serialStart  serialStep  serialEnd }, with tag prefixes (-mesh -sync)
+
+NB:
+'serial*' can be omitted per line as they are only needed when NumPlots2generate = -3 
+otherwise they are skipped.
+
+NumPlots2generate: 	-1 (last one), 
+					0 (all), 
+					-2 (inactive), 
+					-3 (serial interval(s) specified),
+					-4 (time interval(s) specified)					
+					-5 (mesh serial specified by sync times) 
+					> 0 (numFrames)
+					
+intervals are specified by serialStart  serialStep  serialEnd declarations following NumPlots2generate.
+(DO NOT REMOVE THE 'start>>' BELOW)
+========================================================================================== #}
+start>>
+old_2017_05_09HFMicroAlldensp10_nuc12_pfp1_deltaCont1Deltac_option2_beta0Oldpf		-mesh { -3 400000 1 400000 } 
+old_2017_05_09HFMicroAlldensp10_nuc12_pfp1_deltaCont1Deltac_option2_beta0Oldpf		-mesh { -3 2350000 1 2350000 } 
+old_2017_05_09HFMicroAlldensp10_nuc12_pfp1_deltaCont1Deltac_option2_beta0Oldpf		-mesh { -3 8000000 1 8000000 }
+
+end
+
+old_2017_05_14HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good_beta0_delCxp1_newPF1deg150angshld		-mesh { -3 40000 1 40000 } 
+old_2017_05_14HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good_beta0_delCxp1_newPF1deg150angshld		-mesh { -3 65000 1 65000 } 
+old_2017_05_14HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good_beta0_delCxp1_newPF1deg150angshld		-mesh { -3 165000 1 165000 } 
+old_2017_05_14HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good_beta0_delCxp1_newPF1deg150angshld		-mesh { -3 220000 1 220000 } 
+old_2017_05_14HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good_beta0_delCxp1_newPF1deg150angshld		-mesh { -3 540000 1 540000 } 
+old_2017_05_14HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good_beta0_delCxp1_newPF1deg150angshld		-mesh { -3 1300000 1 1300000 }  
+
+old_2017_05_09HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc -mesh { -3 100000 1 100000 } 
+old_2017_05_09HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc -mesh { -3 250000 1 250000 } 
+old_2017_05_09HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc -mesh { -3 450000 1 450000 } 
+old_2017_05_09HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc -mesh { -3 1650000 1 1650000 } 
+old_2017_05_09HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc -mesh { -3 6050000 1 6050000 } 
+old_2017_05_09HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc -mesh { -3 13950000 1 13950000 } 
+end
+
+
+
+
+
+
+BaseConfigName		ConfigSample.txt
+BaseConfigName		ConfigSampleDebugging.txt

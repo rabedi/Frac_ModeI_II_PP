@@ -1,0 +1,254 @@
+serialNum	start	9600 step 1	end_s1	9600
+dir_PreName_s2			../../
+dir_RunName			  physics		
+runNameAppendix			all
+dir_PostName			/output_front
+
+outputDir				runFolder
+runName				HFWell
+middleNameData			front
+
+printOption     png
+doPrintEPS	    0
+
+xlim			0
+xmin			-0.5	
+xmax			0.5
+ylim			0
+ymin			-0.15
+ymax			0.15	
+enforceLimitsWithxlim_ylim	0
+plotAxis_3NoAxis_1Axis		1
+
+
+includeRefineInLegend			0
+includeLegend				0
+includeColorbar             0
+elementEdgeColor				val		0	0	0
+elementEdgeWidth				0.5
+legendLocation				NorthWest
+
+# SYNC_BLOCK
+{
+serialNum	start	50 step 1	end_s1	50
+scalingFactor	0.5
+plotBoundary	1
+flagsToKeep		[ ]
+flagstoDiscard	[ ]
+}
+
+DataLimitSchemes
+< # DO NOT DELETE THIS LINE
+#{
+damageLevelsTable options:
+1 	-> level[1] ||	-1	-> level[end]
+2	-> level[1] level[end]	||	-2	-> level[all]
+3	-> NB: only need to specify level[max] and level[min] value level.
+			'numberDistDPts' is defined with TOTAL number of desired levels(max/min values inclusive).
+#}
+
+lim { 1
+damageLevelsTable												-2
+includeMeshRefinementInLegend_0_allTrisAsCoarsenable			0
+numberDistDPts				10
+colorMapActive				1
+colorMap					default
+minusInfinity				0
+plusInfinity				0
+NumberOfDistinctLevelsDicreadingD
+minDamage	lineClr	lineStyle	lineWidth
+0.99		10		-		1.5
+0.95		9		-		1.5
+0.9	    	8		-		1.5
+0.85		7		-		1.5
+0.8			6		-		1.5
+0.75		5		-		1.5
+0.7         4		-		1.5
+0.6         3		-		1.5
+0.5			2		-		1.5
+-1			1		-		1.5
+pltDmgdUnDmaged		0
+}
+
+lim { 2
+damageLevelsTable												-2
+includeMeshRefinementInLegend_0_allTrisAsCoarsenable			0
+numberDistDPts				5
+colorMapActive				0
+colorMap					default
+minusInfinity				0
+plusInfinity				0
+NumberOfDistinctLevelsDicreadingD
+minDamage	lineClr	lineStyle	lineWidth
+0.99		sym	m		-		1.5
+0.95		sym	r		-		1.5
+0.89			sym	b		-		1.5
+0.5			sym	c		-		1.5
+-1			sym	g		-		1.5
+pltDmgdUnDmaged		0
+}
+
+lim { 3
+damageLevelsTable												-2
+includeMeshRefinementInLegend_0_allTrisAsCoarsenable			0
+numberDistDPts				7
+colorMapActive				1
+colorMap					default
+minusInfinity				1
+plusInfinity				1
+NumberOfDistinctLevelsDicreadingD
+minDamage	lineClr	lineStyle	lineWidth
+5           7		-		1.5
+1           6		-		1.5
+0.5			5		-		1.5
+0.0			4		-		1.5
+-0.5		3		-		1.5
+-1			2		-		1.5
+-5			1		-		1.5
+pltDmgdUnDmaged		0
+}
+
+lim { 4
+damageLevelsTable												-2
+includeMeshRefinementInLegend_0_allTrisAsCoarsenable			0
+numberDistDPts				7
+colorMapActive				1
+colorMap					default
+minusInfinity				1
+plusInfinity				1
+NumberOfDistinctLevelsDicreadingD
+minDamage	lineClr	lineStyle	lineWidth
+5           7		-		1.5
+1           6		-		1.5
+0.5			5		-		1.5
+0.0			4		-		1.5
+-0.5		3		-		1.5
+-1			2		-		1.5
+-5			1		-		1.5
+pltDmgdUnDmaged		0
+}
+
+> # DO NOT DELETE THIS LINE
+
+FieldsToBeDisplayed
+< # DO NOT DELETE THIS LINE
+# At least one field should be set for sync|mesh (if globally active) as a default type safe guard to error
+#field		{ D pf	}
+
+fld { < mesh >
+field		{ D  }
+limitIndex 1
+}
+
+fld { < sync >
+field		{ D  }
+limitIndex 1
+}
+
+fld { < none >
+field		{ s0 s1 delu0 delu1 }
+limitIndex 3
+}
+
+fld { < none >
+field		{ s0 s1 delu0 delu1 }
+limitIndex 4
+}
+
+> # DO NOT DELETE THIS LINE
+
+colors
+type		sym_num
+none		num		1 1 0.5
+refine	num		1 0.8 0.8
+coarsen	num		1 1 0.5
+
+
+
+
+plt_vids						0
+vids_fnt_sz 					18
+plt_noncollinearCoarsenable			0
+g_noncollinearCoarsenable_symbl		o
+g_noncollinearCoarsenable_clr			b
+g_noncollinearCoarsenable_sz			2
+
+
+plotMeshCoh						0
+MeshCohLineColor					b
+MeshCohLineStyle					-.
+MeshCohLineWidth					3
+
+plot_spaceElement					0
+spaceElement_font_size				8	
+spaceElement_text_color				m
+ 
+
+box
+number	0
+Xmin 		Ymin		Xmax		Ymax
+lineWidth		2
+lineColor		num		0.2 	1 	0.8
+
+
+0.6 1 0.6 green
+1 1 0.5 yellow
+
+serialNum	start	1000000	step	10000	end_s1	1380000
+serialNum	start	1000000	step	1	end_s1	1000400
+serialNum	start	1000079	step	1	end_s1	1000082
+serialNum	start	1000148	step	1	end_s1	1000160
+g_noncollinearCoarsenable_sz			18
+
+
+
+
+COLORS
+color
+
+useOnlyFirstLineData			0
+numberDistDPts				3
+NumberOfDistinctLevelsDicreadingD
+minDamage	lineType	lineClr	lineWidth
+0.99		sym	k		-		2.5
+0.5		sym	r		-		2.5
+-1		sym	b		-		2.5
+pltDmgdUnDmaged		0
+
+
+colors
+type		sym_num
+none		num		0.6 1 0.6
+refine	num		1 0.8 0.8
+coarsen	num		1 1 0.5
+
+
+black white
+
+useOnlyFirstLineData			0
+numberDistDPts				3
+NumberOfDistinctLevelsDicreadingD
+minDamage	lineType	lineClr	lineWidth
+0.99		sym	k			-		2.5
+0.5		val	0.3 0.3 0.3		-		2.5
+-1		val	0.7 0.7 0.7		-		2.5
+pltDmgdUnDmaged		0
+
+
+colors
+type		sym_num
+none		num		0.9 0.9 0.9
+refine	num		0.8 0.8 0.8
+coarsen	num		1.0 1.0 1.0
+
+serialNum	start	50000   step	50000	end_s1	10400000
+
+serialNum	start	10400000	 step	50000	end_s1	10400000
+
+
+xlim			1
+xmin			0.04	
+xmax			0.055
+ylim			1
+ymin			0.155
+ymax			0.16	

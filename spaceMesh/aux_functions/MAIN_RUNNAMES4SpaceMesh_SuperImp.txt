@@ -1,0 +1,39 @@
+# DIRECTORY & FILE NAME ==================================================================
+# NB: '{ }' brace enclosure allows for better free-form reading
+# and safer way to indicate empty runPreName field
+
+runPreName:		{ ../../.. } 
+BaseConfigName:		ConfigSampleD.txt
+
+# =========================================================================================
+
+#{ ==========================================================================================
+Each following line should have the following format:
+RunFolder		 list_of_numPlots2generate
+
+Where each list item is in the form
+
+tag { NumPlots2generate		serialStart  serialStep  serialEnd }, with tag prefixes (-mesh -sync)
+
+NB:
+'serial*' can be omitted per line as they are only needed when NumPlots2generate = -3 
+otherwise they are skipped.
+
+NumPlots2generate: 	-1 (last one), 
+					0 (all), 
+					-2 (inactive), 
+					-3 (serial interval(s) specified),
+					-4 (time interval(s) specified)					
+					-5 (mesh serial specified by sync times) 
+					> 0 (numFrames)
+					
+intervals are specified by serialStart  serialStep  serialEnd declarations following NumPlots2generate.
+(DO NOT REMOVE THE 'start>>' BELOW)
+========================================================================================== #}
+start>>
+old_2017_05_14_LShape_vloadp001_ramp100_strength4Prop1SigmaC_tolCD_1e5_360Angles_ashld_150	-sync  multi 5 text tol=1e5 line { lc r }  { -4 800 100 800 scale 0.0 }
+old_2017_05_14_LShape_vloadp001_ramp100_strength4Prop1SigmaC_tolCD_1e6_360Angles_ashld_150  line { lc b } text tol=1e6 
+old_2017_05_14_LShape_vloadp001_ramp100_strength4Prop1SigmaC_tolCD_1e7_360Angles_ashld_150  line { lc g } text tol=1e7 
+old_2017_05_14_LShape_vloadp001_ramp100_strength4Prop1SigmaC_tolCD_1e8_360Angles_ashld_150  line { lc k } text tol=1e8 
+old_2017_05_14_LShape_vloadp001_ramp100_strength4Prop1SigmaC_tolCD_1e9_360Angles_ashld_150  line { lc m } text tol=1e9 
+end

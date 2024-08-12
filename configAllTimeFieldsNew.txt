@@ -1,0 +1,222 @@
+flagNoInStartStepEnd	40	40	-1
+kappaOptionForStaticProcessZoneSize_0Potential9/16__1Dugdale1/4__2MyEstimate									2
+StaticProcessZoneSize_MyEstimateOption_0_useValuesGivenBelow_1_rpv/rps=0.5__2_rpsv/rps=1.0(1,2MatchPotentialBased)		1
+StaticProcessZoneSize_MyEstimate_rpv/rps_ONLYAcitveOption0Above											1.0
+StaticProcessZoneSize_MyEstimate_gamma_distanceRatioIn_rsvFromSingularCore									1.0
+printOption			png
+plotXuNData			0
+plotAdditionalCurvesONPlotsOption_1TSL_2Damage_0Nonactive 			1
+plotAdditionalCurvesONlStyle 				-
+plotAdditionalCurvesONlWidth 				1
+plotBlack_p1    0		
+plotEPS			0
+haveBlankLinesInLegend							0
+sizeBlankRowsInLegend_2thisNumberShouldBeInputs4Next2Lines	1
+blankRowNInLegend		1		
+blankTextInLegend		header
+coord2sIndex		0
+diableMarkers		0
+enableMarkerValues_numberFollowedByValues		1	-12345678
+elementBndryMarkerSize		8
+disableElementBndry		1
+disableProcessZones		0
+disableExtrmmValues		0
+disableLocalExtrmmValues 	1
+
+plotAroundProcessZoneFactor_NegativeNonActive	2
+
+ 
+printDltTtlLabel		0
+drawLineSegmentes		1
+onlyDrawSize2SolUnit	1
+ 
+ 
+outputFolder		images/CZ/Time/tsl_1000_allOptimum
+appendRunMidName2OutFldr	1
+readStat			1
+readStatFinalTime		1
+StatFinalTimeName		StatTimeFinal
+READ_HISTORYFILES_neededForCTplots											0
+(RE)GENERATE_HISTORYFILES_p_10											0
+IMPRORTANT_IMP_IAddSerialNumber2ModifedFilesBasedOnRunOrder_p11						0
+maxPower_historyDerInfow 				6
+historyFileName		TimeVal
+historyStatFileName	TimeValStat
+cracktipVSymbol		fldx
+cracktipVIndex		0
+processZoneSymbol		fldx
+processZoneIndex		1
+crackOpeningZero2MaxStressSymbol	fldx
+crackOpeningZero2MaxStressIndex	2
+crackOpeningZero2ZeroStressSymbol	fldx
+crackOpeningZero2ZeroStressIndex	3
+crackOpenindSymbol			fld0
+crackOpenindIndex				0
+cohesiveZoneSizeFileName	TimeValCohZone
+cohesiveZoneSizeConfigFileName TimeValCohZoneStat
+modifierForHistoryFiles		Modified
+ImaxRelativeSpacePoint2PlotHistories_p8		1.0
+ImaxSpaceDotInClusterReductionRel2cR_p9		1.0
+allowOverwriteOfRunParameters				1
+
+
+ADDINTEGRATEDATA				0
+itegateDataFileName			IntFlds
+derDataFileName				derFlds
+itegrationNormalizationOption_p3		-1
+maxPowerRatioEReleaseRate 			6
+
+
+add_LEFM_Data						0
+maxPowerRatioRelativeProcessZoneSize 		6
+LEFMAngle_resolution 					200
+LEFMnumPtPerT_timeIntegrationPtsPerT0		200
+LEFMnumPtPerRamp 						10
+LEFM_rSigMethod_Mx1_ave2_0deg_3_180_deg_4		0
+LEFM_rVelMethod_Mx1_ave2_0deg_3_180_deg_4 	0
+LEFM_rVelDir_Scalar2OtherValue 			2
+
+
+TS_addData							0
+TS_StatName							StatTimeBrief
+TS_readOnlyStat						1
+TS_SliceDataName						TimeSlice
+TS_sliceReadFlag						b
+TS_derOptionForTimeDerivatives			1
+TS_interpolantOptCZEndPoints				spline
+TS_maxPowerVelocitiesRoundOff		 		6
+TS_processZoneValSymbol					fldx
+TS_processZoneValIndex					0
+TS_processZoneNormalizerRunFlagData_p7		14
+TS_numReqFlds						15					
+TS_ReqFldsSymbol						flds	fld0		flds	fld0	flds	fld0	flds	fld0	flds	flds	flds	flds	flds	flds	flds
+TS_ReqFldsIndex						4	4		3	3	7	7	8	8	11	12	13	14	15	16	0
+TS_ReqFldsFinderType_p5					max	maxAbs	max	max	max	max	max	max	max	max	max	max	max	max	max
+TS_ReqFldsNormalizerType_p6relCoh0relLoad1	-1	-1		0	0	0	0	0	0	0	0	0	0	0	0	0
+TS_numCollectFlds						15					
+TS_CollectFldsSymbol					flds	fld0		flds	fld0	flds	fld0	flds	fld0	flds	flds	flds	flds	flds	flds	flds
+TS_CollectFldsIndex					4	4		3	3	7	7	8	8	11	12	13	14	15	16	0
+TS_CollectFldsNormalizerType_p6relCoh0relLoad1	-1	-1		0	0	0	0	0	0	0	0	0	0	0	0	0
+
+
+lfs		43  
+tfs		26  
+pltfs	19
+symfs   -25
+xminT	1     
+yminT	1  
+dlwidth		1.8
+dhhlwidth	2.5  
+dhdlwidth	3.0  
+dLlwidth	3.0  
+psfrag  1  
+writeTitleEPS	0
+psfragSym		0  
+doReg			1
+ShowArrowheadSwitch		off  
+RegFlNo	1  
+RegCrvNo	1	  
+RegPlotNo	20  
+symfsReg	17  
+afctr		.33
+aafctrb		0.05
+aafctrh		0.15
+bfctr		0.11  
+bafctrb		0.08
+bafctrh		0.15
+
+
+
+
+
+1
+10	4	8	3	abs	23.234	1	12	abs	12.32	7	3	abs	-43	6	9	abs	9.9
+outputFolder:	../physics/outputPP/		v_0302_s_00000007/	DTSLInf	runParaFolder_p2:	Auto prename: Auto	subconfig:		NoRoot 	subconfigAllTimeFields.txt		D
+
+maxPlotNoToPlot	62
+maxPlotNo		62
+1	1	-1	-1	0	0	1	1	theory	title		*Velocity0Default	xlabel	log(X*-*X_0)	ylabel	log(v0/{v_c})		legend	location	SouthWest	legendEnd	end
+2	1	-1	-1	0	0	1	1	theory	title		*Velocity0AnalOptp1	xlabel	log(X*-*X_0)	ylabel	log(v0/{v_c})		legend	location	SouthWest	legendEnd	end
+3	1	-1	-1	0	0	1	0	theory	title		*Velocity0AnalOpt0PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v0/{v_c})		legend	location	SouthWest	legendEnd	end
+4	1	-1	-1	0	0	1	-1	theory	title		*Velocity0RelOptm1PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v0/{v_c})		legend	location	SouthWest	legendEnd	end
+5	1	-1	-1	0	0	1	1	theory	title		*Velocity0RelOptp1PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v0/{v_c})		legend	location	SouthWest	legendEnd	end
+6	1	-1	-1	0	0	1	0	theory	title		*Velocity0RelOpt0PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v0/{v_c})		legend	location	SouthWest	legendEnd	end
+7	1	-1	-1	0	0	1	1	theory	title		*Velocity0RelOptp1	xlabel	log(X*-*X_0)	ylabel	log(v0/{v_c})		legend	location	SouthWest	legendEnd	end
+8	1	-1	-1	0	0	1	0	theory	title		*Velocity0RelOpt0		xlabel	log(X*-*X_0)	ylabel	log(v0/{v_c})		legend	location	SouthWest	legendEnd	end
+9	1	-1	-1	0	0	1	-1	theory	title		*Velocity0AnalOptm1PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v0/{v_c})		legend	location	SouthWest	legendEnd	end
+10	1	-1	-1	0	0	1	1	theory	title		*VelocityAnalOptp1PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v/{v_c})		legend	location	SouthWest	legendEnd	end
+11	1	-1	-1	0	0	1	0	theory	title		*VelocityAnalOpt0PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v/{v_c})		legend	location	SouthWest	legendEnd	end
+12	1	-1	-1	0	0	1	-1	theory	title		*VelocityRelOptm1PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v/{v_c})		legend	location	SouthWest	legendEnd	end
+13	1	-1	-1	0	0	1	1	theory	title		*VelocityRelOptp1PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v/{v_c})		legend	location	SouthWest	legendEnd	end
+14	1	-1	-1	0	0	1	0	theory	title		*VelocityRelOpt0PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v/{v_c})		legend	location	SouthWest	legendEnd	end
+15	1	-1	-1	0	0	1	1	theory	title		*VelocityRelOptp1		xlabel	log(X*-*X_0)	ylabel	log(v/{v_c})		legend	location	SouthWest	legendEnd	end
+16	1	-1	-1	0	0	1	0	theory	title		*VelocityRelOpt0		xlabel	log(X*-*X_0)	ylabel	log(v/{v_c})		legend	location	SouthWest	legendEnd	end
+17	1	-1	-1	0	0	1	-1	theory	title		*VelocityAnalOptm1PZ0	xlabel	log(X*-*X_0)/PZ0	ylabel	log(v/{v_c})		legend	location	SouthWest	legendEnd	end
+
+31	0	-1	-1	0	0	1	0	theory	title		DelU*X		xlabel	X		ylabel	DelU/{\delta_C} xlim	abs	4.25	10.0	 	legend	location	NorthEast	legendEnd	end
+32	1	-1	-1	0	0	1	0	theory	title		Velocity*X		xlabel	X		ylabel	v/vf 	xlim	abs	4.25	10.0		legend	location	NorthEast	legendEnd	end
+33	1	-1	-1	0	0	1	0	theory	title		uvs*X			xlabel	X		ylabel	uvs 	xlim	abs	4.25	10.0		legend	location	NorthEast	legendEnd	end	
+34	1	-1	-1	0	0	1	0	theory	title		uvdssg*X			xlabel	X		ylabel	vals 	xlim	abs	4.25	10.0		legend	location	NorthEast	legendEnd	end	
+35	1	-1	-1	0	0	1	0	theory	title		Drelated*X			xlabel	X		ylabel	vals 	xlim	abs	4.25	10.0		legend	location	NorthEast	legendEnd	end	
+36	1	-1	-1	0	0	1	0	theory	title		DrelatedAll*X		xlabel	X		ylabel	vals 	xlim	abs	4.25	10.0		legend	location	NorthEast	legendEnd	end	
+
+51	1	-1	-1	0	0	1	0	theory	title		DelU*Velocity*X		xlabel	X		ylabel	DelU xlim	abs	4.25	10.0	end
+52	1	-1	-1	0	0	1	0	theory	title		Stress*Damage*X		xlabel	X		ylabel	Stress 	xlim	abs	4.25	10.0	ylim	abs	-0.40	1.60	end
+53	1	-1	-1	0	0	1	0	theory	title		all*X		xlabel	X		ylabel	D,{\tau_c}Ddot 	xlim	abs	4.25	10.0	ylim	abs	-0.40	1.60	end
+54	1	-1	-1	0	0	1	0	theory	title		DelU*X		xlabel	X		ylabel	DelU xlim	abs	4.25	10.0	 end
+55	1	-1	-1	0	0	1	0	theory	title		Stress*X		xlabel	X		ylabel	Stress 	xlim	abs	4.25	10.0	end
+56	1	-1	-1	0	0	1	0	theory	title		Damage*X		xlabel	X		ylabel	D,{\tau_c}Ddot 	xlim	abs	4.25	10.0	ylim	abs	-0.40	1.60	end
+57	1	-1	-1	0	0	1	0	theory	title		Velocity*X		xlabel	X		ylabel	Velocity 	xlim	abs	4.25	10.0	end
+58	1	-1	-1	0	0	1	0	theory	title		SV*X			xlabel	X		ylabel	SV 	xlim	abs	4.25	10.0	end
+59	1	-1	-1	0	0	1	0	theory	title		Diss*X		xlabel	X		ylabel	Diss 	xlim	abs	4.25	10.0	end
+60	1	-1	-1	0	0	1	0	theory	title		Diss*SV*X		xlabel	X		ylabel	Diss*SV 	xlim	abs	4.25	10.0	end
+61	1	-1	-1	0	0	1	0	theory	title		Dot*X		xlabel	X		ylabel	Dot		xlim	abs	4.25	10.0	end
+62	1	-1	-1	0	0	1	0	theory	title		Int*X		xlabel	X		ylabel	Int		xlim	abs	4.25	10.0	end
+
+
+outputFolder:	../		tsl_1000	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfs/tsl_1000/subconfigAllTimeFields_011.txt	data
+outputFolder:	../		tsl_1000	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfs/tsl_1000/subconfigAllTimeFieldsBestAll.txt	data
+outputFolder:	../		tsl_1000	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfs/tsl_1000/subconfigAllTimeFieldsBestLowt.txt	data
+
+outputFolder		images/CZ/Time/tsl_1000_allOptimum
+outputFolder:	../		tsl_1000	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfs/tsl_1000/subconfigAllTimeFields_021.txt	data
+
+
+xlim for regData
+xlim abs -5 1
+
+p_1	value of two print in two options
+p2:runPara	NoRoot means current directory for run para and NONE means this option is inactive and all run parameters are given in subconfig
+p3: normalization options are 
+	-1 no normalization
+	1 by run values
+	2 by spatial integral values
+	3 by pointwise values
+
+
+der options
+p4: 0 finite differece
+1 slope of quadratice polynomial fit at centerpoint for every 3 succesive
+points
+2 slope of best line fit for every 3 succesive points
+
+p5: options either values or one of max min maxAbs flags 
+p6: options are relCoh (0) and relLoad (1)	and None(-1) for now
+p7: -1 means not active and 14 is Rayleigh wave speed
+
+
+p8: does not draw points near plate edge for history plots		ImaxRelativeSpacePoint2PlotHistories is the ratio of distance we go upfront
+p9: if there is a jump in velocity of crack velocity plots larger than ImaxSpaceDotInClusterReductionRel2cR * cR the point is dropped from the plot
+
+outputFolder:	../trunk_working/		physics	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigAllTimeFields.txt		label
+outputFolder:	../		tempRuns	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigAllTimeFields.txt		label
+
+outputFolder:	../		xunExt_s0E_100_d0_4e-4_sfs0_115	/outputPPTimeSlice	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigAllTimeFields.txt		label
+
+
+
+outputFolder:	../old_2015_07_02_TSLInf/			physics		/outputPP	runParaFolder_p2:	NoRoot prename: TSLInfTest	subconfig:		NoRoot 	subconfigAllTimeFields.txt		new
+
+
+
+outputFolder:	../physics/outputPP/		v_0303_s_00000007/	DTSLInf	runParaFolder_p2:	Auto prename: Auto	subconfig:		NoRoot 	subconfigAllTimeFields.txt		TSL

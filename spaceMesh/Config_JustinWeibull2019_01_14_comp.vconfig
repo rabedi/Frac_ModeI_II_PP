@@ -1,0 +1,265 @@
+# START_OF_FILE
+{
+#{
+	=============================================================================
+	Configuration File for VDataStat plotting structure
+	
+	Version: 1.0
+	Created: 03/16/2017
+	=============================================================================
+#}
+
+#{
+	=============================================================================
+	Default Plot Specifications
+	=============================================================================
+#}
+_defaults
+{
+	# FIGURE SPECIFICATONS:
+	fig_visible			off
+	fig_fullscreen		no
+	fig_save			yes  { png fig }
+	
+	# LINE SPECIFICATIONS:
+	line_all_spec		{ ms none  mw 3 ls -    	  lw 1.0 }
+	line_bfit_spec		{ ms none 	    ls --   lc k  lw 1.0 }
+	
+	# AXIS SPECIFICATIONS:
+	ax_fontsize			20
+	ax_interpreter		latex
+	ax_tic_active		1
+	ax_grid_on			1
+	ax_xlab_vert_align	top
+	ax_ylab_vert_align	top
+	ax_zlab_vert_align	top
+	ax_x_limit			auto
+	ax_y_limit			auto
+	ax_z_limit			auto	
+	
+	# LEGEND SPECIFICATIONS:
+	leg_location		northeast
+	leg_orientation		vertical
+	leg_in_or_out		outside		
+	leg_fontsize		20
+	leg_interpreter		latex
+	leg_box_on			0
+	leg_box_width		1.0
+}
+	
+#{
+	=============================================================================
+	Data Field Plot Specifications
+	=============================================================================
+#}
+
+#	Index	String  latexSymbol  	LineSpecs    	limitsBool 	limitVals
+_data
+{
+#	0		s00L	\sigma^{L}_{xx}		 { ms o ls - lc b }  [ 0 0 ]  	[ -inf inf ]
+#    1		s00R	\sigma^{R}_{xx}		 { ms o ls - lc r }  [ 0 0 ]  	[ -inf inf ]
+}
+
+#{
+	=============================================================================
+	New Config File for Sigma Epsilon, ... plots (2019)
+	=============================================================================
+#}
+
+_configSyncNew
+# options: 
+#	default:	reads it from _config_AllRun.txt
+#	direct: 	reads this file from here
+#	anyOther	e.g. _config_AllRun_Test.txt : reads it from that file
+
+_config_AllRun_CompressiveY.txt
+
+# default
+	
+#{
+	=============================================================================
+	Simulation Runs Plot Specifications
+	=============================================================================
+#}
+#	Folder				latexSymbol		LineSpecs
+_runs
+{
+	old_2018_11_21_Power				{power}  { ms x ls - }
+	old_2018_12_28_Weibull_loadm1em4_m2p0_mcNew 	{m=2}  { ms p ls - }
+}
+
+#{
+	=============================================================================
+	Plot Axis Data
+	=============================================================================
+#}
+#	xData   yData  	singleRunBool    multiRunBool   bestFitBool	  legendLocation
+#	NB: concatenate yy and yyn fields with '|' symbol...e.g. D|p or D|s0
+
+_plots  
+{
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_stssh_xx zpr_stssh_yy }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_stssh_yy_ny zpp_d zpr_stn_rel }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_stnst_yy }  			y { zpp_d zpr_stn_rel }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_scalar_d_mean zpr_fraca_scalar_cr_mean	zpr_fraca_scalar_str_mean }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_scalar_sa_mean zpr_fraca_scalar_sla_mean zpr_fraca_scalar_sta_mean }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_scalar_d_max zpr_fraca_scalar_cr_max	zpr_fraca_scalar_str_max }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_scalar_sa_max zpr_fraca_scalar_sla_max zpr_fraca_scalar_sta_max }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_dynerr_rel zpr_dynerr_ind0 zpr_dynerr_ind1 zpr_dynerr_ind2 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_time	zpr_stnst_yy }  			y { zpr_dynerr_ind0 zpr_dynerr_ind1 zpr_dynerr_ind2 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fpow_rel }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fpow_indn zpr_fpow_indt }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_angle_stat_len_mean }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_angle_stat_len_r zpr_fraca_angle_stat_len_sdiv }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_angle_stat_sym_len_mean }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_angle_stat_sym_len_r zpr_fraca_angle_stat_sym_len_sdiv }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_angle_stat_len_mean  zpr_fraca_angle_stat_sym_len_mean  }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_angle_stat_len_r zpr_fraca_angle_stat_sym_len_r }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_fraca_angle_stat_len_sdiv zpr_fraca_angle_stat_sym_len_sdiv }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_stssh_yy zpr_stssh_xx }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_stnst_yy_ny }  			y { zpr_stssh_xx_ny zpr_stssh_yy_ny }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar }  			y { zpp_sig_scalar zpp_d zppr_stn_rel zpp_ddot_ny }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar }  			y { zpp_psi_t zpp_psi_r zpp_psi_d }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar }  			y { zpp_psi_t_npsif zpp_psi_r_npsif zpp_psi_d_npsif }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar } 			y { zppr_fpow	zppr_fpow_indn zppr_fpow_indt }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_yy }  			y { zpr_dcracklength zpr_fraca_scalar_d_len_revind0 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+	{ x { time }  			y { measure }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+    { x { time }  			y { D }             srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { time }  			y { EN0501 EN0601 EN0107 EN0108 }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { time }  			y { EN0101 EN0501 EN0601 EN0701 EN0107 EN0108 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+    { x { time }  			y { EN0101 EN0501 EN0601 EN0107 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0107 EN0108 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0102 EN0502 EN0602 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0103 }                    srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0104 }                    srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0106 }                    srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0108 EN0208 EN0308 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0109 EN0209 EN0309 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+}
+
+#{
+	=============================================================================
+	APENDIX A: Convention on critical field suffix
+	=============================================================================
+	critXXpXX_i denotes the field i being greater than some critical value XXpXX where 'p'
+	denotes the decimal in a floating point value and index 'i' to field can be found below
+	i	fields_enum
+	0	D 
+	1	cr
+	2	str 
+	3	ba 
+	4	sa 
+	5	ca
+	6	sta
+	7	sla
+	8	pf 
+	9	p 
+	10	df
+	11	ds
+#}
+
+} # END_OF_FILE
+
+	old_2018_12_20_Weibull_loadm1em4_mNo_mcNew	{4m,m=none}  { ms + ls - }
+	old_2018_12_11_Weibull_loadm1em5_m1p0_mc 	{5m,m=1}  { ms + ls - }
+	old_2018_12_11_Weibull_loadm1em5_m2p0_mc 	{5m,m=2}  { ms * ls - }
+	old_2018_12_11_Weibull_loadm1em5_m4p0_mc 	{5m,m=4}  { ms s ls - }
+
+
+	old_2018_12_20_Weibull_loadm1em5_m0p5_mcNew	{5m,m=0.5}  { ms + ls - }
+	old_2018_12_20_Weibull_loadm1em4_mNo_mcNew 	{4m,m=No}  { ms s ls - }
+
+
+
+
+	old_2018_12_16_Weibull_loadm1em4_m1p0_mcNew 	{4m,m=1}  { ms s ls - }
+	old_2018_12_16_Weibull_loadm1em4_m2p0_mcNew 	{4m,m=2}  { ms p ls - }
+	old_2018_12_16_Weibull_loadm1em4_m4p0_mcNew 	{4m,m=4}  { ms + ls - }
+
+
+
+
+	{ x { e00 }  			y { s00L s00R }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { e11 }  			y { s11T s11B }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }	
+
+
+
+
+
+
+
+	{ x { time }  			y { measure }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+    { x { time }  			y { D }             srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { time }  			y { EN0501 EN0601 EN0107 EN0108 }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+	{ x { time }  			y { measure }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { crit0p900000_0 } } 
+	
+	{ x { time }  			y { EN0101 EN0501 EN0601 EN0701 EN0107 EN0108 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+    { x { time }  			y { EN0101 EN0501 EN0601 EN0107 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0107 EN0108 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0102 EN0502 EN0602 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0103 }                    srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0104 }                    srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0106 }                    srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0108 EN0208 EN0308 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+	{ x { time }  			y { EN0109 EN0209 EN0309 }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { bflag_all } }
+
+
+
+
+
+
+
+
+
+	old_2019_01_02_Weibull_loadp1em4_m0p5_mcNew	{4p,m=0.5}  { ms x ls - }
+	old_2019_01_02_Weibull_loadp1em4_m1p0_mcNew	{4p,m=1}  { ms s ls - }
+	old_2019_01_02_Weibull_loadp1em4_m2p0_mcNew 	{4p,m=2}  { ms p ls - }
+	old_2019_01_02_Weibull_loadp1em4_m4p0_mcNew	{4p,m=4}  { ms o ls - }
+
+
+
+
+	old_2018_12_28_Weibull_loadm1em4_m0p5_mcNew	{m=0.5}  { ms x ls - }
+	old_2018_12_28_Weibull_loadm1em4_m1p0_mcNew	{m=1}  { ms s ls - }
+	old_2018_12_28_Weibull_loadm1em4_m2p0_mcNew 	{m=2}  { ms p ls - }
+	old_2018_12_28_Weibull_loadm1em4_m4p0_mcNew	{m=4}  { ms o ls - }
+
+
+
+
+
+
+
+
+

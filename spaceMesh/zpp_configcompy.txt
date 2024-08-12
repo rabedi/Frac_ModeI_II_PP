@@ -1,0 +1,61 @@
+{
+# map of values, string, etc.
+
+gMapAllRuns	
+# once a damage model is homogenized, based-on that damage model, a damage initiation point is specified once the homogenized damage exceeds the value specified.
+    {
+# internal damage initiation tolerance
+        ( damageInInitiationZeroTol	0.05 ) 
+# external damage initiation tolerance
+        ( damageInitiationZeroTol	0.000001 ) 
+#			name of stress field in raw data (name_xx, name_yy, etc)
+		( rawStressNameBase		zpr_stssh )
+#			name of strain field in raw data (name_xx, name_yy, etc)
+		( rawStrainNameBase		zpr_stnst )
+
+#			1D (sxx)	2D (sxx, syy, sxy)	3D (sxx, syy, szz, sxy, syz, szx)
+# first specified in what direction the load is specied using the orders above). Second specify the sign of loading (e.g. tensile 1, compressive -1)
+
+		( scalarStrsVoigtPos		2	)
+		( scalarStrsSign		-1	)
+
+#			0 not specified: last point is chosen
+#			1 hard specified 
+#			2 indexEnd is just the first point beyond which indexEnd is to be found
+#			3 indexEnd is the location of maximum point
+
+		( indexEndMode			3	)
+		( indexEnd			nan	)
+
+# 			if run starts with nonzero stress and strain, at what prior time did the load start?
+		(	t0 			0	)
+#			valid points are up to the stage where full damage has not occured, if the flag below is on, past this point nan is used for data. Otherwise, data is resized such that only valid points are included.
+#			flag 1 may be more appropriate in combining zpp data and zpr (raw data) such that they have the same size
+		(	pData_addDataPastFullDamage	1	)
+
+	}
+
+# what damage values from raw data is added to zpp data as an external damage indicator (beside the damage value being homogenized)
+rawDataDamageNames
+{
+zpr_d
+}
+
+
+# fields that are integrated in time (they are often powers whose integration gives energy). Example of normal, shear, total powers on BCs and on fracture surfaces
+rawData2IntegrateInTimeNames 
+{
+}
+
+# stiffness provided (Overwirtes value of E, nu, planeMode for anirostropic / inhomogeneous domains)
+# Use2: 	if domain is homogeneous but anisotropic
+#		if domain is inhomogeneous C is homogenized C
+# stiffnessAllRuns
+# [ ( 3 , 3 )	
+#    1.3462    0.5769         0
+#    0.5769    1.3462         0
+#         0         0    0.7692
+# ]
+
+
+}

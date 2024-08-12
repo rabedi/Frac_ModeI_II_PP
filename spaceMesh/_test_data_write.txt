@@ -1,0 +1,157 @@
+1	xy	\mathrm{xy}	1.000000
+2	random	l_c^\prime	0.050000
+3	tau	\tau	0.011600
+4	aDot	\dot{a}	0.130000
+5	resolution	\mathrm{res}	28.000000
+6	meshNo	n_\mathrm{mesh}	-1.000000
+7	adaptive	\mathrm{adapt}	0.000000
+8	tolerance	\mathrm{tol}	0.000000
+9	stage	st	2.000000
+10	cpt_valid	\mathrm{valid}	1.000000
+11	cpt_times	t	0.460637
+12	cpt_patch_sn	n_p	39000.000000
+13	cpt_sync_sn	n	738.000000
+14	phi_t_final	\phi_0	0.003232
+15	tm_t0	t^m/t^0	0.510163
+16	epsm_eps0	\epsilon^m/\epsilon^0	0.509675
+17	psim_psi0	\psi^m/\psi^0	0.543689
+18	psirm_psitm	\psi^m_r/\psi^m_t	0.858078
+19	zpp_D_ti_tms	D t^i/t^m	0.763298
+20	zpp_D_epsi_epsms	D \epsilon^i/\epsilon^_m	0.763191
+21	zpp_D_sigi_sigms	D \sigma^i/\sigma^m	0.832189
+22	zpp_D_psiti_psitms	D \psi^i_t/\psi^m_t	0.594293
+23	zpp_D_psiri_psitis	D \psi^i_r/\psi^i_t	0.979690
+24	zpr_dcracklength_ti_tms	D_l t^i/t^m	0.569149
+25	zpr_dcracklength_epsi_epsms	D_l \epsilon^i/\epsilon^_m	0.569063
+26	zpr_dcracklength_sigi_sigms	D_l \sigma^i/\sigma^m	0.622746
+27	zpr_dcracklength_psiti_psitms	D_l \psi^i_t/\psi^m_t	0.330858
+28	zpr_dcracklength_psiri_psitis	D_l \psi^i_r/\psi^i_t	1.000007
+29	zpr_stn_rel_ti_tms	D_\epsilon t^i/t^m	0.795213
+30	zpr_stn_rel_epsi_epsms	D_\epsilon \epsilon^i/\epsilon^_m	0.795101
+31	zpr_stn_rel_sigi_sigms	D_\epsilon \sigma^i/\sigma^m	0.861473
+32	zpr_stn_rel_psiti_psitms	D_\epsilon \psi^i_t/\psi^m_t	0.644258
+33	zpr_stn_rel_psiri_psitis	D_\epsilon \psi^i_r/\psi^i_t	0.959306
+34	t_min	t_{\mathrm{min}}	0.472621
+35	t_max	t_{\mathrm{max}}	0.542353
+36	delTime_front	\Delta t	0.069732
+37	frnt_time	t	0.460637
+38	frnt_index	i	38.000000
+39	frnt_sn	n	39000.000000
+40	frnt_numNewCrack	n_{cr}^{\mathrm{new}}	847.000000
+41	frnt_crackNewLength	l_{cr}^{\mathrm{new}}	32.315700
+42	frnt_numAllCrack	n_{cr}	847.000000
+43	frnt_crackAllLength	l_{cr}	32.315700
+44	frnt_numElementsSolved	n_e	212552.000000
+45	frnt_ene_dissipationBody	\Delta^\mathrm{B}	0.000000
+46	frnt_ene_dissipationInterface	\Delta^\mathrm{I}	0.001235
+47	frnt_ene_dissipationPhysics	\Delta^\mathrm{P}	0.001235
+48	frnt_ene_dissipationNumerical	\Delta^\mathrm{N}	0.000688
+49	frnt_ene_dissipationTotal	\Delta^\mathrm{T}	0.001923
+50	frnt_ene_dissipationNumerical2Total	\Delta^\mathrm{N}/\Delta^\mathrm{T}	0.357677
+51	frnt_ene_eneOutflow_U	U^o	0.000516
+52	frnt_ene_eneOutflow_K	K^o	0.002183
+53	frnt_ene_eneOutflow_T	T^o	0.002699
+54	frnt_ene_eneOutflow_x	\mathcal{E}^o_x	0.000005
+55	frnt_ene_eneOutflow_xt	\mathcal{E}^o_{xt}	0.002704
+56	frnt_ene_eneInflow_U	U^i	-0.000000
+57	frnt_ene_eneInflow_K	K^i	0.001408
+58	frnt_ene_eneInflow_T	T^i	0.001408
+59	frnt_ene_eneBC_P	\mathcal{P}^{BC}	0.003219
+60	frnt_ene_eneICBC	\mathcal{E}^{\mathrm{in}}	0.004627
+61	frnt_ene_eneO2I	\mathcal{E}^{\mathrm{out}}/\mathcal{E}^{\mathrm{in}}	0.584430
+62	frnt_ene_eneDissNum2I	\Delta^{\mathrm{P}}/\Delta^{\mathrm{N}}	0.148640
+63	frnt_ene_enePhys2I	\Delta^{\mathrm{P}}/\mathcal{E}^{\mathrm{in}}	0.266930
+64	frnt_ene_maxErrorDissipation	\mathrm{max}(\varepsilon_D)	0.000000
+65	frnt_ene_maxErrorInterface	\mathrm{max}(\varepsilon_I)	0.000001
+66	sync_time	t	0.460637
+67	sync_index	i	739.000000
+68	sync_sn	n	738.000000
+69	sync_numNewCrack	n_{cr}^{\mathrm{new}}	1445.000000
+70	sync_crackNewLength	l_{cr}^{\mathrm{new}}	26.805200
+71	sync_numAllCrack	n_{cr}	1445.000000
+72	sync_crackAllLength	l_{cr}	26.805200
+73	sync_numElementsSolved	n_e	208920.000000
+74	sync_ene_dissipationBody	\Delta^\mathrm{B}	0.000000
+75	sync_ene_dissipationInterface	\Delta^\mathrm{I}	0.001222
+76	sync_ene_dissipationPhysics	\Delta^\mathrm{P}	0.001222
+77	sync_ene_dissipationNumerical	\Delta^\mathrm{N}	0.000670
+78	sync_ene_dissipationTotal	\Delta^\mathrm{T}	0.001893
+79	sync_ene_dissipationNumerical2Total	\Delta^\mathrm{N}/\Delta^\mathrm{T}	0.354127
+80	sync_ene_eneOutflow_U	U^o	0.000534
+81	sync_ene_eneOutflow_K	K^o	0.002203
+82	sync_ene_eneOutflow_T	T^o	0.002738
+83	sync_ene_eneOutflow_x	\mathcal{E}^o_x	-0.000005
+84	sync_ene_eneOutflow_xt	\mathcal{E}^o_{xt}	0.002733
+85	sync_ene_eneInflow_U	U^i	-0.000000
+86	sync_ene_eneInflow_K	K^i	0.001408
+87	sync_ene_eneInflow_T	T^i	0.001408
+88	sync_ene_eneBC_P	\mathcal{P}^{BC}	0.003217
+89	sync_ene_eneICBC	\mathcal{E}^{\mathrm{in}}	0.004625
+90	sync_ene_eneO2I	\mathcal{E}^{\mathrm{out}}/\mathcal{E}^{\mathrm{in}}	0.590790
+91	sync_ene_eneDissNum2I	\Delta^{\mathrm{P}}/\Delta^{\mathrm{N}}	0.144912
+92	sync_ene_enePhys2I	\Delta^{\mathrm{P}}/\mathcal{E}^{\mathrm{in}}	0.264297
+93	sync_ene_maxErrorDissipation	\mathrm{max}(\varepsilon_D)	0.000000
+94	sync_ene_maxErrorInterface	\mathrm{max}(\varepsilon_I)	0.000001
+95	zpp_sn	n	739.000000
+96	zpp_sv	t	0.460637
+97	zpp_eps_scalar	\epsilon	0.059949
+98	zpp_sig_scalar	\sigma	0.000000
+99	zpp_eps_voigt	\epsilon_{xx}	0.059949
+100	zpp_sig_voigt	\sigma_{xx}	0.000000
+101	zpp_y	Y	0.006915
+102	zpp_psi_t	\psi_t	0.003232
+103	zpp_psi_r	\psi_r	0.000012
+104	zpp_psi_d	\psi_d	0.003220
+105	zpp_psi_t_npsif	\psi_t/\psi_0	1.000000
+106	zpp_psi_r_npsif	\psi_r/\psi_0	0.003754
+107	zpp_psi_d_npsif	\psi_d/\psi_0	0.996246
+108	zpp_d	D	1.000000
+109	zpp_ddot	\dot{D}	0.000000
+110	zpp_dcracklength	L	26.731800
+111	zpp_stn_rel	\epsilon_{\mathrm{rel}}	1.045090
+112	zpp_bcpow	E_{\mathrm{bc}}	0.000000
+113	zpp_fpow	E_{\mathrm{cr}}	0.000625
+114	zpp_fpow_indn	P_{\mathrm{cr}}^n	0.000525
+115	zpp_fpow_indt	P_{\mathrm{cr}}^t	0.000100
+116	zpr_time	zpr_time	0.460637
+117	zpr_stssh_xx	\sigma_{xx}	0.000000
+118	zpr_stssh_yy	\sigma_{yy}	-0.005132
+119	zpr_stssh_xy	\sigma_{xy}	-0.000481
+120	zpr_stnst_xx	\epsilon_{xx}	0.059949
+121	zpr_stnst_yy	\epsilon_{yy}	0.059980
+122	zpr_stnst_xy	\epsilon_{xy}	0.000001
+123	zpr_stssh_xx_ny	\sigma_{xx}/\tilde{\sigma}	0.000000
+124	zpr_stnst_xx_ny	\epsilon_{xx}/\tilde{\epsilon}	0.599492
+125	zpr_stssh_yy_ny	\sigma_{yy}/\tilde{\sigma}	-0.051317
+126	zpr_stnst_yy_ny	\epsilon_{yy}/\tilde{\epsilon}	0.599798
+127	zpr_dynerr_rel	E_{rdyn}	2.122590
+128	zpr_dynerr_ind0	|E_{dyn}|	0.010987
+129	zpr_dynerr_ind1	E_{dyn_x}	0.001822
+130	zpr_dynerr_ind2	E_{dyn_y}	0.010835
+131	zpr_fpow_rel	P_t/P	0.527309
+132	zpr_fraca_scalar_d_mean	{E}(D)	0.915580
+133	zpr_fraca_scalar_d_max	\mathrm{max}(D)	1.000000
+134	zpr_fraca_scalar_cr_mean	{E}(\eta)	0.000000
+135	zpr_fraca_scalar_cr_max	\mathrm{max}(\eta)	0.000000
+136	zpr_fraca_scalar_str_mean	{E}(\gamma)	1.000000
+137	zpr_fraca_scalar_str_max	\mathrm{max}(\gamma)	1.000000
+138	zpr_fraca_scalar_sa_mean	{E}(a_\mathrm{S})	0.915581
+139	zpr_fraca_scalar_sa_max	\mathrm{max}(a_\mathrm{S})	1.000000
+140	zpr_fraca_scalar_sla_mean	{E}(a_\mathrm{SL})	0.000000
+141	zpr_fraca_scalar_sla_max	\mathrm{max}(a_\mathrm{SL})	0.000000
+142	zpr_fraca_scalar_sta_mean	{E}(a_\mathrm{ST})	0.000000
+143	zpr_fraca_scalar_sta_max	\mathrm{max}(a_\mathrm{ST})	0.000000
+144	zpr_fraca_scalar_d_len_revind0	l_{D_{\mathrm{max}}}	22.821500
+145	zpr_fraca_angle_stat_len_mean	{E}(\theta)	96.368600
+146	zpr_fraca_angle_stat_len_r	r_\theta	0.016136
+147	zpr_fraca_angle_stat_len_sdiv	\mathrm{\sigma}_\theta	8.253600
+148	zpr_fraca_angle_stat_sym_len_mean	{E}^s(\theta)	45.555400
+149	zpr_fraca_angle_stat_sym_len_r	r^s_\theta	0.905070
+150	zpr_fraca_angle_stat_sym_len_sdiv	\mathrm{\sigma}^s_\theta	0.199487
+151	zpr_dcracklength	l_\mathrm{tot}	26.731800
+152	zpr_stn_rel	\bar{\epsilon}_{cr}/\bar{\epsilon}	1.045090
+153	zpr_dcount	N_{cr}	1596.220000
+154	zpr_bcpow	P_{\mathrm{BC}}	0.000000
+155	zpr_fpow	P_{cr}	0.001037
+156	zpr_fpow_indn	P_{cr}^n	0.000490
+157	zpr_fpow_indt	P_{cr}^t	0.000547

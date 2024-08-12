@@ -1,0 +1,620 @@
+
+ flagNoInStartStepEnd	-1	1	-1
+kappaOptionForStaticProcessZoneSize_0Potential9/16__1Dugdale1/4__2MyEstimate									0
+StaticProcessZoneSize_MyEstimateOption_0_useValuesGivenBelow_1_rpv/rps=0.5__2_rpsv/rps=1.0(1,2MatchPotentialBased)		0
+StaticProcessZoneSize_MyEstimate_rpv/rps_ONLYAcitveOption0Above											0.4
+StaticProcessZoneSize_MyEstimate_gamma_distanceRatioIn_rsvFromSingularCore									0.5
+printOption			png
+plotXuNData			0
+plotAdditionalCurvesONPlotsOption_1TSL_2Damage_0Nonactive 			1
+plotAdditionalCurvesONlStyle 				-
+plotAdditionalCurvesONlWidth 				1
+plotBlack_p1		0
+plotEPS			0	
+haveBlankLinesInLegend							1
+sizeBlankRowsInLegend_2thisNumberShouldBeInputs4Next2Lines	1
+blankRowNInLegend		1		
+blankTextInLegend		header
+coord2sIndex		0
+diableMarkers		1
+enableMarkerValues_numberFollowedByValues		1	-12345678
+elementBndryMarkerSize		4
+disableElementBndry		1
+disableProcessZones		1
+disableExtrmmValues		1
+disableLocalExtrmmValues 	1
+
+plotAroundProcessZoneFactor_NegativeNonActive	-5
+ 
+
+printDltTtlLabel		0
+drawLineSegmentes		0
+onlyDrawSize2SolUnit	0
+
+ 
+outputFolder		images/CZ/TSL/
+appendRunMidName2OutFldr	1
+readStat			1
+readStatFinalTime		1
+StatFinalTimeName		StatTimeFinal
+READ_HISTORYFILES_neededForCTplots											1
+(RE)GENERATE_HISTORYFILES_p_10											0
+IMPRORTANT_IMP_IAddSerialNumber2ModifedFilesBasedOnRunOrder_p11						0
+maxPower_historyDerInfow 				6
+historyFileName		TimeVal
+historyStatFileName	TimeValStat
+cracktipVSymbol		fldx
+cracktipVIndex		0
+processZoneSymbol		fldx
+processZoneIndex		1
+crackOpeningZero2MaxStressSymbol	fldx
+crackOpeningZero2MaxStressIndex	2
+crackOpeningZero2ZeroStressSymbol	fldx
+crackOpeningZero2ZeroStressIndex	3
+crackOpenindSymbol			fld0
+crackOpenindIndex				0
+cohesiveZoneSizeFileName	TimeValCohZone
+cohesiveZoneSizeConfigFileName TimeValCohZoneStat
+modifierForHistoryFiles		Modified
+ImaxRelativeSpacePoint2PlotHistories_p8		0.90
+ImaxSpaceDotInClusterReductionRel2cR_p9		10.0
+allowOverwriteOfRunParameters				1
+
+
+ADDINTEGRATEDATA				1
+itegateDataFileName			IntFlds
+derDataFileName				derFlds
+itegrationNormalizationOption_p3		-1
+maxPowerRatioEReleaseRate 			6
+
+
+add_LEFM_Data						1
+maxPowerRatioRelativeProcessZoneSize 		6
+LEFMAngle_resolution 					200
+LEFMnumPtPerT_timeIntegrationPtsPerT0		200
+LEFMnumPtPerRamp 						10
+LEFM_rSigMethod_Mx1_ave2_0deg_3_180_deg_4		0
+LEFM_rVelMethod_Mx1_ave2_0deg_3_180_deg_4 	0
+LEFM_rVelDir_Scalar2OtherValue 			2
+
+
+TS_addData							1
+TS_StatName							StatTimeBrief
+TS_readOnlyStat						1
+TS_SliceDataName						TimeSlice
+TS_sliceReadFlag						b
+TS_derOptionForTimeDerivatives			1
+TS_interpolantOptCZEndPoints				spline
+TS_maxPowerVelocitiesRoundOff		 		6
+TS_processZoneValSymbol					fldx
+TS_processZoneValIndex					0
+TS_processZoneNormalizerRunFlagData_p7		14
+TS_numReqFlds						15					
+TS_ReqFldsSymbol						flds	fld0		flds	fld0	flds	fld0	flds	fld0	flds	flds	flds	flds	flds	flds	flds
+TS_ReqFldsIndex						4	4		3	3	7	7	8	8	11	12	13	14	15	16	0
+TS_ReqFldsFinderType_p5					max	maxAbs	max	max	max	max	max	max	max	max	max	max	max	max	max
+TS_ReqFldsNormalizerType_p6relCoh0relLoad1	-1	-1		-1	-1	0	0	0	0	0	0	0	0	0	0	0
+TS_numCollectFlds						15					
+TS_CollectFldsSymbol					flds	fld0		flds	fld0	flds	fld0	flds	fld0	flds	flds	flds	flds	flds	flds	flds
+TS_CollectFldsIndex					4	4		3	3	7	7	8	8	11	12	13	14	15	16	0
+TS_CollectFldsNormalizerType_p6relCoh0relLoad1	-1	-1		-1	-1	0	0	0	0	0	0	0	0	0	0	0
+
+
+lfs		43  
+tfs		26  
+pltfs	19
+symfs   20
+xminT	1     
+yminT	1  
+dlwidth		1.8
+dhhlwidth	2.5  
+dhdlwidth	3.0  
+dLlwidth	3.0  
+psfrag  1  
+writeTitleEPS	0
+psfragSym		0  
+doReg			0
+ShowArrowheadSwitch		off  
+RegFlNo		1  
+RegCrvNo	3	  
+RegPlotNo	3  
+symfsReg	17  
+afctr		.33
+aafctrb		0.05
+aafctrh		0.15
+bfctr		0.11  
+bafctrb		0.08
+bafctrh		0.15
+
+
+
+
+4
+10	4	8	3	abs	23.234	1	12	abs	12.32	7	3	abs	-43	6	9	abs	9.9
+outputFolder:	../physics/outputPP/		v_0303_s_00000007/	DTSLInf	runParaFolder_p2:	Auto prename: Auto	subconfig:		NoRoot 	subconfigCrackPathTSLNew.txt		TSL7
+outputFolder:	../physics/outputPP/		v_0303_s_00000008/	DTSLInf	runParaFolder_p2:	Auto prename: Auto	subconfig:		NoRoot 	subconfigCrackPathTSLNew.txt		TSL8
+outputFolder:	../physics/outputPP/		v_0302_s_00000007/	DTSLInf	runParaFolder_p2:	Auto prename: Auto	subconfig:		NoRoot 	subconfigCrackPathTSLNew.txt		D7
+outputFolder:	../physics/outputPP/		v_0302_s_00000008/	DTSLInf	runParaFolder_p2:	Auto prename: Auto	subconfig:		NoRoot 	subconfigCrackPathTSLNew.txt		D8
+
+maxPlotNoToPlot	122
+maxPlotNo		295
+1	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Trajectory	xlabel	Time*({\mu}s)	ylabel	Crack-tip*Position*(mm)		legend	location	NorthWest	legendEnd	end
+2	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocity	xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+3	1	0	-1	0	0	0	0	LEFM		title		LEFM*Normalized*Crack-tip*Trajectory	xlabel	t/tau_{LEFM}	ylabel	a/l_{LEFM}		legend	location	NorthWest	legendEnd		end
+4	1	1	-1	0	0	0	0	LEFM		title		LEFM*Normalized*Crack-tip*Velocity	xlabel	t/tau_{LEFM}	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+
+5	1	-1	-1	0	0	0	0	theory	title		*Process*Zone*Size_	xlabel	Time*({\mu}s)	ylabel	Position*(mm)		end
+6	1	-1	-1	0	0	0	0	theory	title		Process*Zone*Size*vs*time		xlabel	Time*({\mu}s)	ylabel	\Delta*(mm)	legend	location	NorthEast	legendEnd	end
+7	1	-1	-1	0	0	0	0	theory	title		N*Process*Zone*Size*vs*time		xlabel	Time*({\mu}s)	ylabel	\Delta/\Delta_0		legend	location	NorthEast	legendEnd	end
+8	1	2	-1	0	0	0	0	Yu-Suo	title		Process*Zone*Size*vCR			xlabel	Normalized*Crack*Speed,*V_{Cr}/C_s	ylabel	\Delta/\Delta_0	xlim abs	0	1	ylim	abs	0	1	legend	location	SouthWest	legendEnd	end
+
+
+9	1	-1	-1	0	0	0	0	theory	title		Total*Fracture*EnergyLamda0L*vs*time			xlabel	Time*({\mu}s)	ylabel	Rel*EnerrgyByLamba0L			end
+10	1	3	-1	0	0	0	0	theory	title		Total*Fracture*EnergyLamda0*vs*time			xlabel	Time*({\mu}s)	ylabel	Rel*EnerrgyByLamba0L			end
+11	1	-1	-1	0	0	0	0	theory	title		Fracture*Energy*Flux*vs*time			xlabel	Time*({\mu}s)	ylabel	Rel*Power			end
+12	1	5	-1	0	0	0	0	theory	title		Energy*release*rate*time			xlabel	Time*({\mu}s)	ylabel	Rel*Toughness	legend	location	SouthEast	legendEnd	ylim abs 0 	1.4	end
+13	1	-1	-1	0	0	0	0	theory	title		Total*FractureLamda0L*Energy*vs*a			xlabel	a*(mm)	ylabel	Rel*EnerrgyLamda0L			end
+14	1	3	-1	0	0	0	0	theory	title		Total*FractureLamda0*Energy*vs*a			xlabel	a*(mm)	ylabel	Rel*EnerrgyLamda0			end
+15	1	-1	-1	0	0	0	0	theory	title		Fracture*Energy*Flux*vs*a			xlabel	a*(mm)	ylabel	Rel*Power			end
+16	1	5	-1	0	0	0	0	theory	title		Energy*release*rate*a				xlabel	a*(mm)	ylabel	Rel*Toughness		ylim abs 0 	2.0	end
+17	0	-1	-1	0	0	0	0	theory	title		Fracture*Energy*Flux*vs*Vcr			xlabel	V_{Cr}/C_R	ylabel	Rel*Power			end
+18	0	-1	-1	0	0	0	0	theory	title		Energy*release*rate*Vcr				xlabel	V_{Cr}/C_R	ylabel	Rel*Toughness			end
+19	0	-1	-1	0	0	0	0	theory	title		Changes*vs*Load					xlabel	Time*({\mu}s)	ylabel	NormalizedFields	end
+20	1	-1	-1	0	0	0	0	theory	title		Load*vs*Time					xlabel	Time*({\mu}s)	ylabel	Load	legend	location	NorthEast	legendEnd	end
+
+21	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocities*LEFM*FEM			xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+22	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocity*LEFM				xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+23	1	-1	-1	0	0	0	0	theory	title		LEFM*Normalized*Crack-tip*Velocities*LEFM*FEM			xlabel	t/tau_{LEFM}	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+24	1	-1	-1	0	0	0	0	theory	title		LEFM*Normalized*Crack-tip*Velocity*LEFM				xlabel	t/tau_{LEFM}	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+
+25	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocities*PZ*Pts_Imp		xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+26	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocity*FD*Vs*Implicit		xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+27	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocity*FD				xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+
+28	0	-1	-1	0	0	0	0	theory	title		Crack-tip*Relative*Trajectories		xlabel	Time*({\mu}s)	ylabel	Crack-tip*Rel*Position			end
+29	0	-1	-1	0	0	0	0	theory	title		MOST*Trajectories			xlabel	Time*({\mu}s)	ylabel	Position*(mm)			end
+30	0	-1	-1	0	0	0	0	theory	title		MOST*Velocities				xlabel	Time*({\mu}s)	ylabel	V/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+31	0	-1	-1	0	0	0	0	theory	title		MOST*Rel*Trajectories		xlabel	Time*({\mu}s)	ylabel	Rel*Position*(mm)			end
+
+32	1	7	-1	10	10	0	0	theory	title		Log-vmax*vs*Log-rprsv		xlabel	log(rprsv)		ylabel	log(vm/vf)		legend	location	SouthWest	legendEnd	end
+33	0	7	-1	0	0	0	0	theory	title		vmax*vs*rprsv			xlabel	rprsv			ylabel	vm/vf			legend	location	NorthEast	legendEnd	end
+34	0	7	-1	10	0	0	0	theory	title		vmax*vs*Log-rprsv			xlabel	log(rprsv)		ylabel	vm/vf			legend	location	NorthEast	legendEnd	end
+35	0	7	-1	10	10	0	0	theory	title		Log-vmax*vs*Log-rpFEMrsv	xlabel	log(rpFEMrsv)	ylabel	log(vm/vf)		legend	location	SouthWest	legendEnd	end
+36	0	7	-1	0	0	0	0	theory	title		vmax*vs*rpFEMrsv			xlabel	rpFEMrsv		ylabel	vm/vf			legend	location	NorthEast	legendEnd	end
+37	0	7	-1	10	0	0	0	theory	title		vmax*vs*Log-rpFEMrsv		xlabel	log(rpFEMrsv)	ylabel	vm/vf			legend	location	NorthEast	legendEnd	end
+38	0	-1	-1	10	10	0	0	theory	title		Log-vmax*vs*Log-rpFEMrsv0	0	theory	xlabel	log(rpFEMrsv)	ylabel	log(vm/vf)	legend	location	SouthWest	legendEnd	end
+39	0	-1	-1	10	10	0	0	theory	title		Log-vmax0	0	theory*vs*Log-rpFEMrsv0	0	theory	xlabel	log(rpFEMrsv)	ylabel	log(vm/vf)	legend	location	SouthWest	legendEnd	end
+
+40	0	-1	-1	0	0	0	0	theory	title		Log-vmax*vs*Log-rpFEMrss	xlabel	rpFEMrss		ylabel	vm/vf			legend	location	SouthEast	legendEnd	end
+
+41	0	8	-1	0	10	0	0	theory	title		relrp2rsv*vs*vct				xlabel	V_{Cr}/C_R		ylabel	log(rp2rsv)		xlim abs 0 1.		legend	location	SouthWest	legendEnd	end
+42	1	8	-1	-10	10	0	0	theory	title		relrp2rsv*vs*vctLogV			xlabel	log(1-V_{Cr}/C_R)		ylabel	log(rp2rsv)		legend	location	SouthEast	legendEnd	end
+
+43	0	-1	-1	0	10	0	0	theory	title		relrp2rsv*vs*vctALLTheories		xlabel	V_{Cr}/C_R		ylabel	log(rp2rsv)		xlim abs 0 1.	legend	location	SouthWest	legendEnd	end
+44	0	-1	-1	-10	10	0	0	theory	title		relrp2rsv*vs*vctALLTheoriesLogV	xlabel	log(1-V_{Cr}/C_R)		ylabel	log(rp2rsv)	legend	location	NorthWest	legendEnd	end
+
+
+
+45	0	13	-1	0	0	0	0	theory	title		relrp2rss*vs*vct				xlabel	V_{Cr}/C_R		ylabel	rp2rss		xlim abs 0 1.	legend	location	NorthWest	legendEnd	end
+46	0	-1	-1	0	0	0	0	theory	title		relrp2rss*vs*vctALLTheories		xlabel	V_{Cr}/C_R		ylabel	rp2rss		xlim abs 0 1.	legend	location	NorthWest	legendEnd	end
+47	0	11	-1	0	0	0	0	theory	title		relrp2rss*vs*sigmaF2C			xlabel	{\sigma_F}/{\sigma_C}		ylabel	rp2rss	legend	location	NorthWest	legendEnd	end
+48	0	-1	-1	0	0	0	0	theory	title		relrp2rss*vs*sigmaF2C			xlabel	{\sigma_F}/{\sigma_C}		ylabel	rp2rss	legend	location	NorthWest	legendEnd		end
+
+49	1	9	-1	0	10	0	0	theory	title		Log-maxVel2vC*vs*vct			xlabel	V_{Cr}/C_R		ylabel	log(maxVel/v_c)	xlim abs 0 1.	legend	location	NorthWest	legendEnd		end
+50	1	9	-1	-10	10	0	0	theory	title		Log-maxVel2vC*vs*vctLog			xlabel	log(1-V_{Cr}/C_R)		ylabel	log(maxVel/v_c)	legend	location	NorthEast	legendEnd	end
+
+51	1	-1	-1	0	10	0	0	theory	title		COD3*vs*vct					xlabel	V_{Cr}/C_R		ylabel	COD/\delta_C		xlim abs 0 1.	legend	location	NorthWest	legendEnd		end
+52	1	-1	-1	0	10	0	0	theory	title		COD23*vs*vct				xlabel	V_{Cr}/C_R		ylabel	COD/\delta_C		xlim abs 0 1.	legend	location	NorthWest	legendEnd		end
+
+53	1	1	-1	0	0	0	0	LEFM		title		LEFM*Normalized*Crack-tip*Velocity*FD	xlabel	t/tau_{LEFM}	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+
+
+54	1	2	-1	0	0	0	0	Yu-SuoFD	title		Process*Zone*Size*vCRFD			xlabel	Normalized*Crack*Speed,*V_{Cr}/C_s	ylabel	\Delta/\Delta_0	xlim abs	0	1	ylim	abs	0	1	legend	location	SouthWest	legendEnd	end
+55	1	0	-1	0	0	0	0	LEFM		title		LEFM*Normalized*Crack-tip*Trajectory20	xlabel	t/tau_{LEFM}	ylabel	a/l_{LEFM}	xlim abs	0	20	legend	location	NorthWest		legendEnd			end
+56	1	0	-1	0	0	0	0	LEFM		title		LEFM*Normalized*Crack-tip*Trajectory10	xlabel	t/tau_{LEFM}	ylabel	a/l_{LEFM}	xlim abs	0	10	legend	location	NorthWest		legendEnd	end
+57	1	1	-1	0	0	0	0	LEFM		title		LEFM*Normalized*Crack-tip*Velocity20	xlabel	t/tau_{LEFM}	ylabel	V_{Cr}/C_R	xlim abs	0	20		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+58	1	1	-1	0	0	0	0	LEFM		title		LEFM*Normalized*Crack-tip*Velocity10	xlabel	t/tau_{LEFM}	ylabel	V_{Cr}/C_R	xlim abs	0	10		ylim abs 0 1.1	legend	location	NorthWest	legendEnd	end
+59	1	1	-1	0	0	0	0	LEFM		title		LEFM*Normalized*Crack-tip*VelocityFD20	xlabel	t/tau_{LEFM}	ylabel	V_{Cr}/C_R	xlim abs	0	20		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+60	1	1	-1	0	0	0	0	LEFM		title		LEFM*Normalized*Crack-tip*VelocityFD10	xlabel	t/tau_{LEFM}	ylabel	V_{Cr}/C_R	xlim abs	0	10		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+
+
+61	1	-1	-1	0	0	0	0	none	title		Total*Fracture*EnergyLamda0L*vs*Ntime			xlabel	t/tau_{LEFM}	ylabel	Rel*EnerrgyByLamba0L	end
+62	1	-1	-1	0	0	0	0	none	title		Total*Fracture*EnergyLamda0L*vs*Ntime20			xlabel	t/tau_{LEFM}	ylabel	Rel*EnerrgyByLamba0L	xlim abs	0	20	legend	location	NorthWest	legendEnd	end
+63	1	-1	-1	0	0	0	0	none	title		Total*Fracture*EnergyLamda0L*vs*Ntime10			xlabel	t/tau_{LEFM}	ylabel	Rel*EnerrgyByLamba0L	xlim abs	0	10	legend	location	NorthWest	legendEnd	end
+
+64	1	-1	-1	0	0	0	0	none	title		Fracture*Energy*Flux*vs*Ntime			xlabel	t/tau_{LEFM}	ylabel	Rel*Power		legend	location	NorthEast	legendEnd		end
+65	1	-1	-1	0	0	0	0	none	title		Fracture*Energy*Flux*vs*Ntime20		xlabel	t/tau_{LEFM}	ylabel	Rel*Power	xlim abs	0	20	legend	location	NorthEast	legendEnd	end
+66	1	-1	-1	0	0	0	0	none	title		Fracture*Energy*Flux*vs*Ntime10		xlabel	t/tau_{LEFM}	ylabel	Rel*Power	xlim abs	0	10	legend	location	NorthEast	legendEnd	end
+
+67	1	5	-1	0	0	0	0	none	title		Energy*release*rate*Ntime			xlabel	t/tau_{LEFM}	ylabel	Rel*Toughness	legend	location	SouthEast	legendEnd	ylim abs 0 	1.4	legend	location	SouthEast	legendEnd	end
+68	1	5	-1	0	0	0	0	none	title		Energy*release*rate*Ntime50			xlabel	t/tau_{LEFM}	ylabel	Rel*Toughness	legend	location	SouthEast	legendEnd	ylim abs 0 	1.4		xlim abs	0	50	legend	location	SouthEast	legendEnd	end
+69	1	5	-1	0	0	0	0	none	title		Energy*release*rate*Ntime10			xlabel	t/tau_{LEFM}	ylabel	Rel*Toughness	legend	location	SouthEast	legendEnd	ylim abs 0 	1.4		xlim abs	0	10	legend	location	SouthEast	legendEnd	end
+
+70	1	-1	-1	0	0	0	0	none	title		Total*FractureLamda0L*Energy*vs*Na			xlabel	a/l_{LEFM}	ylabel	Rel*EnerrgyLamda0L	legend	location	NorthWest	legendEnd			end
+71	1	-1	-1	0	0	0	0	none	title		Total*FractureLamda0L*Energy*vs*Na20		xlabel	a/l_{LEFM}	ylabel	Rel*EnerrgyLamda0L		xlim abs	0	20	legend	location	NorthWest	legendEnd	end
+72	1	-1	-1	0	0	0	0	none	title		Total*FractureLamda0L*Energy*vs*Na10		xlabel	a/l_{LEFM}	ylabel	Rel*EnerrgyLamda0L		xlim abs	0	10	legend	location	NorthWest	legendEnd	end
+
+73	1	-1	-1	0	0	0	0	none	title		Fracture*Energy*Flux*vs*Na			xlabel	a/l_{LEFM}	ylabel	Rel*Power		legend	location	NorthEast	legendEnd		end
+74	1	-1	-1	0	0	0	0	none	title		Fracture*Energy*Flux*vs*Na20			xlabel	a/l_{LEFM}	ylabel	Rel*Power		xlim abs	0	20	legend	location	NorthEast	legendEnd	end
+75	1	-1	-1	0	0	0	0	none	title		Fracture*Energy*Flux*vs*Na10			xlabel	a/l_{LEFM}	ylabel	Rel*Power		xlim abs	0	10	legend	location	NorthEast	legendEnd	end
+
+76	1	5	-1	0	0	0	0	none	title		Energy*release*rate*Na				xlabel	a/l_{LEFM}	ylabel	Rel*Toughness		ylim abs 0 	2.0	legend	location	NorthEast	legendEnd	end
+77	1	5	-1	0	0	0	0	none	title		Energy*release*rate*Na20			xlabel	a/l_{LEFM}	ylabel	Rel*Toughness		ylim abs 0 	2.0		xlim abs	0	20	legend	location	NorthEast	legendEnd	end
+78	1	5	-1	0	0	0	0	none	title		Energy*release*rate*Na10			xlabel	a/l_{LEFM}	ylabel	Rel*Toughness		ylim abs 0 	2.0		xlim abs	0	10	legend	location	NorthEast	legendEnd	end
+
+79	1	-1	-1	0	0	0	0	none	title		Total*FractureLamda0L*Energy*vs*v			xlabel	V_{Cr}/C_R	ylabel	Rel*EnerrgyLamda0L	legend	location	NorthWest	legendEnd			end
+80	1	-1	-1	0	0	0	0	none	title		Total*FractureLamda0L*Energy*vs*v1			xlabel	V_{Cr}/C_R	ylabel	Rel*EnerrgyLamda0L		xlim abs	0	1	legend	location	NorthWest	legendEnd	end
+
+81	1	-1	-1	0	0	0	0	none	title		Fracture*Energy*Flux*vs**v			xlabel	V_{Cr}/C_R	ylabel	Rel*Power		legend	location	NorthWest	legendEnd		end
+82	1	-1	-1	0	0	0	0	none	title		Fracture*Energy*Flux*vs**v1			xlabel	V_{Cr}/C_R	ylabel	Rel*Power			xlim abs	0	1	legend	location	NorthWest	legendEnd	end
+
+83	1	5	-1	0	0	0	0	none	title		Energy*release*rate**v				xlabel	V_{Cr}/C_R	ylabel	Rel*Toughness		ylim abs 0 	2.0	legend	location	NorthEast	legendEnd	end
+84	1	5	-1	0	0	0	0	none	title		Energy*release*rate**v				xlabel	V_{Cr}/C_R	ylabel	Rel*Toughness		ylim abs 0 	2.0	xlim abs 0 	1.0	legend	location	NorthWest	legendEnd	end
+
+
+90	1	0	-1	0	0	0	0	none	title		CFM*Normalized*Crack-tip*Trajectory	xlabel	t/tau_{CFM}	ylabel	a/l_{CFM}		legend	location	NorthWest	legendEnd		end
+91	1	0	-1	0	0	0	0	none	title		CFM*Delta0*N*Crack-tip*Trajectory	xlabel	t/tau_{CFM}	ylabel	a/\Delta_0		legend	location	NorthWest	legendEnd		end
+
+92	1	1	-1	0	0	0	0	none	title		CFM*Normalized*Crack-tip*Velocity	xlabel	t/tau_{CFM}	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+93	1	1	-1	0	0	0	0	none	title		CFM*Normalized*Crack-tip*Velocity*FD xlabel	t/tau_{CFM}	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+
+100	1	7	-1	10	10	0	0	theory	title		Log-vmax*vs*Log-rpFEMrsvFD	xlabel	log(rpFEMrsv)	ylabel	log(vm/vf)		legend	location	SouthWest	legendEnd	end
+101	1	7	-1	10	10	0	0	theory	title		Log-vmax*vs*Log-rpFEMrsvFDnG	xlabel	log(rpFEMrsv)	ylabel	log(vm/vf)		legend	location	SouthWest	legendEnd	end
+
+102	1	7	-1	0	0	0	0	theory	title		vmax*vs*rpFEMrsvFD			xlabel	rpFEMrsv		ylabel	vm/vf			legend	location	NorthEast	legendEnd	end
+103	0	7	-1	0	0	0	0	theory	title		vmax*vs*rpFEMrsvFDnG			xlabel	rpFEMrsv		ylabel	vm/vf			legend	location	NorthEast	legendEnd	end
+
+104	1	7	-1	10	0	0	0	theory	title		vmax*vs*Log-rpFEMrsvFD		xlabel	log(rpFEMrsv)	ylabel	vm/vf			legend	location	NorthEast	legendEnd	end
+105	0	7	-1	10	0	0	0	theory	title		vmax*vs*Log-rpFEMrsvFDnG		xlabel	log(rpFEMrsv)	ylabel	vm/vf			legend	location	NorthEast	legendEnd	end
+
+
+110	0	-1	-1	10	10	0	0	theory	title		Log-vmax*vs*Log-rpFEMrsv0FD	xlabel	log(rpFEMrsv)	ylabel	log(vm/vf)	legend	location	SouthWest	legendEnd	end
+
+112	1	-1	-1	10	10	0	0	theory	title		Log-vmax0		xlabel	log(rpFEMrsv)	ylabel	log(vm/vf)	legend	location	SouthWest	legendEnd	end
+113	1	-1	-1	10	10	0	0	theory	title		Log-vmax0nG		xlabel	log(rpFEMrsv)	ylabel	log(vm/vf)	legend	location	SouthWest	legendEnd	end
+
+114	1	-1	-1	0	0	0	0	theory	title		Log-vmax*vs*Log-rpFEMrssFD	xlabel	log(rpFEMrss)		ylabel	log(vm/vf)			legend	location	NorthEast	legendEnd	end
+115	1	-1	-1	0	0	0	0	theory	title		Log-vmax*vs*Log-rpFEMrssFDnG	xlabel	log(rpFEMrss)		ylabel	log(vm/vf)			legend	location	NorthEast	legendEnd	end
+
+116	1	8	-1	0	10	0	0	theory	title		relrp2rsv*vs*vctFD			xlabel	V_{Cr}/C_R		ylabel	log(rp2rsv)		xlim abs 0 1.		legend	location	SouthWest	legendEnd	end
+117	1	8	-1	-10	10	0	0	theory	title		relrp2rsv*vs*vctLogVFD			xlabel	log(1-V_{Cr}/C_R)		ylabel	log(rp2rsv)		legend	location	NorthWest	legendEnd	end
+118	1	-1	-1	0	10	0	0	theory	title		relrp2rsv*vs*vctALLTheoriesFD		xlabel	V_{Cr}/C_R		ylabel	log(rp2rsv)		xlim abs 0 1.	legend	location	SouthWest	legendEnd	end
+119	1	-1	-1	-10	10	0	0	theory	title		relrp2rsv*vs*vctALLTheoriesLogVFD	xlabel	log(1-V_{Cr}/C_R)		ylabel	log(rp2rsv)	legend	location	NorthWest	legendEnd	end
+120	1	-1	-1	0	0	0	0	theory	title		relrp2rsv*vs*vctFDNoTheory		xlabel	V_{Cr}/C_R		ylabel	log(rp2rsv)		xlim abs 0 1.		legend	location	SouthWest	legendEnd	end
+121	1	-1	-1	-10	0	0	0	theory	title		relrp2rsv*vs*vctLogVFDNoTheory	xlabel	log(1-V_{Cr}/C_R)		ylabel	log(rp2rsv)		legend	location	NorthWest	legendEnd	end
+
+
+
+130	1	-1	-1	0	0	0	0	theory	title		relrp2rss*vs*vctFD				xlabel	V_{Cr}/C_R		ylabel	rp2rss		xlim abs 0 1.	legend	location	SouthWest	legendEnd	end
+131	1	-1	-1	0	0	0	0	theory	title		relrp2rss*vs*vctFDnG				xlabel	V_{Cr}/C_R		ylabel	rp2rss		xlim abs 0 1.	legend	location	SouthWest	legendEnd	end
+
+132	1	-1	-1	0	0	0	0	theory	title		relrp2rss*vs*vctALLTheoriesFD		xlabel	V_{Cr}/C_R		ylabel	rp2rss		xlim abs 0 1.	legend	location	NorthWest	legendEnd	end
+133	1	-1	-1	0	0	0	0	theory	title		relrp2rss*vs*vctALLTheoriesFDnG		xlabel	V_{Cr}/C_R		ylabel	rp2rss		xlim abs 0 1.	legend	location	NorthWest	legendEnd	end
+
+134	1	11	-1	0	0	0	0	theory	title		relrp2rss*vs*sigmaF2CFD			xlabel	{\sigma_F}/{\sigma_C}		ylabel	rp2rss	legend	location	NorthWest	legendEnd	end
+135	1	11	-1	0	0	0	0	theory	title		relrp2rss*vs*sigmaF2CFDnG		xlabel	{\sigma_F}/{\sigma_C}		ylabel	rp2rss	legend	location	NorthWest	legendEnd	end
+
+136	1	-1	-1	0	0	0	0	theory	title		relrp2rss*vs*sigmaF2CFD			xlabel	{\sigma_F}/{\sigma_C}		ylabel	rp2rss	legend	location	NorthWest	legendEnd		end
+137	1	-1	-1	0	0	0	0	theory	title		relrp2rss*vs*sigmaF2CFDnG		xlabel	{\sigma_F}/{\sigma_C}		ylabel	rp2rss	legend	location	NorthWest	legendEnd		end
+
+
+140	1	9	-1	0	10	0	0	theory	title		Log-maxVel2vC*vs*vctFD			xlabel	V_{Cr}/C_R		ylabel	log(maxVel/v_c)	xlim abs 0 1.	legend	location	NorthWest	legendEnd		end
+141	1	9	-1	-10	10	0	0	theory	title		Log-maxVel2vC*vs*vctLogFD			xlabel	log(1-V_{Cr}/C_R)		ylabel	log(maxVel/v_c)	legend	location	NorthEast	legendEnd	end
+
+142	1	-1	-1	0	10	0	0	theory	title		COD3*vs*vctFD					xlabel	V_{Cr}/C_R		ylabel	COD/\delta_C		xlim abs 0 1.	legend	location	NorthWest	legendEnd		end
+143	1	-1	-1	0	10	0	0	theory	title		COD23*vs*vctFD				xlabel	V_{Cr}/C_R		ylabel	COD/\delta_C		xlim abs 0 1.	legend	location	NorthWest	legendEnd		end
+
+
+
+200	0	-1	-1	0	0	0	0	theory	title		matVel*vs*time*pzPtsMxMatV		xlabel	Time*({\mu}s)		ylabel	matVel/vf			end
+201	0	-1	-1	0	0	0	0	theory	title		sigma*vs*time*pzPtsMxSigma		xlabel	Time*({\mu}s)		ylabel	\sigma/\sigma_0			end
+202	0	-1	-1	0	0	0	0	theory	title		sigmaG*vs*time*pzPtsMxSigma		xlabel	Time*({\mu}s)		ylabel	\sigma_G/\sigma_0			end
+203	0	-1	-1	0	0	0	0	theory	title		Dsrc*vs*time*pzPtsMxLoc			xlabel	Time*({\mu}s)		ylabel	Dsrc\tau			end
+204	0	-1	-1	0	0	0	0	theory	title		DissDot*vs*time*pzPtsMxLoc		xlabel	Time*({\mu}s)		ylabel	NormalizedDissDot			end
+205	0	-1	-1	0	0	0	0	theory	title		Diss*vs*time*pzPtsMxLoc			xlabel	Time*({\mu}s)		ylabel	NormalizedDiss			end
+
+206	0	-1	-1	0	0	0	0	theory	title		matVel*vs*time*CTmaxPts			xlabel	Time*({\mu}s)		ylabel	matVel/vf			end
+207	0	-1	-1	0	0	0	0	theory	title		sigma*vs*time*CTmaxPts			xlabel	Time*({\mu}s)		ylabel	\sigma/\sigma_0			end
+208	0	-1	-1	0	0	0	0	theory	title		sigmaG*vs*time*CTmaxPts			xlabel	Time*({\mu}s)		ylabel	\sigma_G/\sigma_0			end
+209	0	-1	-1	0	0	0	0	theory	title		Dsrc*vs*time*CTmaxPts			xlabel	Time*({\mu}s)		ylabel	Dsrc\tau			end
+210	0	-1	-1	0	0	0	0	theory	title		DissDot*vs*time*CTmaxPts		xlabel	Time*({\mu}s)		ylabel	NormalizedDissDot			end
+211	0	-1	-1	0	0	0	0	theory	title		Diss*vs*time*CTmaxPts			xlabel	Time*({\mu}s)		ylabel	NormalizedDiss			end
+
+
+212	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocities*PZ*Pts_FD		xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+213	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocities*CT*MaxV			xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+214	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocities*CT*MaxSigma		xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+215	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocities*CT*MaxSigmaG		xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+216	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocities*CT*MaxPts		xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+
+220	1	-1	-1	0	0	0	0	theory	title		absolute*LEFMRadiusLEFM*Vel*vs*time		xlabel	Time*({\mu}s)	ylabel	log(rs)			end
+221	1	-1	-1	0	0	0	0	theory	title		absolute*LEFMRadiusFEM*Vel*vs*time		xlabel	Time*({\mu}s)	ylabel	log(rs)			end
+222	1	-1	-1	0	0	0	0	theory	title		relative*LEFMRadiusLEFM*Vel*vs*time		xlabel	Time*({\mu}s)	ylabel	rp/rs			end
+223	1	-1	-1	0	0	0	0	theory	title		relative*LEFMRadiusFEM*Vel*vs*time		xlabel	Time*({\mu}s)	ylabel	rp/rs			end
+224	1	-1	-1	0	0	0	0	theory	title		relative*LEFMRadiusLEFM*Vel*vs*Vcr		xlabel	V_{Cr}/C_R	ylabel	rp/rs			end
+225	1	-1	-1	0	0	0	0	theory	title		relative*LEFMRadiusFEM*Vel*vs*Vcr		xlabel	V_{Cr}/C_R	ylabel	rp/rs			end
+226	1	-1	-1	0	0	0	0	theory	title		matVel*vs*time*allPts			xlabel	Time*({\mu}s)		ylabel	matVel/vf			end
+227	1	-1	-1	0	0	0	0	theory	title		sigma*vs*time*allPts			xlabel	Time*({\mu}s)		ylabel	\sigma/\sigma_0			end
+228	1	-1	-1	0	0	0	0	theory	title		sigmaG*vs*time*allPts			xlabel	Time*({\mu}s)		ylabel	\sigma_G/\sigma_0			end
+
+
+
+241	1	-1	-1	0	0	0	0	theory	title		MOST*Rel*Velocities			xlabel	Time*({\mu}s)	ylabel	Rel*V		legend	location	SouthEast	legendEnd	end
+242	1	-1	-1	0	0	0	0	theory	title		maxVel-Vcr-PZsize*vs*relDynVelrp2rs		xlabel	rp2rsVelDyn		ylabel	Relative*Value	ylim abs -2 2		end
+243	1	-1	-1	0	0	0	0	theory	title		maxVel-Vcr-PZsize*vs*relDynVelMrp2rs		xlabel	rp2rsMVelDyn		ylabel	Relative*Value	ylim abs -2 2		end
+244	1	-1	-1	0	0	0	0	theory	title		stress*Intensity*factors*time			xlabel	Time*({\mu}s)	ylabel	log(KI)			end
+245	1	-1	-1	0	0	0	0	theory	title		absolute*LEFMRadius*vs*time			xlabel	Time*({\mu}s)	ylabel	log(rs)			end
+246	1	-1	-1	0	0	0	0	theory	title		relative*LEFMRadius*vs*time			xlabel	Time*({\mu}s)	ylabel	rp/rs			end
+247	1	-1	-1	0	0	0	0	theory	title		stress*Intensity*factors*Vcr			xlabel	V_{Cr}/C_R	ylabel	log(KI)			end
+248	1	-1	-1	0	0	0	0	theory	title		absolute*LEFMRadius*vs*Vcr			xlabel	V_{Cr}/C_R	ylabel	log(rs)			end
+249	1	-1	-1	0	0	0	0	theory	title		absolute*LEFMRadiusLEFM*Vel*vs*Vcr		xlabel	V_{Cr}/C_R	ylabel	log(rs)			end
+250	1	-1	-1	0	0	0	0	theory	title		absolute*LEFMRadiusFEM*Vel*vs*Vcr		xlabel	V_{Cr}/C_R	ylabel	log(rs)			end
+251	1	-1	-1	0	0	0	0	theory	title		relative*LEFMRadius*vs*Vcr			xlabel	V_{Cr}/C_R	ylabel	rp/rs			end
+252	1	-1	-1	0	0	0	0	theory	title		maxVel*vs*relDynStressrp2rs-timeLEFM	xlabel	Time*({\mu}s)	ylabel	rp/rs			end
+261	1	-1	-1	0	0	0	0	theory	title		maxVel*vs*relDynStressrp2rs-timeFEM		xlabel	Time*({\mu}s)	ylabel	rp/rs			end
+262	1	-1	-1	0	0	0	0	theory	title		matVel*vs*Vcr*allPts			xlabel	V_{Cr}/C_R		ylabel	matVel/vf			end
+263	1	-1	-1	0	0	0	0	theory	title		matVel*vs*Vcr*pzPtsMxMatV		xlabel	V_{Cr}/C_R		ylabel	matVel/vf			end
+264	1	-1	-1	0	0	0	0	theory	title		matVel*vs*Vcr*CTmaxPts			xlabel	V_{Cr}/C_R		ylabel	matVel/vf			end
+265	1	-1	-1	0	0	0	0	theory	title		sigma*vs*Vcr*allPts			xlabel	V_{Cr}/C_R		ylabel	\sigma/\sigma_0			end
+266	1	-1	-1	0	0	0	0	theory	title		sigma*vs*Vcr*pzPtsMxSigma		xlabel	V_{Cr}/C_R		ylabel	\sigma/\sigma_0			end
+267	1	-1	-1	0	0	0	0	theory	title		sigma*vs*Vcr*CTmaxPts			xlabel	V_{Cr}/C_R		ylabel	\sigma/\sigma_0			end
+269	1	-1	-1	0	0	0	0	theory	title		sigmaG*vs*Vcr*allPts			xlabel	V_{Cr}/C_R		ylabel	\sigma_G/\sigma_0			end
+270	1	-1	-1	0	0	0	0	theory	title		sigmaG*vs*Vcr*pzPtsMxSigma		xlabel	V_{Cr}/C_R		ylabel	\sigma_G/\sigma_0			end
+271	1	-1	-1	0	0	0	0	theory	title		sigmaG*vs*Vcr*CTmaxPts			xlabel	V_{Cr}/C_R		ylabel	\sigma_G/\sigma_0			end
+272	1	-1	-1	0	0	0	0	theory	title		Dsrc*vs*time*allPts			xlabel	Time*({\mu}s)		ylabel	Dsrc\tau			end
+273	1	-1	-1	0	0	0	0	theory	title		Dsrc*vs*Vcr*allPts			xlabel	V_{Cr}/C_R		ylabel	Dsrc\tau			end
+274	1	-1	-1	0	0	0	0	theory	title		Dsrc*vs*Vcr*pzPtsMxLoc			xlabel	V_{Cr}/C_R		ylabel	Dsrc\tau			end
+275	1	-1	-1	0	0	0	0	theory	title		Dsrc*vs*Vcr*pzPtsMxLoc			xlabel	V_{Cr}/C_R		ylabel	Dsrc\tau			end
+276	1	-1	-1	0	0	0	0	theory	title		DissDot*vs*time*allPts			xlabel	Time*({\mu}s)		ylabel	NormalizedDissDot			end
+277	1	-1	-1	0	0	0	0	theory	title		DissDot*vs*Vcr*allPts			xlabel	V_{Cr}/C_R		ylabel	NormalizedDissDot			end
+278	1	-1	-1	0	0	0	0	theory	title		DissDot*vs*Vcr*pzPtsMxLoc			xlabel	V_{Cr}/C_R		ylabel	NormalizedDissDot			end
+279	1	-1	-1	0	0	0	0	theory	title		DissDot*vs*Vcr*pzPtsMxLoc			xlabel	V_{Cr}/C_R		ylabel	NormalizedDissDot			end
+280	1	-1	-1	0	0	0	0	theory	title		Diss*vs*time*allPts			xlabel	Time*({\mu}s)		ylabel	NormalizedDiss			end
+281	1	-1	-1	0	0	0	0	theory	title		Diss*vs*Vcr*allPts			xlabel	V_{Cr}/C_R		ylabel	NormalizedDiss			end
+282	1	-1	-1	0	0	0	0	theory	title		Diss*vs*Vcr*pzPtsMxLoc			xlabel	V_{Cr}/C_R		ylabel	NormalizedDiss			end
+283	1	-1	-1	0	0	0	0	theory	title		Diss*vs*Vcr*pzPtsMxLoc			xlabel	V_{Cr}/C_R		ylabel	NormalizedDiss			end
+290	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Velocities				xlabel	Time*({\mu}s)	ylabel	V_{Cr}/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+291	1	-1	-1	0	0	0	0	theory	title		Crack-tip*Trajectories				xlabel	Time*({\mu}s)	ylabel	Crack-tip*Position*(mm)			end
+292	1	-1	-1	0	0	0	0	theory	title		ALL*Trajectories			xlabel	Time*({\mu}s)	ylabel	Position*(mm)			end
+293	1	-1	-1	0	0	0	0	theory	title		ALL*Velocities				xlabel	Time*({\mu}s)	ylabel	V/C_R		ylim abs 0 1.1	legend	location	SouthEast	legendEnd	end
+294	1	-1	-1	0	0	0	0	theory	title		ALL*Rel*Trajectories		xlabel	Time*({\mu}s)	ylabel	Rel*Position*(mm)			end
+295	1	-1	-1	0	0	0	0	theory	title		ALL*Rel*Velocities			xlabel	Time*({\mu}s)	ylabel	Rel*V		legend	location	SouthEast	legendEnd	end
+
+
+
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_100_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1000
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_032_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1500
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_010_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc2000
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_0032_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc2500
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_001_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc300
+
+This is all based on my options:
+that I get 9/16 but use my formula when gamma = 0.5
+kappaOptionForStaticProcessZoneSize_0Potential9/16__1Dugdale1/4__2MyEstimate									2
+StaticProcessZoneSize_MyEstimateOption_0_useValuesGivenBelow_1_rpv/rps=0.5__2_rpsv/rps=1.0(1,2MatchPotentialBased)		1
+StaticProcessZoneSize_MyEstimate_rpv/rps_ONLYAcitveOption0Above											1.0
+StaticProcessZoneSize_MyEstimate_gamma_distanceRatioIn_rsvFromSingularCore									1.0
+
+This uses kappa = 9/16
+uses beta = rpv/rps = 0.2 / 0.5 (so betta . gamma  = 0.2) based on numerical results on quasisingualr fields,
+kappaOptionForStaticProcessZoneSize_0Potential9/16__1Dugdale1/4__2MyEstimate									0
+StaticProcessZoneSize_MyEstimateOption_0_useValuesGivenBelow_1_rpv/rps=0.5__2_rpsv/rps=1.0(1,2MatchPotentialBased)		0
+StaticProcessZoneSize_MyEstimate_rpv/rps_ONLYAcitveOption0Above											0.4
+StaticProcessZoneSize_MyEstimate_gamma_distanceRatioIn_rsvFromSingularCore									0.5
+
+
+
+130	1	13	-1	0	0	0	0	theory	title		relrp2rss*vs*vctFD				xlabel	V_{Cr}/C_R		ylabel	rp2rss		xlim abs 0 1.	legend	location	SouthWest	legendEnd	end
+131	1	13	-1	0	0	0	0	theory	title		relrp2rss*vs*vctFDnG				xlabel	V_{Cr}/C_R		ylabel	rp2rss		xlim abs 0 1.	legend	location	SouthWest	legendEnd	end
+
+
+
+p_1	value of two print in two options
+p2:runPara	NoRoot means current directory for run para and NONE means this option is inactive and all run parameters are given in subconfig
+p3: normalization options are 
+	-1 no normalization
+	1 by run values
+	2 by spatial integral values
+	3 by pointwise values
+
+
+der options
+p4: 0 finite differece
+1 slope of quadratice polynomial fit at centerpoint for every 3 succesive
+points
+2 slope of best line fit for every 3 succesive points
+
+p5: options either values or one of max min maxAbs flags 
+p6: options are relCoh (0) and relLoad (1)	and None(-1) for now
+p7: -1 means not active and 14 is Rayleigh wave speed
+
+
+p8: does not draw points near plate edge for history plots		ImaxRelativeSpacePoint2PlotHistories is the ratio of distance we go upfront
+p9: if there is a jump in velocity of crack velocity plots larger than ImaxSpaceDotInClusterReductionRel2cR * cR the point is dropped from the plot
+
+ImaxRelativeSpacePoint2PlotHistories_p8		0.90
+ImaxSpaceDotInClusterReductionRel2cR_p9		1.0
+
+
+p_10 if history files are generated (including any possible lefm, ...) we will not regenerate the exact same file
+
+
+subConfigT_xaxis.txt
+ylim abs 4 10
+ylim abs 0 1.2	 
+
+5 curve
+symfs   20
+9 curve
+symfs   14
+
+
+TS_ReqFldsNormalizerType_p6relCoh0relLoad1	1	1		0	0	0	0	0	0	0	0	0	0	0	0	0
+TS_CollectFldsNormalizerType_p6relCoh0relLoad1	1	1		0	0	0	0	0	0	0	0	0	0	0	0	0
+
+TS_ReqFldsNormalizerType_p6relCoh0relLoad1	-1	-1		-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+TS_CollectFldsNormalizerType_p6relCoh0relLoad1	-1	-1		-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+
+outputFolder:	../dtslNewAccurate/		dtsl_0125	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0125
+outputFolder:	../dtslNewAccurate/		dtsl_0500	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0500
+outputFolder:	../dtslNewAccurate/		dtsl_1000	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1000
+
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_00078125	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc00078125
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_0015625	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0015625
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_003125	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc003125
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_00625	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc00625
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_0125	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0125
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_0250	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0250
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_0375	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0375
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_0500	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0500
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_0625	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0625
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_0750	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0750
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_0875	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0875
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_1000	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1000
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_1250	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1250
+outputFolder:	/Volumes/OWC4/rabedi/project/PTRun/tslNewAccurate/		tsl_1500	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1500
+
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_100_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1000
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_032_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1500
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_010_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc2000
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_0032_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc2500
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		xunExt_s0E_001_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc3000
+
+outputFolder:	../trunk_working/		physics	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPath.txt		label
+
+
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_00078125	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc00078125
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_0015625	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0015625
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_00625	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc00625
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_0125	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0125
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_0250	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0250
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_0500	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0500
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_0750	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0750
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_1000	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1000
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_1250	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1250
+
+outputFolder:	../		xunExt_s0E_100_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.100
+outputFolder:	../		xunExt_s0E_075_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.075
+outputFolder:	../		xunExt_s0E_050_d0_4e-4_sfs0_115	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.050
+outputFolder:	../		xunExt_s0E_025_d0_4e-4_sfs0_115	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.025
+outputFolder:	../		xunExt_s0E_010_d0_4e-4_sfs0_115	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.010
+outputFolder:	../		xunExt_s0E_0075_d0_4e-4_sfs0_115	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.0075
+outputFolder:	../		xunExt_s0E_005_d0_4e-4_sfs0_115	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.005
+outputFolder:	../		xunExt_s0E_0025_d0_4e-4_sfs0_115	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.0025
+outputFolder:	../		xunExt_s0E_001_d0_4e-4_sfs0_115	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.001
+
+
+
+
+godunov
+outputFolder:	../				sf_tau_01_wsc_03_f6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w3f6
+outputFolder:	../				sf_tau_01_wsc_03_f7	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w3f7
+outputFolder:	../				sf_tau_01_wsc_03_f8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w3f8
+outputFolder:	../				sf_tau_001_wsc_03_f6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w3f6
+outputFolder:	../				sf_tau_001_wsc_03_f7	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w3f7
+outputFolder:	../				sf_tau_001_wsc_03_f8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w3f8
+outputFolder:	/Volumes/Tank/	sf_tau_01_wsc_05_f6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w5f6
+outputFolder:	/Volumes/Tank/	sf_tau_01_wsc_05_f7	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w5f7
+outputFolder:	/Volumes/Tank/	sf_tau_01_wsc_05_f8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w5f8
+outputFolder:	/Volumes/Tank/	sf_tau_001_wsc_05_f6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w5f6
+outputFolder:	/Volumes/Tank/	sf_tau_001_wsc_05_f7	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w5f7
+outputFolder:	/Volumes/Tank/	sf_tau_001_wsc_05_f8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w5f8
+
+YoutputFolder:	../Volumes/Tank/		sf_tau_01_wfsc_03_f8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10wf3f8
+
+
+XoutputFolder:	../				sf_tau_01_wsc_03_f5	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w3f5
+outputFolder:	../				sf_tau_01_wsc_03_f6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w3f6
+outputFolder:	../				sf_tau_01_wsc_03_f7	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w3f7
+outputFolder:	../				sf_tau_01_wsc_03_f8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w3f8
+outputFolder:	../				sf_tau_001_wsc_03_f6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w3f6
+outputFolder:	../				sf_tau_001_wsc_03_f7	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w3f7
+outputFolder:	../				sf_tau_001_wsc_03_f8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w3f8
+XoutputFolder:	/Volumes/Tank/		sf_tau_01_wfsc_03_f5	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10wf3f5
+XoutputFolder:	/Volumes/Tank/		sf_tau_01_wfsc_03_f6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10wf3f6
+XoutputFolder:	/Volumes/Tank/		sf_tau_01_wfsc_03_f7	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10wf3f7
+outputFolder:	/Volumes/Tank/	sf_tau_01_wsc_05_f6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w5f6
+outputFolder:	/Volumes/Tank/	sf_tau_01_wsc_05_f7	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w5f7
+outputFolder:	/Volumes/Tank/	sf_tau_01_wsc_05_f8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t10w5f8
+outputFolder:	/Volumes/Tank/	sf_tau_001_wsc_05_f6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w5f6
+outputFolder:	/Volumes/Tank/	sf_tau_001_wsc_05_f7	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w5f7
+outputFolder:	/Volumes/Tank/	sf_tau_001_wsc_05_f8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathDamage.txt		t01w5f8
+
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_100_d0_4e-4_sfs0_125	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.100
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_050_d0_4e-4_sfs0_125	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.050
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_010_d0_4e-4_sfs0_125	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.010
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_005_d0_4e-4_sfs0_125	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.005
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.001
+
+
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-01W2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-InfW2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_W6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-01W6
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_InfW6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-InfW6
+
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_a0_8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-01W2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf_a0_8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-InfW2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_a0_8W6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-01W6
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf_a0_8W6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-InfW6
+
+
+
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-01W2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-InfW2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_W6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-01W6
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_InfW6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-InfW6
+
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf_a0_8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-InfW2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_a0_8W6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-01W6
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf_a0_8W6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_a0_8	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-01W2
+
+
+
+
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_a0_8W6		/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-01W6
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf_a0_8W6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-InfW6	
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125			/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-01W2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf		/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-InfW2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_a0_8		/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-01W2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf_a0_8		/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-InfW2
+
+
+
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_a0_8W6		/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-01W6
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf_a0_8W6	/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-InfW6	
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125			/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-01W2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf		/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a2-InfW2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_a0_8		/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-01W2
+outputFolder:	/Volumes/BubnovBK/tsl/		tslInf_s0E_001_d0_4e-4_sfs0_125_Inf_a0_8		/output	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		a8-InfW2
+
+
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/testPlateWidth/		tslInf_s0E_001_d0_4e-4_sfs0_125_08_64_2_22		/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		W2
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/testPlateWidth/		tslInf_s0E_001_d0_4e-4_sfs0_125_08_64_8_22		/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		W8
+
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/testPlateWidth/		tslInf_s0E_001_d0_4e-4_sfs0_125_08_64_8_22		/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		W8
+
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/testPlateWidth/		tslInf_s0E_001_d0_4e-4_sfs0_125_08_64_2_22		/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.001
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/		tslInf_s0E_010_d0_4e-4_sfs0_125_64_64_2_22		/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		i0.010
+
+
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/testPlateWidth/		tslInf_s0E_001_d0_4e-4_sfs0_125_08_64_8_22		/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		W8
+
+
+
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_1000	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc1000
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_0750	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0750
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_0500	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0500
+outputFolder:	/Volumes/GodunovBK/rabedi/project/PTRun/tslNew/		tsl_0250	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSL.txt		fc0250
+
+
+
+outputFolder:	../tsl/		tsl_0250	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSLNew.txt		fc0250
+outputFolder:	../tsl/		tsl_0015625	/outputPP	runParaFolder_p2:	NoRoot prename: runPara_	subconfig:		NoRoot 	subconfigCrackPathTSLNew.txt		fc0015625
+
+
+
+outputFolder:	../physics/outputPPBK/		v_0302_s_00000007/	DTSLInf	runParaFolder_p2:	Auto prename: Auto	subconfig:		NoRoot 	subconfigCrackPathTSLNew.txt		D
+
+
+outputFolder:	../physics/outputPP/		v_0303_s_00000007/	DTSLInf	runParaFolder_p2:	Auto prename: Auto	subconfig:		NoRoot 	subconfigCrackPathTSLNew.txt		TSL

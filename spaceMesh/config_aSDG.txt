@@ -1,0 +1,187 @@
+{
+rootFolderBase  ../../../
+postFolderName  physics
+
+# 1 : min / 2 : ave / 3 : max (of time of front meshes used 
+option 	1 
+
+# where the results are printed
+resultsRoot ../../../matlabResults
+
+# zpp
+# #################################################
+# for the runs that don't have zpp, generate their zpp file
+# WARNING: This takes a long time, if want to process only available results set this to false
+zpp_generate_IfNeeded 	1
+
+# If need to skip runs without zpp, set the following to 0, otherwise some processing operations may fail ...
+zpp_removeInNotHaveIt  	1
+
+# this will be used to generate zpp files if needed
+_configSyncNew
+# options: 
+#	default:	reads it from _config_AllRun.txt
+#	direct: 	reads this file from here
+#	anyOther	e.g. _config_AllRun_Test.txt : reads it from that file
+
+_config_AllRun_TensileY.txt
+
+
+# #################################################
+
+# timehistory configs
+# #################################################
+# if 2 is used below, only timeHistory config files are generated
+
+generateTimeHistoryConfigs		1
+timeHistoryBeginPart			_Config_TH_Begin.vconfig
+timeHistoryEndPart			_Config_TH_End.vconfig
+timeHistoryConfigFolderRoot	MicroTimeHistoryConfig
+timeHistoryOutputFolderRoot	MicroTimeHistory
+timeHistoryMatlabScriptName	MicroTimeHistoryScript
+timeHistoryMatlabLogName		MicroTimeHistoryLog
+# #################################################
+
+
+# front / frontSync configs
+# #################################################
+# if 2 is used below, only timeHistory config files are generated
+
+frontConfigFolderRoot			MicroFrontConfig
+frontOutputFolderRoot			MicroFront
+frontMatlabScriptName			MicroFrontScript
+frontMatlabLogName			MicroFrontLog
+frontSubConfigName 			ConfigSampleDMicro.txt
+
+# #################################################
+
+
+# Summary file, folder, and what will be generated and put in there
+# #################################################
+
+# name of the file where summary will be written (none means that there will be no summary)
+resultsSummaryName summaryFile.txt
+
+# including 0, f, m, initiation stage values
+summaryFileInclude_criticalPts	1
+# first entry corresponding to the last frace of a given run
+summaryFileInclude_lastFrame	1
+
+# copying front, front_sync last / final, and boundingbox files
+copy_front_summary_files			1
+# copying zppBSync files to summary folder
+copy_zpp_files_2_summary_folder		1
+# copying ppBSync files to summary folder
+copy_pp_files_2_summary_folder		1
+
+# WARNING WARNING: these files can be large, expensive to generate (as requires openning all energy files), and require high storage
+# But they are needed for future more streamlined plot operations (comparing different runs)
+# generate combined files (extension will be zcpp (combined zpp)
+generate_combined_zpp_files			1
+
+# #################################################
+
+
+
+  
+runSeparatingNames_PlusLatex
+{	
+	xy				\mathrm{xy}
+	random			l_c^\prime
+	tau				\tau
+	aDot				\dot{a}
+	resolution			\mathrm{res}
+	meshNo			n_\mathrm{mesh}
+	adaptive			\mathrm{adapt}
+	tolerance			\mathrm{tol}
+}
+
+Runs
+{
+
+{ values Micro folder  old_2017_09_29_MicriUST_NA088_tol1em8_infxinf_tau1p16em2_a13 runMap { ( zz	12.23 ) } 	} 
+{ values Micro folder  old_2017_09_29_MicriUST_Atol1em10_NP028_05x05_tau1p16em2_x_a013 runMap {  } 	} 
+{ values Micro folder  old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa runMap {  } 	} 
+{ values { 1 0.05 0.0116	0.13 28 -1 1 0 } folder old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa }
+{ values { 1 0.05 0.0116	0.13 28 0 1 0  } folder old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa }
+{ values { 1 0.05 0.116	0.13 28 -1 0 0 } folder old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa }
+}
+
+
+splitConfig
+
+{
+
+# #################################################
+# split schemes
+splitter
+# number
+5
+# doing nothing - selecting everything
+# 1
+{
+}
+
+# 2
+{
+	dataPoss	
+	# sz	
+	5
+	{	pos		1	vals	{	}	}
+	{	pos		2	vals	{	}	}
+	{	pos		3	vals	{	}	}
+	{	pos		4	vals	{	}	}
+	{	pos		7	vals	{	}	}
+}
+
+# 3
+{
+	dataPoss	
+	# sz	
+	3
+	{	pos		5	vals	{	}	}
+	{	pos		6	vals	{	}	}
+	{	pos		8	vals	{	}	}
+}
+
+# 4
+{
+	dataPoss	
+	# sz	
+	6
+	{	pos		7	vals	{	}	}
+	{	pos		5	vals	{	}	}
+	{	pos		6	vals	{	}	}
+	{	pos		8	vals	{	}	}
+	{	pos		1	vals	{	}	}
+	{	pos		2	vals	{	}	}
+}
+
+# 5
+{
+	dataPoss	
+	# sz	
+	2
+	{	pos		3	vals	{	}	}
+	{	pos		4	vals	{	}	}
+}
+
+
+
+# #################################################
+# outter / middle splitters 
+# numbers in pairs below refer to entries in splitter above
+# first number  is how outter indices of plots are broken down / second number is how the infices of inner curves are broken down
+# first entry (1 1 ) doesn't do anything (chooses everything)
+out_middle
+# number 
+2
+( 2 3 )
+( 4 5 )
+
+# #################################################
+}
+
+
+
+}

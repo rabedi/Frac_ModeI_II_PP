@@ -1,0 +1,92 @@
+# DIRECTORY & FILE NAME ==================================================================
+# NB: '{ }' brace enclosure allows for better free-form reading
+# and safer way to indicate empty runPreName field
+
+runPreName:		{ ../../.. } 
+BaseConfigName:		ConfigSampleLwOverride.txt
+
+# =========================================================================================
+
+
+#{ ========================================================================================
+Each following line should have the following format:
+RunFolder		 list_of_numPlots2generate
+
+Where each 'list_of_numPlots2generate' is in the form:
+
+tag { NumPlots2generate		intervalStart  intervalStep  intervalEnd } 
+OR
+tag -v { NumPlots2generate		list_of_serial_or_time_values } 
+
+NB:
++ tag options (-mesh -sync)
++ 'interval*' or '-v' specified list can be omitted per line as they are 
+   only needed when NumPlots2generate = -3 or -4 otherwise they are skipped.
++ intervals are specified by 'intervalStart  intervalStep  intervalEnd' 
+  declarations following NumPlots2generate.
++ deformation 'scale' option can be used anywhere inside a block with 
+  tag = '-sync' in following format for example:
+    -sync { scale 100.0 NumPlots2generate ... }
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+NumPlots2generate OPTIONS:
+---------------------------------------------------------------------------
+    -1  (last one), 
+    0   (all), 
+    -2  (inactive), 
+    -3  (serial interval(s) specified),
+    -4  (time interval(s) specified)					
+    -5  (mesh serial specified by corresponding sync times/serials) 
+    > 0 (numFrames)
+
+---------------------------------------------------------------------------
+SUPERIMPOSE DOMAINS:
+---------------------------------------------------------------------------
+For parametric study, the superimposed domain option can be used in the following format:
+RunFolder1	-sync  multi N text latexStr1 line { lineSpecs1 } list_of_numPlots2generate
+RunFolder2                 text latexStr2 line { lineSpecs2 }
+...
+RunFolderN                 text latexStrN line { lineSpecsN }
+
+where format of list_of_numPlots2generate is defined above and lineSpecs can be 
+ls <double>         : line style.   e.g. --
+lc <string/[R G B]> : line colour.  e.g. r OR [250 250 0]
+lw <double>         : line width.   e.g. 3.0
+mw <double>         : marker width. e.g. 1.5
+ms <string>         : marker style. e.g. *
+
+for example,
+
+old_2017_01_01tol1E5  -sync  multi 2 text \epsilon_{A}=1E5  line { ls -- } { -3 1 1 5}
+old_2017_01_01tol1E10                text \epsilon_{A}=1E10 line { ls - }
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+OVERRIDE LINEWIDTH BASED ON SPECIIED FLAGS:
+---------------------------------------------------------------------------
+For plots in which line widths need to be overriden based on the edge flag:
+RunFolder1	-sync/-mesh { ___ -f2lw { { key1 value1 } { key2 values2 } ... { keyn valuen } } }
+...
+OR
+RunFolder1	-sync/-mesh { ___ -f2lw { { [ key1 key2 ... keyn ] value1 } } }
+
+where each key or braced '[]' enclosed list of keys is an integer type edge 
+flag and each value is a double type linewidth
+
+for example,
+
+old_2017_01_01tol1E5    -sync { -3 1 1 5 -f2lw { { 6 1.0 } { 8 0.5 } }
+old_2017_01_01tol1E100  -mesh { -3 1 1 5 -f2lw { { [ 9 10 11 ] 23.0 } } }
+
+---------------------------------------------------------------------------
+
+
+(DO NOT REMOVE THE 'start>>' BELOW)
+(TERMINATE ACTIVE LINES WITH 'end' STRING)
+========================================================================================== #}
+start>>
+old_2017_09_22	-sync -v { scale 1.0 -3 100 -f2lw { { 6 1.0 } { 8 0.5 } } }  -mesh { -5 -f2lw { { 6 1.0 } { 8 0.5 } } }
+
+
+end

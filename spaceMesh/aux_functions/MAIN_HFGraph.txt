@@ -1,0 +1,237 @@
+runPreName		../../..
+BaseConfigName		ConfigSampleDebugging.txt
+RunFolder		NumPlots2generate: -1 (last one), 0 (all), -2 (inactive), > 0 (numFrames)
+
+old_2015_12_28  1000
+end
+
+
+old_2016_01_23_HFWell_delU0_graph_PZFrac_Uniform_10 -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_Uniform_25 -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_Uniform_50 -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_30Deg_25   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_30Deg_50   -1
+old_2016_01_13_HFWellNP_Omid3                       -2
+old_2015_12_28_HFWellOldType_Omid                   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac -2
+old_2016_01_23_HFWell_delU0_graph_PZFrac_30Degree   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit_NucOn -2
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit_NucOnRandom   -2
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees      -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees_NucOn    -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees_NucOnRandom  -1
+end
+
+old_2016_01_23_HFWell_delU0_graph_PZFrac	-1
+old_2016_01_23_HFWell_delU0_graph_frac	-1
+old_2016_01_23_HFWell_delU0_graph_off	-1
+old_2016_01_23_HFWell_delU0_graph_off_slip_off	-2
+
+old_2016_01_23_HFWell_delU2_graph_PZFrac	-1
+old_2016_01_23_HFWell_delU2_graph_frac	-1
+old_2016_01_23_HFWell_delU2_graph_off	-1
+old_2016_01_23_HFWell_delU2_graph_off_slip_off	-2
+
+old_2016_01_24_HFMicro_delU0_graph_frac_slipOff	-1
+old_2016_01_24_HFMicro_delU0_graph_frac		-1
+old_2016_01_24_HFMicro_delU0_graph_PZFrac		-1
+old_2016_01_24_HFMicro_delU2_graph_frac		-1
+end
+
+old_2016_01_17_Plate                    -2
+old_2016_01_15_Plate                    -2
+old_2016_01_15_HFWell_PZS_DelUSigma4Damage  -2
+old_2016_01_15_HFWell_PZS                   -2
+
+old_2016_01_13_Micro_density_25_randomAngle -1
+old_2016_01_13_Micro_density_25_30CrackAngle		-1
+old_2016_01_08_Rock						-1
+old_2015_12_28_HFWellOldType				-1
+old_2015_10_12_100_Biased                       -1
+old_2016_01_13_Micro_density_25_30CrackAngle		-1
+old_2016_01_13_HFWellNP					-2
+old_2015_12_28_HFWellNew_pMax_ContPosSide			-1
+old_2015_12_28_HFWellNew_pMax_ContPosSideGraph		-1
+end
+
+
+old_2015_10_12_100_Unbiased_10                  -1
+
+old_2016_01_10_HFWellNewPosSide_0.1_DelUSig4Damage	-1
+old_2016_01_08_HFWellNewPosSide_0.1_DelUSig4Damage	-1
+old_2016_01_08_Rock						-1
+old_2015_12_28						-1
+old_2015_12_30HFMicro					-2
+old_2015_12_30_HFMicro					-1
+old_2015_12_29_Plate_1Crack_DelUSDamage			-1
+old_2015_09_02Plate_1Crack					-1
+old_2015_12_17_100_Graph_C ontactFixed_ContactOff	-1
+old_2015_12_28_HFWellNew_pMax_ContNewSide			-1
+end
+
+old_2015_10_12_100_Unbiased_10BugFixed			-2
+old_2015_12_26ActualRun					-2
+
+old_2015_12_20_HFWell_50			-1
+old_2015_12_17_100_Graph_ContactFixed_ContactOn	-1
+old_2015_10_12_050_UnbiasedBugFixed	-1
+old_2015_10_12_100_Unbiased_10BugFixed	-1
+old_2015_10_12_100_Unbiased_50BugFixed	-1
+
+old_2015_09_30_ramptime_10		-1
+old_2015_09_30_ramptime_100		-1
+old_2015_09_30_ramptime_1000	-1
+
+
+
+old_2015_09_02Plate_1Crack  -2
+
+old_2015_09_02Plate_1Crack	-2
+old_2015_09_02Plate_001		-2
+old_2015_09_02Plate		-2
+
+
+
+old_2015_10_12_100_Biased             -2
+old_2015_10_19Plate_35                         -2
+old_2015_10_19_HFDuarte                 -2
+old_2015_10_12_HFWellNP                 -2
+old_2015_10_12_100_Unbiased_NoNuc             -2
+old_2015_10_12_075_Unbiased             -2
+old_2015_10_12_050_Unbiased             -2
+old_2015_10_12_100_Graph             -2
+old_2015_10_12_050_UnbiasedFixed     -2
+
+old_2015_10_12_100_Unbiased_10             -2
+old_2015_10_12_100_Unbiased_5             -2
+old_2015_10_12_100_Unbiased_1             -2
+
+
+
+old_2015_09_30_4x4_050                  -2
+
+old_2015_08_29HFWellB					-2
+old_2015_08_29HFWell					-2
+old_2015_08_22HFWell_08_27_90Shield_35MinDiff	-2
+old_2015_08_27HFWell					-2
+old_2015_08_22HFWellNP				-2
+old_2015_08_23HFWell					-2
+old_2015_08_22HFWell					-2
+
+
+old_2015_08_23HFWell					-2
+old_2015_08_23HFMicroTestGraph			-2
+old_2015_08_22HFWellNP				-2
+old_2015_08_22HFWell					-2
+old_2015_08_22RockNew				-2
+old_2015_08_22RockOld				-2
+
+old_2015_08_18Microy					-2
+old_2015_08_18Micron30Distinct			-2
+old_2015_08_18MicronAllDistinct			-2
+old_2015_08_18MicronAllUniform			-2
+old_2015_08_18MicronTestGraph			-2
+old_2015_08_18HFTestGraph				-2
+
+
+old_2015_08_14RockOld				-2
+old_2015_08_14HFWellNP				-2
+old_2015_08_18HFTestGraph				-2
+old_2015_08_18HFWell					-2
+old_2015_08_18Micron30Distinct			-2
+old_2015_08_18MicronAllDistinct			-2
+old_2015_08_18MicronAllUniform			-2
+old_2015_08_18MicronTestGraph			-2
+old_2015_08_18Microy					-2
+old_2015_08_18RockNew				-2
+old_2015_08_18RockOld				-2
+
+old_2015_08_14HFDuarte				-2
+old_2015_08_14HFWell					-2
+old_2015_08_14Micron30Distinct			-2
+old_2015_08_14MicronAllDistinct			-2
+old_2015_08_14MicronAllUniform			-2
+old_2015_08_14Microy					-2
+old_2015_08_14RockNew				-2
+
+
+old_2015_08_09HFRockOld				-2
+old_2015_08_09HFDuarte				-2
+old_2015_08_09HFWell					-2
+old_2015_08_09HFWellNP				-2
+old_2015_08_09HFTestGraph				-2
+old_2015_08_09MicronTestGraph			-2
+old_2015_08_09MicronAllAngles			-2
+old_2015_08_09MicronAllAnglesDistinct		-2
+old_2015_08_09Micron30Pref				-2
+old_2015_08_09Microy					-2
+
+
+old_2015_08_01RockOld				-2
+old_2015_08_01RockNew				-2
+old_2015_08_01TestGraph2				-2
+
+old_2015_08_01HFWell					-2
+old_2015_08_01HFWellAllowCompressive		-2
+old_2015_08_01HFWellNew				-2
+
+old_2015_08_01HFWellNP				-2
+
+old_2015_08_01HFDuarte				-2
+
+
+old_2015_08_01DBGraph				-2
+old_2015_08_01DBTestGraph				-2
+old_2015_08_01TestGraph				-2
+
+
+old_2015_08_01TestGraph2				-2
+
+old_2015_08_01RockNew				-2
+old_2015_08_01RockOld				-2
+old_2015_08_01MicroMcy				-2
+old_2015_08_01MicroMcnUniform			-2
+old_2015_08_01MicroMcn30Uniform			-2
+old_2015_08_01MicroMcn30Random			-2
+end
+old_2015_08_01RockFractureNew			-2
+
+old_2015_08_01TestGraph				-2
+old_2015_07_19HFWellNP				-2
+old_2015_07_19HFWellkEffS				-2
+old_2015_07_19Plate					-2
+old_2015_07_19Bar					-2
+old_2015_07_19RockCompressiveOldEffSDBNoDirect	-2
+old_2015_07_19RockCompressiveNewEffSNoMainCrack	-2
+old_2015_07_19HFWellNP				-2
+old_2015_07_19RockCompressiveNewEffS		-2
+old_2015_07_19RockCompressiveOldEffS		-2
+old_2015_07_19HFWellkEffS				-2
+
+
+old_2015_07_19MicroMymy30Deg10NoNuc			-2
+old_2015_07_19MicroMymn30DegUniform			-2
+old_2015_07_19MicroMymnVert2_h6New				-2
+old_2015_07_19TestGraphSegmentationFaultFixedCmntOut	-2
+old_2015_07_19TestGraphSegmentationFaultFixed		-2
+old_2015_07_19HFWellOldAllowComp_NoRRCheck		-2
+old_2015_07_19TestGraphSegmentationFaultB			-2
+old_2015_07_19RockCompressiveNewEffCorrected		-2
+old_2015_07_19HFWellOldAllowComp			-2
+old_2015_07_19RockCompressiveOldEffSDBNoDirect	-2
+old_2015_07_19RockCompressiveOldEffSDBNewDirect	-2
+old_2015_07_19RockCompressiveNewEffSDB		-2
+old_2015_07_19RockCompressiveOldEffSDB		-2
+old_2015_07_19RockCompressive			-2
+
+old_2015_07_19HFWellNosRRCheck			-2
+old_2015_07_19HFWell					-2
+
+old_2015_07_19HFDuarte				-2
+
+MicrocrackNoContact					-2
+
+
+BaseConfigName		ConfigSample.txt
+BaseConfigName		ConfigSampleDebugging.txt

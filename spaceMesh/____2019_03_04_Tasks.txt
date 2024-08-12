@@ -1,0 +1,27 @@
+
+
+look at damage values
+
+raw damage
+
+zppr_d
+
+our damage
+zpp_d
+
+
+plot them versus strain scalar
+
+serial number if needed dis
+zpp_sn
+
+
+zpp_psi_d
+
+
+% look at these quantities too:
+% energy at max load and final stage
+% zpp_cpt_maxsts_psi_d
+ % zpp_cpt_final_psi_d
+% stress at external initiation damage value 
+% zpp_cpt_damageext1_sig_scalar_ny

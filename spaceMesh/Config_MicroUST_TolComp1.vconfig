@@ -1,0 +1,148 @@
+# START_OF_FILE
+{
+#{
+	=============================================================================
+	Configuration File for VDataStat plotting structure
+	
+	Version: 1.0
+	Created: 03/16/2017
+	=============================================================================
+#}
+
+#{
+	=============================================================================
+	Default Plot Specifications
+	=============================================================================
+#}
+_defaults
+{
+	# FIGURE SPECIFICATONS:
+	fig_visible			off
+	fig_fullscreen		no
+	fig_save			yes  { png fig }
+	
+	# LINE SPECIFICATIONS:
+	line_all_spec		{ ms none  mw 3 ls -    	  lw 1.0 }
+	line_bfit_spec		{ ms none 	    ls --   lc k  lw 1.0 }
+	
+	# AXIS SPECIFICATIONS:
+	ax_fontsize			20
+	ax_interpreter		latex
+	ax_tic_active		1
+	ax_grid_on			1
+	ax_xlab_vert_align	top
+	ax_ylab_vert_align	top
+	ax_zlab_vert_align	top
+	ax_x_limit			auto
+	ax_y_limit			auto
+	ax_z_limit			auto	
+	
+	# LEGEND SPECIFICATIONS:
+	leg_location		northeast
+	leg_orientation		vertical
+	leg_in_or_out		outside		
+	leg_fontsize		20
+	leg_interpreter		latex
+	leg_box_on			0
+	leg_box_width		1.0
+}
+	
+#{
+	=============================================================================
+	Data Field Plot Specifications
+	=============================================================================
+#}
+
+#	Index	String  latexSymbol  	LineSpecs    	limitsBool 	limitVals
+_data
+{
+#	0		s00L	\sigma^{L}_{xx}		 { ms o ls - lc b }  [ 0 0 ]  	[ -inf inf ]
+#    1		s00R	\sigma^{R}_{xx}		 { ms o ls - lc r }  [ 0 0 ]  	[ -inf inf ]
+}
+	
+#{
+	=============================================================================
+	Simulation Runs Plot Specifications
+	=============================================================================
+#}
+#	Folder				latexSymbol		LineSpecs
+_runs
+{
+#{
+	old_2017_09_29_MicriUST_Atol1em10_NP00_infxinf_tau1p16em2_x_a013	{Atol10-tau2-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em9_NP00_infxinf_tau1p16em2_x_a013		{Atol9-tau2-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em8_NP00_infxinf_tau1p16em2_x_a013		{Atol8-tau2-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em7_NP00_infxinf_tau1p16em2_x_a013		{Atol7-tau2-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_NA128_NP00_infxinf_tau1p16em2_x_a013		{NA128-tau2-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_NA64_NP00_infxinf_tau1p16em2_x_a013			{NA64-tau2-x-a013-\infty}	{ ls - }
+#}
+
+#{
+	old_2017_09_29_MicriUST_Atol1em10_NP00_infxinf_tau1p16em3_x_a013	{Atol10-tau3-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em9_NP00_infxinf_tau1p16em3_x_a013		{Atol9-tau3-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em8_NP00_infxinf_tau1p16em3_x_a013		{Atol8-tau3-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em7_NP00_infxinf_tau1p16em3_x_a013		{Atol7-tau3-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_NA128_NP00_infxinf_tau1p16em3_x_a013		{NA128-tau3-x-a013-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_NA64_NP00_infxinf_tau1p16em3_x_a013			{NA64-tau3-x-a013-\infty}	{ ls - }
+#}
+
+#{
+	old_2017_09_29_MicriUST_Atol1em10_NP00_infxinf_tau1p16em3_x_a13		{Atol10-tau3-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em9_NP00_infxinf_tau1p16em3_x_a13		{Atol9-tau3-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em8_NP00_infxinf_tau1p16em3_x_a13		{Atol8-tau3-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em7_NP00_infxinf_tau1p16em3_x_a13		{Atol7-tau3-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_NA128_NP00_infxinf_tau1p16em3_x_a13			{NA128-tau3-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_NA64_NP00_infxinf_tau1p16em3_x_a13			{NA64-tau3-x-a13-\infty}	{ ls - }
+#}
+
+
+	old_2017_09_29_MicriUST_Atol1em10_NP00_infxinf_tau1p16em2_x_a13		{Atol10-tau2-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em9_NP00_infxinf_tau1p16em2_x_a13		{Atol9-tau2-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em8_NP00_infxinf_tau1p16em2_x_a13		{Atol8-tau2-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_Atol1em7_NP00_infxinf_tau1p16em2_x_a13		{Atol7-tau2-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_NA128_NP00_infxinf_tau1p16em2_x_a13			{NA128-tau2-x-a13-\infty}	{ ls - }
+	old_2017_09_29_MicriUST_NA64_NP00_infxinf_tau1p16em2_x_a13			{NA64-tau2-x-a13-\infty}	{ ls - }
+
+
+
+}
+
+#{
+	=============================================================================
+	Plot Axis Data
+	=============================================================================
+#}
+#	xData   yData  	singleRunBool    multiRunBool   bestFitBool	  legendLocation
+#	NB: concatenate yy and yyn fields with '|' symbol...e.g. D|p or D|s0
+
+_plots  
+{
+	{ x { e00 }  			y { s00L s00R }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { e11 }  			y { s11T s11B }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }	
+	{ x { time }  			y { measure }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+    { x { time }  			y { D }             srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { time }  			y { EN0501 EN0601 EN0107 EN0108 }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+}
+
+#{
+	=============================================================================
+	APENDIX A: Convention on critical field suffix
+	=============================================================================
+	critXXpXX_i denotes the field i being greater than some critical value XXpXX where 'p'
+	denotes the decimal in a floating point value and index 'i' to field can be found below
+	i	fields_enum
+	0	D 
+	1	cr
+	2	str 
+	3	ba 
+	4	sa 
+	5	ca
+	6	sta
+	7	sla
+	8	pf 
+	9	p 
+	10	df
+	11	ds
+#}
+
+} # END_OF_FILE

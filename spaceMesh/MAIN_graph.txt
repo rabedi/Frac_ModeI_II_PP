@@ -1,0 +1,132 @@
+runPreName		../../..
+BaseConfigName		ConfigSample.txt
+RunFolder		NumPlots2generate: -1 (last one), 0 (all), -2 (inactive), > 0 (numFrames)
+
+
+old_2015_10_12_100_Graph             100
+
+old_2015_09_30_4x4_050                  -2
+
+old_2015_08_29HFWellB					-2
+old_2015_08_29HFWell					-2
+old_2015_08_22HFWell_08_27_90Shield_35MinDiff	-2
+old_2015_08_27HFWell					-2
+old_2015_08_22HFWellNP				-2
+old_2015_08_23HFWell					-2
+old_2015_08_22HFWell					-2
+
+
+old_2015_08_23HFWell					-2
+old_2015_08_23HFMicroTestGraph			-2
+old_2015_08_22HFWellNP				-2
+old_2015_08_22HFWell					-2
+old_2015_08_22RockNew				-2
+old_2015_08_22RockOld				-2
+
+old_2015_08_18Microy					-2
+old_2015_08_18Micron30Distinct			-2
+old_2015_08_18MicronAllDistinct			-2
+old_2015_08_18MicronAllUniform			-2
+old_2015_08_18MicronTestGraph			-2
+old_2015_08_18HFTestGraph				-2
+
+
+old_2015_08_14RockOld				-2
+old_2015_08_14HFWellNP				-2
+old_2015_08_18HFTestGraph				-2
+old_2015_08_18HFWell					-2
+old_2015_08_18Micron30Distinct			-2
+old_2015_08_18MicronAllDistinct			-2
+old_2015_08_18MicronAllUniform			-2
+old_2015_08_18MicronTestGraph			-2
+old_2015_08_18Microy					-2
+old_2015_08_18RockNew				-2
+old_2015_08_18RockOld				-2
+
+old_2015_08_14HFDuarte				-2
+old_2015_08_14HFWell					-2
+old_2015_08_14Micron30Distinct			-2
+old_2015_08_14MicronAllDistinct			-2
+old_2015_08_14MicronAllUniform			-2
+old_2015_08_14Microy					-2
+old_2015_08_14RockNew				-2
+
+
+old_2015_08_09HFRockOld				-2
+old_2015_08_09HFDuarte				-2
+old_2015_08_09HFWell					-2
+old_2015_08_09HFWellNP				-2
+old_2015_08_09HFTestGraph				-2
+old_2015_08_09MicronTestGraph			-2
+old_2015_08_09MicronAllAngles			-2
+old_2015_08_09MicronAllAnglesDistinct		-2
+old_2015_08_09Micron30Pref				-2
+old_2015_08_09Microy					-2
+
+
+old_2015_08_01RockOld				-2
+old_2015_08_01RockNew				-2
+old_2015_08_01TestGraph2				-2
+
+old_2015_08_01HFWell					-2
+old_2015_08_01HFWellAllowCompressive		-2
+old_2015_08_01HFWellNew				-2
+
+old_2015_08_01HFWellNP				-2
+
+old_2015_08_01HFDuarte				-2
+
+
+old_2015_08_01DBGraph				-2
+old_2015_08_01DBTestGraph				-2
+old_2015_08_01TestGraph				-2
+
+
+old_2015_08_01TestGraph2				-2
+
+old_2015_08_01RockNew				-2
+old_2015_08_01RockOld				-2
+old_2015_08_01MicroMcy				-2
+old_2015_08_01MicroMcnUniform			-2
+old_2015_08_01MicroMcn30Uniform			-2
+old_2015_08_01MicroMcn30Random			-2
+end
+old_2015_08_01RockFractureNew			-2
+
+old_2015_08_01TestGraph				-2
+old_2015_07_19HFWellNP				-2
+old_2015_07_19HFWellkEffS				-2
+old_2015_07_19Plate					-2
+old_2015_07_19Bar					-2
+old_2015_07_19RockCompressiveOldEffSDBNoDirect	-2
+old_2015_07_19RockCompressiveNewEffSNoMainCrack	-2
+old_2015_07_19HFWellNP				-2
+old_2015_07_19RockCompressiveNewEffS		-2
+old_2015_07_19RockCompressiveOldEffS		-2
+old_2015_07_19HFWellkEffS				-2
+
+
+old_2015_07_19MicroMymy30Deg10NoNuc			-2
+old_2015_07_19MicroMymn30DegUniform			-2
+old_2015_07_19MicroMymnVert2_h6New				-2
+old_2015_07_19TestGraphSegmentationFaultFixedCmntOut	-2
+old_2015_07_19TestGraphSegmentationFaultFixed		-2
+old_2015_07_19HFWellOldAllowComp_NoRRCheck		-2
+old_2015_07_19TestGraphSegmentationFaultB			-2
+old_2015_07_19RockCompressiveNewEffCorrected		-2
+old_2015_07_19HFWellOldAllowComp			-2
+old_2015_07_19RockCompressiveOldEffSDBNoDirect	-2
+old_2015_07_19RockCompressiveOldEffSDBNewDirect	-2
+old_2015_07_19RockCompressiveNewEffSDB		-2
+old_2015_07_19RockCompressiveOldEffSDB		-2
+old_2015_07_19RockCompressive			-2
+
+old_2015_07_19HFWellNosRRCheck			-2
+old_2015_07_19HFWell					-2
+
+old_2015_07_19HFDuarte				-2
+
+MicrocrackNoContact					-2
+
+
+BaseConfigName		ConfigSample.txt

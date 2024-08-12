@@ -1,0 +1,840 @@
+# DIRECTORY & FILE NAME ==================================================================
+# NB: '{ }' brace enclosure allows for better free-form reading
+# and safer way to indicate empty runPreName field
+# BaseConfigName:		ConfigSampleDnoPFVoronoi_RBH_Damage.txt
+
+runPreName:		{ ../../.. } 
+BaseConfigName:		ConfigSampleDnoPFVoronoi_RBH_Damage_Disp0p25.txt
+#
+=========================================================================================
+
+
+#{ ========================================================================================
+Each following line should have the following format:
+RunFolder		 list_of_numPlots2generate
+
+Where each 'list_of_numPlots2generate' is in the form:
+
+tag { NumPlots2generate		intervalStart  intervalStep  intervalEnd } 
+OR
+tag -v { NumPlots2generate		list_of_serial_or_time_values } 
+
+NB:
++ tag options (-mesh -sync)
++ 'interval*' or '-v' specified list can be omitted per line as they are 
+   only needed when NumPlots2generate = -3 or -4 otherwise they are skipped.
++ intervals are specified by 'intervalStart  intervalStep  intervalEnd' 
+  declarations following NumPlots2generate.
++ deformation 'scale' option can be used anywhere inside a block with 
+  tag = '-sync' in following format for example:
+    -sync { scale 100.0 NumPlots2generate ... }
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+NumPlots2generate OPTIONS:
+---------------------------------------------------------------------------
+    -1  (last one), 
+    0   (all), 
+    -2  (inactive), 
+    -3  (serial interval(s) specified),
+    -4  (time interval(s) specified)					
+    -5  (mesh serial specified by corresponding sync times/serials) 
+    > 0 (numFrames)
+
+---------------------------------------------------------------------------
+SUPERIMPOSE DOMAINS:
+---------------------------------------------------------------------------
+For parametric study, the superimposed domain option can be used in the following format:
+RunFolder1	-sync  multi N text latexStr1 line { lineSpecs1 } list_of_numPlots2generate
+RunFolder2                 text latexStr2 line { lineSpecs2 }
+...
+RunFolderN                 text latexStrN line { lineSpecsN }
+
+where format of list_of_numPlots2generate is defined above and lineSpecs can be 
+ls <double>         : line style.   e.g. --
+lc <string/[R G B]> : line colour.  e.g. r OR [250 250 0]
+lw <double>         : line width.   e.g. 3.0
+mw <double>         : marker width. e.g. 1.5
+ms <string>         : marker style. e.g. *
+
+for example,
+
+old_2017_01_01tol1E5  -sync  multi 2 text \epsilon_{A}=1E5  line { ls -- } { -3 1 1 5}
+old_2017_01_01tol1E10                text \epsilon_{A}=1E10 line { ls - }
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+OVERRIDE LINEWIDTH BASED ON SPECIIED FLAGS:
+---------------------------------------------------------------------------
+For plots in which line widths need to be overriden based on the edge flag:
+RunFolder1	-sync/-mesh { ___ -f2lw { { key1 value1 } { key2 values2 } ... { keyn valuen } } }
+...
+OR
+RunFolder1	-sync/-mesh { ___ -f2lw { { [ key1 key2 ... keyn ] value1 } } }
+
+where each key or braced '[]' enclosed list of keys is an integer type edge 
+flag and each value is a double type linewidth
+
+for example,
+
+old_2017_01_01tol1E5    -sync { -3 1 1 5 -f2lw { { 6 1.0 } { 8 0.5 } }
+old_2017_01_01tol1E100  -mesh { -3 1 1 5 -f2lw { { [ 9 10 11 ] 23.0 } } }
+
+---------------------------------------------------------------------------
+
+
+(DO NOT REMOVE THE 'start>>' BELOW)
+(TERMINATE ACTIVE LINES WITH 'end' STRING)
+========================================================================================== #}
+
+start>>
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat1p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 0.90 1 0.90 }
+end
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 0.90 1 0.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 0.90 1 0.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 0.90 1 0.90 }
+end
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 2.10 1 2.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 2.10 1 2.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 2.10 1 2.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 2.10 1 2.10 }
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 3.30 1 3.30 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 3.30 1 3.30 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 3.30 1 3.30 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 3.30 1 3.30 }
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.05 1 4.05 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.05 1 4.05 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 4.05 1 4.05 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.05 1 4.05 }
+
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.20 1 4.20 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.20 1 4.20 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 4.20 1 4.20 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.20 1 4.20 }
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.50 1 4.50 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.50 1 4.50 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 4.50 1 4.50 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.50 1 4.50 }
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.65 1 4.65 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.65 1 4.65 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 4.65 1 4.65 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 4.65 1 4.65 }
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 5.10 1 5.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 5.10 1 5.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 5.10 1 5.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 5.10 1 5.10 }
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 5.40 1 5.40 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 5.40 1 5.40 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 5.40 1 5.40 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 5.40 1 5.40 }
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 5.85 1 5.85 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 5.85 1 5.85 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 5.85 1 5.85 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 5.85 1 5.85 }
+
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 6.45 1 6.45 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 6.45 1 6.45 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 6.45 1 6.45 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 6.45 1 6.45 }
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 7.50 1 7.50 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 7.50 1 7.50 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 7.50 1 7.50 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 7.50 1 7.50 }
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 8.10 1 8.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 8.10 1 8.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 8.10 1 8.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 8.10 1 8.10 }
+
+end
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 6.90 1 6.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 6.90 1 6.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -5 0 1 49 } -sync { -4 6.90 1 6.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -5 0 1 49 } -sync { -4 6.90 1 6.90 }
+end
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003	-mesh { -1 0 1 49 } -sync { -1 6.90 1 6.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003	-mesh { -1 0 1 49 } -sync { -1 6.90 1 6.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -1 0 1 49 } -sync { -1 6.90 1 6.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage	-mesh { -1 0 1 49 } -sync { -1 6.90 1 6.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003	-mesh { -1 0 1 49 } -sync { -1 6.90 1 6.90 }
+end
+
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 0.90 1 0.90 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 2.10 1 2.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 3.30 1 3.30 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 4.05 1 4.05 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 4.20 1 4.20 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 4.50 1 4.50 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 4.65 1 4.65 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 5.10 1 5.10 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 5.40 1 5.40 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 5.85 1 5.85 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 6.45 1 6.45 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -5 0 1 49 } -sync { -4 6.90 1 6.90 }
+
+end
+
+
+
+
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat1p0New_esizep0003	-mesh { -1 0 1 49 } -sync { -1 1599 1 1599 }
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat2p5New	-mesh { -1 0 1 49 } -sync { -1 1599 1 1599 }
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New	-mesh { -1 0 1 49 } -sync { -1 1599 1 1599 }
+end
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat2p5New	-mesh { -1 0 1 49 } -sync { -1 1599 1 1599 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003 -mesh { -1 0 1 49 } -sync { -1 1599 1 1599 }
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0001	-mesh { -1 0 1 49 } -sync { -1 1599 1 1599 }
+end
+
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001	-mesh { -1 0 1 49 } -sync { -1 1599 1 1599 }
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003	-mesh { -1 0 1 49 } -sync { -1 1599 1 1599 }
+
+
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat5p0New_esizep0003   -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat5New_esizep0003   -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0001   -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat1p25New_esizep0003   -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage   -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+old_2017_09_22_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+
+OWC9
+old_2017_05_05_HFMicro_ku_1_nuc_21_dens50_RBH_Damage	 -mesh { -5 0 1 49 } -sync { 0 0 1 49 }
+old_2017_05_05_HFMicro_noK_1_nuc_21_dens50_RBH_Damage	 -mesh { -5 0 1 49 } -sync { 0 0 1 49 }
+end
+old_2017_05_05_HFMicro_ku_1_nuc_21_dens50_RBH_Damage	 -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_05_05_HFMicro_noK_1_nuc_21_dens50_RBH_Damage	 -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_05_05_HFMicro_kv_1_nuc_21_dens50		 -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+old_2017_05_05_HFMicro_kv_1_nuc_21_dens50		 -mesh { -5 0 1 49 } -sync { 0 0 1 49 }
+
+old_2017_05_05_HFMicro_ku_1_nuc_21_dens50_RBH_Damage	 -mesh { -5 0 1 49 } -sync { 0 0 1 49 }
+
+
+old_2018_12_29_Weibull_loadm1em5_m0p5_mcNew	-mesh { -5 0 1 49 } -sync { -3 207 1 207 }
+old_2018_12_29_Weibull_loadm1em5_m0p5_mcNew	-mesh { -5 0 1 49 } -sync { -3 243 1 243 }
+old_2018_12_29_Weibull_loadm1em5_m0p5_mcNew	-mesh { -5 0 1 49 } -sync { -3 247 1 247 }
+old_2018_12_29_Weibull_loadm1em5_m0p5_mcNew	-mesh { -5 0 1 49 } -sync { -3 485 1 485 }
+old_2018_12_29_Weibull_loadm1em5_m0p5_mcNew	-mesh { -5 0 1 49 } -sync { -3 486 1 486 }
+end
+
+old_2018_12_28_Weibull_loadm1em4_m2p0_mcNew	-mesh { -5 0 1 49 } -sync { -3 713 1 730 }
+end
+
+old_2018_12_29_Weibull_loadm1em5_m0p5_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_29_Weibull_loadm1em5_m1p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_29_Weibull_loadm1em5_m2p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_29_Weibull_loadm1em5_m4p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2019_02_18_Power_Iso_W_Angmod_2xLoad 		-mesh { -3 5143000 1 5143000 } -sync { -3 200 1 200 }
+old_2019_02_18_Power_Aniso_W_Angmod_2xLoad		-mesh { -3 3542000 1 3542000 } -sync { -3 200 1 200 }
+end
+
+old_2019_02_18_Power_Iso_W_Angmod_2xLoad 		-mesh { -3 2000 1 2000 } -sync { -3 7 1 7 }
+old_2019_02_18_Power_Iso_W_Angmod_2xLoad 		-mesh { -3 27000 1 27000 } -sync { -3 103 1 103 }
+old_2019_02_18_Power_Iso_W_Angmod_2xLoad 		-mesh { -3 46000 1 46000 } -sync { -3 111 1 111 }
+old_2019_02_18_Power_Iso_W_Angmod_2xLoad 		-mesh { -3 502000 1 502000 } -sync { -3 141 1 141 }
+old_2019_02_18_Power_Iso_W_Angmod_2xLoad 		-mesh { -3 5538000 1 5538000 } -sync { -3 205 1 205 }
+end
+
+old_2019_02_18_Power_Aniso_W_Angmod_2xLoad		-mesh { -3 2000 1 2000 } -sync { -3 7 1 7 }
+old_2019_02_18_Power_Aniso_W_Angmod_2xLoad		-mesh { -3 27000 5000 32000 } -sync { -3 139 1 139 }
+old_2019_02_18_Power_Aniso_W_Angmod_2xLoad		-mesh { -3 28000 7000 35000 } -sync { -3 141 1 141 }
+old_2019_02_18_Power_Aniso_W_Angmod_2xLoad		-mesh { -3 82000 1 82000 } -sync { -3 151 1 151 }
+end
+
+old_2019_02_18_Power_Aniso_W_Angmod_2xLoad		-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_02_18_Power_Iso_W_Angmod_2xLoad 		-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2019_02_18_Power_Iso_W_Angmod 			-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_02_18_Power_Iso_W_Angmod_3xLoad 		-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_02_18_Power_Iso_W_Angmod_10xLoad 		-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_02_17_Power_Aniso_W_Angmod 			-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_02_18_Power_Aniso_W_Angmod_3xLoad 		-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_02_18_Power_Aniso_W_Angmod_10xLoad 		-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2019_02_17_Power_Aniso_WO_Angmod	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2019_02_17_Power_Aniso_W_Angmod -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_02_17_Power_Aniso_WO_Angmod -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_02_17_Power_Iso_WO_Angmod -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+old_2019_01_02_Weibull_loadp1em4_m2p0_mcNew	-mesh { -3 1400000 50000 1400000 } -sync { -3 378 2 382 }
+end
+old_2018_11_21_Power	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+
+old_2018_12_28_Weibull_loadm1em4_m4p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_28_Weibull_loadm1em4_m2p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2019_01_02_Weibull_loadp1em4_m0p5_mcNew	-mesh { -3 950000 50000 950000 } -sync { -3 192 1 192 }
+old_2019_01_02_Weibull_loadp1em4_m1p0_mcNew	-mesh { -3 1700000 50000 1700000 } -sync { -3 293 1 293 }
+old_2019_01_02_Weibull_loadp1em4_m2p0_mcNew	-mesh { -3 2800000 50000 2800000 } -sync { -3 391 1 391 }
+old_2019_01_02_Weibull_loadp1em4_m4p0_mcNew	-mesh { -3 2450000 50000 2450000 } -sync { -3 507 1 507 }
+old_2019_01_02_Weibull_loadp1em4_m0p5_mcNew	-mesh { -3 300000 50000 300000 } -sync { -3 168 1 168 }
+old_2019_01_02_Weibull_loadp1em4_m1p0_mcNew	-mesh { -3 450000 50000 450000 } -sync { -3 278 1 278 }
+old_2019_01_02_Weibull_loadp1em4_m2p0_mcNew	-mesh { -3 550000 50000 550000 } -sync { -3 373 1 373 }
+old_2019_01_02_Weibull_loadp1em4_m4p0_mcNew	-mesh { -3 750000 50000 750000 } -sync { -3 495 1 495 }
+end
+
+old_2019_01_02_Weibull_loadp1em4_m0p5_mcNew	-mesh { -5 0 1 49 } -sync { -4 76.8 1 76.8 }
+old_2019_01_02_Weibull_loadp1em4_m1p0_mcNew	-mesh { -5 0 1 49 } -sync { -4 117.2 1 117.2 }
+old_2019_01_02_Weibull_loadp1em4_m2p0_mcNew	-mesh { -5 0 1 49 } -sync { -4 156.4 1 156.4 }
+old_2019_01_02_Weibull_loadp1em4_m4p0_mcNew	-mesh { -5 0 1 49 } -sync { -4 202.8 1 202.8 }
+end
+
+old_2018_12_28_Weibull_loadm1em4_m0p5_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_28_Weibull_loadm1em4_m1p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_28_Weibull_loadm1em4_m2p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_28_Weibull_loadm1em4_m4p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+
+old_2019_01_02_Weibull_loadp1em4_m0p5_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_01_02_Weibull_loadp1em4_m1p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_01_02_Weibull_loadp1em4_m2p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2019_01_02_Weibull_loadp1em4_m4p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_12_29_Weibull_loadm1em5_m0p5_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_29_Weibull_loadm1em5_m1p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_29_Weibull_loadm1em5_m2p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_29_Weibull_loadm1em5_m4p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_29_Weibull_loadm1em4_m0p5_mcNew_strsLd	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_29_Weibull_loadm1em4_m1p0_mcNew_strsLd	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_29_Weibull_loadm1em4_m2p0_mcNew_strsLd	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_29_Weibull_loadm1em4_m4p0_mcNew_strsLd	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_28_Weibull_loadm1em4_m2p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_28_Weibull_loadm1em4_m4p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_12_28_Weibull_loadm1em4_m0p5_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_28_Weibull_loadm1em4_m1p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_28_Weibull_loadm1em4_m2p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_28_Weibull_loadm1em4_m4p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_12_25_Weibull_loadm1em4_mNo_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_22_Weibull_loadm1em4_mNo_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_20_Weibull_loadm1em5_m0p5_mcNew    -mesh { -1 0 1 49 } -sync { -3 999 1 999 }
+old_2018_12_20_Weibull_loadm1em3_m0p5_mcNew    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_20_Weibull_loadm1em4_m0p5_mcNew_tau3em1	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_20_Weibull_loadm1em4_m0p5_mcNew_tau3em3	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_16_Weibull_loadm1em4_m0p5_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_16_Weibull_loadm1em4_m1p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_16_Weibull_loadm1em4_m2p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_16_Weibull_loadm1em4_m4p0_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_15_Weibull_loadm1em5_m0p5_mcNew	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_15_Weibull_loadp1em7_m0p5_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_17_Weibull_loadp1em5_m0p5_l2New    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_12_17_Weibull_loadp1em5_m1p0_l2New    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_17_Weibull_loadp1em5_m2p0_l2New    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_17_Weibull_loadp1em5_m4p0_l2New    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+end
+
+old_2018_12_15_Weibull_loadm1em3_m0p5_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_15_Weibull_loadm1em4_m0p5_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_15_Weibull_loadp1em7_m1p0_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_11_Weibull_loadm1em6_m2p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em6_m4p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_12_11_Weibull_loadm1em5_m0p5_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em5_m1p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em5_m2p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em5_m4p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_11_Weibull_loadm1em6_m0p5_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em6_m1p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em6_m2p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em6_m4p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_12_10_Weibull_loadm1em6_m0p5_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_10_Weibull_loadm1em6_m1p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_12_11_Weibull_loadm1em5_m0p5_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em5_m1p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em6_m0p5_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_10_Weibull_loadm1em6_m2p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_10_Weibull_loadm1em6_m4p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_07_Weibull_loadp1em5_m2p0_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_07_Weibull_loadp1em6_m4p0_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_12_11_Weibull_loadm1em5_m4p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+old_2018_12_11_Weibull_loadm1em6_m0p5_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em6_m1p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em6_m2p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em6_m4p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+old_2018_12_11_Weibull_loadm1em5_m0p5_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em5_m1p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_11_Weibull_loadm1em5_m2p0_mc    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+
+old_2018_12_07_Weibull_loadp1em5_m0p5_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_07_Weibull_loadp1em5_m1p0_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_07_Weibull_loadp1em5_m2p0_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_07_Weibull_loadp1em5_m4p0_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_12_07_Weibull_loadp1em6_m0p5_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_07_Weibull_loadp1em6_m1p0_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_07_Weibull_loadp1em6_m2p0_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_12_07_Weibull_loadp1em6_m4p0_l2    -mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_12_02_Power_loadp5pem3_ramp17p5_l2  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_26_Power_loadm5pem3_ramp17p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_26_Power_loadp5pem3_ramp17p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_11_30_Weibull_loadp1em6_m0p5_l2 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_30_Weibull_loadp1em6_m1p0_l2 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_30_Weibull_loadp1em6_m2p0_l2 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_30_Weibull_loadp1em6_m4p0_l2 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_11_30_Weibull_loadp1em5_m0p5_l2 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_30_Weibull_loadp1em5_m1p0_l2 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_30_Weibull_loadp1em5_m2p0_l2 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_30_Weibull_loadp1em5_m4p0_l2 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_11_28_Weibull_loadp1em5_m0p5 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_28_Weibull_loadp1em5_m1p0 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_28_Weibull_loadp1em5_m2p0 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_28_Weibull_loadp1em5_m4p0 	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_26_Weibull_loadm1em5_m0p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_26_Weibull_loadm1em4_m0p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_26_Weibull_loadp1em5_m0p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+
+old_2018_11_26_Power_loadm5pem3_ramp17p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_21_Power  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+old_2018_11_26_Power_loadp5pem3_ramp17p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+
+old_2018_11_26_Weibull_loadm1em5_m0p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_26_Weibull_loadp1em5_m0p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+
+old_2018_11_21_Power_Pressure10xFasterLoad  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_21_WeibullPressurey_3xLoad  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+old_2018_11_21_WeibullTensiley 	-mesh { -1 0 1 49 } -sync { -3 399 1 399 }
+
+old_2018_11_26_Power_loadm5pem3_ramp17p5  	-mesh { -1 0 1 49 } -sync { -1 399 1 399 }
+end
+old_2018_03_01_AnisoStrength_JustinAniso_30DegMild  	-mesh { -1 0 1 49 } -sync { -3 399 1 399 }
+old_2018_03_01_AnisoStrength_JustinAniso_60DegMild  	-mesh { -1 0 1 49 } -sync { -3 399 1 399 }
+end
+old_2018_03_01_AnisoStrength_JustinAniso_0Deg  	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2018_03_01_AnisoStrength_JustinAniso_90DegMild  	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+
+old_2017_03_27HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good_beta0	-mesh -v { -3 2 4 6 9 10 } -sync { -1 0 1 49 }
+old_2017_03_27HFMicroD05_nuc1_pfp3_deltaCont1Deltac_option2_good_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+old_2017_03_27HFMicroD05_nuc1_pf1_deltaCont1Deltac_option2_good_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+
+old_2017_03_27_1x1KL_tolC1em10_tolD1em10_X	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_27HFMicroAlldensp10_nuc12_pfp1_deltaCont1Deltac_option2_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_27HFMicroD05_nuc1_pf1_deltaCont1Deltac_option2_good_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_27HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_27HFMicroD05_nuc1_pfp3_deltaCont1Deltac_option2_good_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_27HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+old_2017_03_30_1x1KL_tolC1em10_tolD1em10_X_corr1div16	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_30_1x1KL_tolC1em10_tolD1em10_X_corr1div2	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_30_1x1KL_tolC1em10_tolD1em10_X_corr1div32	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_30_1x1KL_tolC1em10_tolD1em10_X_corr1div4	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_30_1x1KL_tolC1em10_tolD1em10_X_corr1div64	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_30_1x1KL_tolC1em10_tolD1em10_X_corr1div8	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_30HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_27HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_20HFMicroAlldensp10_nuc12_pfp1_deltaCont1Deltac_option2	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_20HFMicroAlldensp10_nuc12_pfp1_deltaCont1Deltac_option2_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_20HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_20HFMicroD05_nuc1_pfp1_deltaCont1Deltac_option2_good_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_20HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+old_2017_03_20HFMicroD05_nuc1_pf1_deltaCont1Deltac_option2_good_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2017_03_20HFWell_sigmaOpt2_sigmaC1_pfp1_rampt10_nucRandom_limit1_regDefault_1Crc_beta0	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+
+old_2016_06_23_Plate_DelU_k10	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_23_Plate_DelV_k100	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_23_Plate_DelV_k10	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_23_Plate_DelV_k1	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_23_HFWell_DelV_k100_profF1p1	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_21HFWellDelU_k10_ext1.2	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_21HFWellDelU_k10_ext1.1	-mesh { -2 0 1 49 } -sync { -2 0 1 49 }
+end
+
+old_2016_06_16HFWellNP10_12DelU_k10_noGraph	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_16HFWellNP                  	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_17HFWellOriginalOldType_changeDelU_k10_newGeomCohChanges	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_16HFWell10_12DelU_k10_noGraphOldCohBackD -mesh { -2 0 1 49 } -sync { -2 0 1 49 }
+old_2016_06_21HFWellDelU_k10_ext1.2	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_21HFWellDelU_k10_ext1.1	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_21HFWellDelU_k10_ext1.1_crExtPZ	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_16HFWell10_12DelU_k10_noGraphOldCoh	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelU_k10_noGraph	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_16HFWell10_12DelU_k10_noGraph	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_16HFWell10_12DelV_k100_noGraphOldCoh	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_16HFWell10_12DelV_k100_noGraph	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelV_k100_noGraph	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_16_RockNewEffSTau0003	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+
+end
+
+
+old_2016_06_09HFWellOriginalOldType_pMax	-mesh { -2 0 1 49 } -sync { -2 0 1 49 }
+old_2016_06_09HFWellOriginalOldTypefycubNoLim	-mesh { -2 0 1 49 } -sync { -2 0 1 49 }
+old_2016_06_09HFWellOriginalOldTypefyLinNoLim	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWellOriginalNew_GraphFixed	-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_06_09HFWellOriginalOldType		-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+
+old_2016_06_05			-mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWellOriginal        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelU_01tols  -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelU_001tols  -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelU        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelU_k10        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelU_k10_01tols	 -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelU_k100       -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell078_098DelU        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell07_09DelU        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelV        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelV_k10        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelV_k10_01tols -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell10_12DelV_k100        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_30HFWell07_09DelV        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+
+old_2016_05_29HFWell01DelUD09_11square        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_28HFWell01DelUD05_08_cubicfy      -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_28HFWell10DelUD05_08_cubicfy      -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_28HFWell100DelUD05_08_cubicfy     -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_22HFWell01DelUD05_08         	    -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_22HFWell10DelUD05_08         	    -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_28HFWell100DelUD05_08        	    -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_04BKWellDelU            -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_04HFWell   	           -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+
+old_2016_05_21_RockOldEffS          	    -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_21_RockOldEffS6e-3_tau03          -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_21_RockOldEffS6e-3_tau003         -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_21_RockOldEffS6e-3_tau0003        -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_21_RockOldEffSTau03     -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_21_RockNewEffSTau0003     -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_21_RockNewEffSTau03     -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_21_RockNewEffS          -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+old_2016_05_04HFWellDelUD              -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_04HFWellDelVD              -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_05_04                      -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+
+old_2016_04_21_HFWellDelUSigmaD     -mesh { -3 3000000 1000000 17000000 } -sync { -2 0 1 49 }
+end
+old_2016_04_20_HFMicro              -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_04_20_HFWell               -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_04_20_HFWellNP             -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+old_2016_04_20_Rock                 -mesh { -1 0 1 49 } -sync { -1 0 1 49 }
+end
+
+old_2016_03_15_HFWell_100timesLoad  -1
+old_2016_03_15_HFWell_1000timesLoad  -1
+end
+
+old_2016_03_15_HFWellNP_003ms -1
+old_2016_03_15_HFWellNP_03ms -1
+end
+
+old_2016_03_15_HFWellNP -1
+end
+
+old_2016_03_15_HFMicro  -1
+old_2016_03_15_HFWell   -1
+old_2016_03_15_HFWellNP 2
+end
+
+
+old_2015_10_12_HFWellNP     20
+end
+
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit_NucOnRandom_RefArea1000   -1
+
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit_NucOnRandom   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit_NucOnRandom_RefArea10 -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit_NucOnRandom_RefArea1 -1
+
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees      -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees_NucOn_RefArea1000   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees_NucOn_RefArea100   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees_NucOn_RefArea10   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees_NucOn_RefArea1   -1
+
+old_2016_01_23_HFWell_delU0_graph_PZFrac_Uniform_10 -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_Uniform_25 -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_Uniform_50 -1
+
+old_2016_01_23_HFWell_delU0_graph_PZFrac_30Degree   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_30Deg_25   -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_30Deg_50   -1
+
+old_2016_01_23_HFWell_delU0_graph_PZFrac -2
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit_NucOn -2
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit_NucOnRandom   -2
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees_NucOn    -1
+old_2016_01_23_HFWell_delU0_graph_PZFrac_implicit30Degrees_NucOnRandom  -1
+old_2015_12_28_HFWellOldType_Omid                   -1
+old_2016_01_13_HFWellNP_Omid3                       -2
+end
+
+old_2016_01_23_HFWell_delU0_graph_PZFrac	-1
+old_2016_01_23_HFWell_delU0_graph_frac	-1
+old_2016_01_23_HFWell_delU0_graph_off	-1
+old_2016_01_23_HFWell_delU0_graph_off_slip_off	-2
+
+old_2016_01_23_HFWell_delU2_graph_PZFrac	-1
+old_2016_01_23_HFWell_delU2_graph_frac	-1
+old_2016_01_23_HFWell_delU2_graph_off	-1
+old_2016_01_23_HFWell_delU2_graph_off_slip_off	-2
+
+old_2016_01_24_HFMicro_delU0_graph_frac_slipOff	-1
+old_2016_01_24_HFMicro_delU0_graph_frac		-1
+old_2016_01_24_HFMicro_delU0_graph_PZFrac		-1
+old_2016_01_24_HFMicro_delU2_graph_frac		-1
+end
+
+old_2016_01_17_Plate                    -2
+old_2016_01_15_Plate                    -2
+old_2016_01_15_HFWell_PZS_DelUSigma4Damage  -2
+old_2016_01_15_HFWell_PZS                   -2
+
+old_2016_01_13_Micro_density_25_randomAngle -1
+old_2016_01_13_Micro_density_25_30CrackAngle		-1
+old_2016_01_08_Rock						-1
+old_2015_12_28_HFWellOldType				-1
+old_2015_10_12_100_Biased                       -1
+old_2016_01_13_Micro_density_25_30CrackAngle		-1
+old_2016_01_13_HFWellNP					-2
+old_2015_12_28_HFWellNew_pMax_ContPosSide			-1
+old_2015_12_28_HFWellNew_pMax_ContPosSideGraph		-1
+end
+
+
+old_2015_10_12_100_Unbiased_10                  -1
+
+old_2016_01_10_HFWellNewPosSide_0.1_DelUSig4Damage	-1
+old_2016_01_08_HFWellNewPosSide_0.1_DelUSig4Damage	-1
+old_2016_01_08_Rock						-1
+old_2015_12_28						-1
+old_2015_12_30HFMicro					-2
+old_2015_12_30_HFMicro					-1
+old_2015_12_29_Plate_1Crack_DelUSDamage			-1
+old_2015_09_02Plate_1Crack					-1
+old_2015_12_17_100_Graph_C ontactFixed_ContactOff	-1
+old_2015_12_28_HFWellNew_pMax_ContNewSide			-1
+end
+
+old_2015_10_12_100_Unbiased_10BugFixed			-2
+old_2015_12_26ActualRun					-2
+
+old_2015_12_20_HFWell_50			-1
+old_2015_12_17_100_Graph_ContactFixed_ContactOn	-1
+old_2015_10_12_050_UnbiasedBugFixed	-1
+old_2015_10_12_100_Unbiased_10BugFixed	-1
+old_2015_10_12_100_Unbiased_50BugFixed	-1
+
+old_2015_09_30_ramptime_10		-1
+old_2015_09_30_ramptime_100		-1
+old_2015_09_30_ramptime_1000	-1
+
+
+
+old_2015_09_02Plate_1Crack  -2
+
+old_2015_09_02Plate_1Crack	-2
+old_2015_09_02Plate_001		-2
+old_2015_09_02Plate		-2
+
+
+
+old_2015_10_12_100_Biased             -2
+old_2015_10_19Plate_35                         -2
+old_2015_10_19_HFDuarte                 -2
+old_2015_10_12_HFWellNP                 -2
+old_2015_10_12_100_Unbiased_NoNuc             -2
+old_2015_10_12_075_Unbiased             -2
+old_2015_10_12_050_Unbiased             -2
+old_2015_10_12_100_Graph             -2
+old_2015_10_12_050_UnbiasedFixed     -2
+
+old_2015_10_12_100_Unbiased_10             -2
+old_2015_10_12_100_Unbiased_5             -2
+old_2015_10_12_100_Unbiased_1             -2
+
+
+
+old_2015_09_30_4x4_050                  -2
+
+old_2015_08_29HFWellB					-2
+old_2015_08_29HFWell					-2
+old_2015_08_22HFWell_08_27_90Shield_35MinDiff	-2
+old_2015_08_27HFWell					-2
+old_2015_08_22HFWellNP				-2
+old_2015_08_23HFWell					-2
+old_2015_08_22HFWell					-2
+
+
+old_2015_08_23HFWell					-2
+old_2015_08_23HFMicroTestGraph			-2
+old_2015_08_22HFWellNP				-2
+old_2015_08_22HFWell					-2
+old_2015_08_22RockNew				-2
+old_2015_08_22RockOld				-2
+
+old_2015_08_18Microy					-2
+old_2015_08_18Micron30Distinct			-2
+old_2015_08_18MicronAllDistinct			-2
+old_2015_08_18MicronAllUniform			-2
+old_2015_08_18MicronTestGraph			-2
+old_2015_08_18HFTestGraph				-2
+
+
+old_2015_08_14RockOld				-2
+old_2015_08_14HFWellNP				-2
+old_2015_08_18HFTestGraph				-2
+old_2015_08_18HFWell					-2
+old_2015_08_18Micron30Distinct			-2
+old_2015_08_18MicronAllDistinct			-2
+old_2015_08_18MicronAllUniform			-2
+old_2015_08_18MicronTestGraph			-2
+old_2015_08_18Microy					-2
+old_2015_08_18RockNew				-2
+old_2015_08_18RockOld				-2
+
+old_2015_08_14HFDuarte				-2
+old_2015_08_14HFWell					-2
+old_2015_08_14Micron30Distinct			-2
+old_2015_08_14MicronAllDistinct			-2
+old_2015_08_14MicronAllUniform			-2
+old_2015_08_14Microy					-2
+old_2015_08_14RockNew				-2
+
+
+old_2015_08_09HFRockOld				-2
+old_2015_08_09HFDuarte				-2
+old_2015_08_09HFWell					-2
+old_2015_08_09HFWellNP				-2
+old_2015_08_09HFTestGraph				-2
+old_2015_08_09MicronTestGraph			-2
+old_2015_08_09MicronAllAngles			-2
+old_2015_08_09MicronAllAnglesDistinct		-2
+old_2015_08_09Micron30Pref				-2
+old_2015_08_09Microy					-2
+
+
+old_2015_08_01RockOld				-2
+old_2015_08_01RockNew				-2
+old_2015_08_01TestGraph2				-2
+
+old_2015_08_01HFWell					-2
+old_2015_08_01HFWellAllowCompressive		-2
+old_2015_08_01HFWellNew				-2
+
+old_2015_08_01HFWellNP				-2
+
+old_2015_08_01HFDuarte				-2
+
+
+old_2015_08_01DBGraph				-2
+old_2015_08_01DBTestGraph				-2
+old_2015_08_01TestGraph				-2
+
+
+old_2015_08_01TestGraph2				-2
+
+old_2015_08_01RockNew				-2
+old_2015_08_01RockOld				-2
+old_2015_08_01MicroMcy				-2
+old_2015_08_01MicroMcnUniform			-2
+old_2015_08_01MicroMcn30Uniform			-2
+old_2015_08_01MicroMcn30Random			-2
+end
+old_2015_08_01RockFractureNew			-2
+
+old_2015_08_01TestGraph				-2
+old_2015_07_19HFWellNP				-2
+old_2015_07_19HFWellkEffS				-2
+old_2015_07_19Plate					-2
+old_2015_07_19Bar					-2
+old_2015_07_19RockCompressiveOldEffSDBNoDirect	-2
+old_2015_07_19RockCompressiveNewEffSNoMainCrack	-2
+old_2015_07_19HFWellNP				-2
+old_2015_07_19RockCompressiveNewEffS		-2
+old_2015_07_19RockCompressiveOldEffS		-2
+old_2015_07_19HFWellkEffS				-2
+
+
+old_2015_07_19MicroMymy30Deg10NoNuc			-2
+old_2015_07_19MicroMymn30DegUniform			-2
+old_2015_07_19MicroMymnVert2_h6New				-2
+old_2015_07_19TestGraphSegmentationFaultFixedCmntOut	-2
+old_2015_07_19TestGraphSegmentationFaultFixed		-2
+old_2015_07_19HFWellOldAllowComp_NoRRCheck		-2
+old_2015_07_19TestGraphSegmentationFaultB			-2
+old_2015_07_19RockCompressiveNewEffCorrected		-2
+old_2015_07_19HFWellOldAllowComp			-2
+old_2015_07_19RockCompressiveOldEffSDBNoDirect	-2
+old_2015_07_19RockCompressiveOldEffSDBNewDirect	-2
+old_2015_07_19RockCompressiveNewEffSDB		-2
+old_2015_07_19RockCompressiveOldEffSDB		-2
+old_2015_07_19RockCompressive			-2
+
+old_2015_07_19HFWellNosRRCheck			-2
+old_2015_07_19HFWell					-2
+
+old_2015_07_19HFDuarte				-2
+
+MicrocrackNoContact					-2
+
+
+BaseConfigName		ConfigSample.txt
+BaseConfigName		ConfigSampleDebugging.txt
+

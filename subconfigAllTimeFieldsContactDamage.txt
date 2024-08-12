@@ -1,0 +1,729 @@
+1
+XuN	SL
+430		37	
+		51	11	abs	2	52	11	abs	4	53	11	abs	3	54	11	abs	2	55	11	abs	3	
+		56	11	abs	1	57	11	abs	0.05	58	11	abs	0	59	11	abs	3	60	11	abs	1	
+		61	11	abs	4	62	11	abs	1	63	11	abs	1	69	1	abs	7.12921	70	1	abs	6.2278
+		85	1	abs	16e-3	86	1	abs	0.5	
+		401	1	abs	1.0	402	1	abs	0.388153	403	1	abs	5.0	404	1	abs	0.388153	405	1	abs	10.0
+		411	1	abs	0.35	412	1	abs	0.2	413	1	abs	0.5	414	1	abs	0.20	415	1	abs	19.0
+		501	1	abs	1.0	502	1	abs	0.388153	503	1	abs	5.0	504	1	abs	0.388153	505	1	abs	10.0
+		511	1	abs	.35	512	1	abs	0.1	513	1	abs	0.5	514	1	abs	0.1	515	1	abs	30
+
+TimeSlice		38	-1	txt
+StatTimeBrief	38	-1	txt
+15
+30	7	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	3	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {\sigma_0}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	8	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {\sigma^R_0}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	7	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {\sigma^*_0}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld1	3	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        {\sigma_1}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld1	8	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		5	marker	def	1	symbol	-1        {\sigma^R_1}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld1	7	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		6	marker	def	1	symbol	-1        {\sigma^*_1}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	7	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		7	marker	def	1	symbol	-1        {\sigma^*_s}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+
+31	3	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {{\Delta}U_0}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld1	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {{\Delta}U_1}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {|{\Delta}U|}	
+markers	4	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	2
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	1	size	def	12
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	2	size	def	12
+	value		-11004	symbol	1     Max*V_n		marker	def	3	color		def	2	size	def	12
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+
+32	3	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {V_0}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	104	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld1	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {V_1}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	104	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        |V|	
+markers	4	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	2
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	1	size	def	12
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	2	size	def	12
+	value		-11004	symbol	1     Max*V_n		marker	def	3	color		def	2	size	def	12
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	104	1.0	4	0	abs	10.0	
+
+
+35	5
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	10	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {d_{ul}}	
+markers	3	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	2	size	def	12
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	1	size	def	12
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	11	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {Ddot_{ul}}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	2	relF	81	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	13	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {d_s}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	3	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        {s}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	8	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		5	marker	def	1	symbol	-1        {s^R}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+
+36	6
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	10	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {d_{ul}}	
+markers	3	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	2	size	def	12
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	1	size	def	12
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	11	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {Ddot_{ul}}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	2	relF	81	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	12	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {src_d}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	2	relF	81	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	13	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        {s_d}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	3	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		5	marker	def	1	symbol	-1        {s}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	8	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		6	marker	def	1	symbol	-1        {s^R}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+
+
+
+37	8
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	9	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {d}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoARCntct	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {{a_{rc}}=\kappa}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoARStick	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {{a_{rst}}=\eta}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoAASep	0	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		5	marker	def	1	symbol	-1        {{a_s}=d(1-\kappa)}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoAAStick	0	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        {{a_{st}}=d\kappa\eta}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoAASlip	0	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		7	marker	def	1	symbol	-1        {{a_{sl}}=d\kappa(1-\eta)}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoAACntct	0	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		2	marker	def	1	symbol	-1        {{a_c}=d\kappa}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoAABond	0	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		6	marker	def	1	symbol	-1        {{a_b}=1-d+d\kappa\eta}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+
+
+
+
+
+38	3
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	9	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {d}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoARCntct	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {{a_{rc}}=\kappa}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoARStick	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {{a_{rst}}=\eta}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+39	3
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoAASep	0	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		5	marker	def	1	symbol	-1        {{a_s}=d(1-\kappa)}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoAABond	0	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		6	marker	def	1	symbol	-1        {{a_b}=1-d+d\kappa\eta}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		mesoAASlip	0	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		7	marker	def	1	symbol	-1        {{a_{sl}}=d\kappa(1-\eta)}	
+markers	1	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	8
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+51	6	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {{\Delta}U_0}	
+markers	0
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relMax 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld1	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {{\Delta}U_1}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relExt	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {|{\Delta}U|}	
+markers	17	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	2
+	value		-1	symbol	1         PZ1	marker	def	5	color		def	7	size	def	5
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	2	size	def	5
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	5	size	def	5
+	value		-4	symbol	1         PZ4	marker	def	5	color		def	11	size	def	5
+	value		-12204	symbol	1     Max*|V|		marker	def	3	color		def	4	size	def	7
+	value		-11004	symbol	1     Max*V_n		marker	def	7	color		def	4	size	def	5
+
+	value		-12203	symbol	1     Max*|{\sigma}|		marker	def	4	color		def	6	size	def	7
+	value		-12003	symbol	1     Max*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	5
+
+	value		-12200	symbol	1     Max*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	5
+	value		-12000	symbol	1     Max*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	5
+
+	value		-2204	symbol	1     lMax*|V|		marker	def	3	color		def	4	size	def	4
+	value		-1004	symbol	1     lMax*V_n		marker	def	7	color		def	4	size	def	4
+
+	value		-2203	symbol	1     lMax*|{\sigma}|		marker	def	4	color		def	6	size	def	4
+	value		-2003	symbol	1     lMax*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	4
+
+	value		-2200	symbol	1     lMax*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	4
+	value		-2000	symbol	1     lMax*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	4
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relMax 	1.0	4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        {V_0}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relMin 	-1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld1	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		5	marker	def	1	symbol	-1        {V_1}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relExt 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		6	marker	def	1	symbol	-1        |V|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relMax 	1.0	4	0	abs	10.0	
+
+
+52	8	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	1	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {\sigma_C}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	8	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {\sigma_G}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	3	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {\sigma}	
+markers	17	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	2
+	value		-1	symbol	1         PZ1	marker	def	5	color		def	7	size	def	5
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	2	size	def	5
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	5	size	def	5
+	value		-4	symbol	1         PZ4	marker	def	5	color		def	11	size	def	5
+	value		-12204	symbol	1     Max*|V|		marker	def	3	color		def	4	size	def	7
+	value		-11004	symbol	1     Max*V_n		marker	def	7	color		def	4	size	def	5
+
+	value		-12203	symbol	1     Max*|{\sigma}|		marker	def	4	color		def	6	size	def	7
+	value		-12003	symbol	1     Max*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	5
+
+	value		-12200	symbol	1     Max*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	5
+	value		-12000	symbol	1     Max*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	5
+
+	value		-2204	symbol	1     lMax*|V|		marker	def	3	color		def	4	size	def	4
+	value		-1004	symbol	1     lMax*V_n		marker	def	7	color		def	4	size	def	4
+
+	value		-2203	symbol	1     lMax*|{\sigma}|		marker	def	4	color		def	6	size	def	4
+	value		-2003	symbol	1     lMax*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	4
+
+	value		-2200	symbol	1     lMax*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	4
+	value		-2000	symbol	1     lMax*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	4
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	7	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        {\sigma^S}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	10	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        {d_{ul}}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	11	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		2	marker	def	1	symbol	-1        {Ddot_{ul}}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	2	relF	81	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	12	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        {src_D}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	2	relF	81	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	13	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		4	marker	def	1	symbol	-1        {f(y)}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+53	11	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	1	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {\sigma_C}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	8	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {\sigma_G}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	3	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {\sigma}	
+markers	17	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	2
+	value		-1	symbol	1         PZ1	marker	def	5	color		def	7	size	def	5
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	2	size	def	5
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	5	size	def	5
+	value		-4	symbol	1         PZ4	marker	def	5	color		def	11	size	def	5
+	value		-12204	symbol	1     Max*|V|		marker	def	3	color		def	4	size	def	7
+	value		-11004	symbol	1     Max*V_n		marker	def	7	color		def	4	size	def	5
+
+	value		-12203	symbol	1     Max*|{\sigma}|		marker	def	4	color		def	6	size	def	7
+	value		-12003	symbol	1     Max*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	5
+
+	value		-12200	symbol	1     Max*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	5
+	value		-12000	symbol	1     Max*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	5
+
+	value		-2204	symbol	1     lMax*|V|		marker	def	3	color		def	4	size	def	4
+	value		-1004	symbol	1     lMax*V_n		marker	def	7	color		def	4	size	def	4
+
+	value		-2203	symbol	1     lMax*|{\sigma}|		marker	def	4	color		def	6	size	def	4
+	value		-2003	symbol	1     lMax*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	4
+
+	value		-2200	symbol	1     lMax*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	4
+	value		-2000	symbol	1     lMax*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	4
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	7	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        {\sigma^S}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	10	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        {d_{ul}}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	11	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		2	marker	def	1	symbol	-1        {Ddot_{ul}}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	2	relF	81	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	12	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        {src_D}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	2	relF	81	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	13	axis	1	ymaxDist	-0.05
+linespec	style		def	2	color		def		4	marker	def	1	symbol	-1        {f(y)}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	0	axis	1	ymaxDist	-0.05
+linespec	style		def	3	color		def		1	marker	def	1	symbol	-1        {|{\Delta}U|}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relMax 	1.0	4	0	abs	10.0	
+
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		6	marker	def	1	symbol	-1        |V|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relMax 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	4	axis	1	ymaxDist	-0.05
+linespec	style		def	3	color		def		2	marker	def	1	symbol	-1        {V_0}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relMin 	-1.0	4	0	abs	10.0	
+
+
+
+
+
+
+
+
+54	3	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {{\Delta}U_0}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld1	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {{\Delta}U_1}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	0	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {|{\Delta}U|}	
+markers	17	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	2
+	value		-1	symbol	1         PZ1	marker	def	5	color		def	7	size	def	5
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	2	size	def	5
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	5	size	def	5
+	value		-4	symbol	1         PZ4	marker	def	5	color		def	11	size	def	5
+	value		-12204	symbol	1     Max*|V|		marker	def	3	color		def	4	size	def	7
+	value		-11004	symbol	1     Max*V_n		marker	def	7	color		def	4	size	def	5
+
+	value		-12203	symbol	1     Max*|{\sigma}|		marker	def	4	color		def	6	size	def	7
+	value		-12003	symbol	1     Max*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	5
+
+	value		-12200	symbol	1     Max*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	5
+	value		-12000	symbol	1     Max*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	5
+
+	value		-2204	symbol	1     lMax*|V|		marker	def	3	color		def	4	size	def	4
+	value		-1004	symbol	1     lMax*V_n		marker	def	7	color		def	4	size	def	4
+
+	value		-2203	symbol	1     lMax*|{\sigma}|		marker	def	4	color		def	6	size	def	4
+	value		-2003	symbol	1     lMax*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	4
+
+	value		-2200	symbol	1     lMax*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	4
+	value		-2000	symbol	1     lMax*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	4
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+
+55	4	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	1	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {\sigma_C}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	8	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {\sigma_G}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	3	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {\sigma}	
+markers	17	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	2
+	value		-1	symbol	1         PZ1	marker	def	5	color		def	7	size	def	5
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	2	size	def	5
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	5	size	def	5
+	value		-4	symbol	1         PZ4	marker	def	5	color		def	11	size	def	5
+	value		-12204	symbol	1     Max*|V|		marker	def	3	color		def	4	size	def	7
+	value		-11004	symbol	1     Max*V_n		marker	def	7	color		def	4	size	def	5
+
+	value		-12203	symbol	1     Max*|{\sigma}|		marker	def	4	color		def	6	size	def	7
+	value		-12003	symbol	1     Max*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	5
+
+	value		-12200	symbol	1     Max*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	5
+	value		-12000	symbol	1     Max*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	5
+
+	value		-2204	symbol	1     lMax*|V|		marker	def	3	color		def	4	size	def	4
+	value		-1004	symbol	1     lMax*V_n		marker	def	7	color		def	4	size	def	4
+
+	value		-2203	symbol	1     lMax*|{\sigma}|		marker	def	4	color		def	6	size	def	4
+	value		-2003	symbol	1     lMax*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	4
+
+	value		-2200	symbol	1     lMax*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	4
+	value		-2000	symbol	1     lMax*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	4
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	7	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        {\sigma^S}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh	1.0	4	0	abs	10.0	
+
+
+
+56	5	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	9	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        D	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	10	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {d_{ul}}	
+markers	17	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	2
+	value		-1	symbol	1         PZ1	marker	def	5	color		def	7	size	def	5
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	2	size	def	5
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	5	size	def	5
+	value		-4	symbol	1         PZ4	marker	def	5	color		def	11	size	def	5
+	value		-12204	symbol	1     Max*|V|		marker	def	3	color		def	4	size	def	7
+	value		-11004	symbol	1     Max*V_n		marker	def	7	color		def	4	size	def	5
+
+	value		-12203	symbol	1     Max*|{\sigma}|		marker	def	4	color		def	6	size	def	7
+	value		-12003	symbol	1     Max*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	5
+
+	value		-12200	symbol	1     Max*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	5
+	value		-12000	symbol	1     Max*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	5
+
+	value		-2204	symbol	1     lMax*|V|		marker	def	3	color		def	4	size	def	4
+	value		-1004	symbol	1     lMax*V_n		marker	def	7	color		def	4	size	def	4
+
+	value		-2203	symbol	1     lMax*|{\sigma}|		marker	def	4	color		def	6	size	def	4
+	value		-2003	symbol	1     lMax*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	4
+
+	value		-2200	symbol	1     lMax*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	4
+	value		-2000	symbol	1     lMax*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	4
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	11	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        {Ddot_{ul}}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	2	relF	81	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	12	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        {src_D}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	2	relF	81	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	13	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		5	marker	def	1	symbol	-1        {f(y)}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+57	3	
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld0	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        {V_0}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		fld1	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		2	marker	def	1	symbol	-1        {V_1}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+x	colNo		space	0	axis	1	xmaxDist	-0.05	y	colNo		flds	4	axis	1	ymaxDist	-0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        |V|	
+markers	17	
+	value		-12345678	symbol	1	element*Bndry	marker	def	2	color		abs	curveBlack	size	def	2
+	value		-1	symbol	1         PZ1	marker	def	5	color		def	7	size	def	5
+	value		-2	symbol	1         PZ2	marker	def	5	color		def	2	size	def	5
+	value		-3	symbol	1         PZ3	marker	def	5	color		def	5	size	def	5
+	value		-4	symbol	1         PZ4	marker	def	5	color		def	11	size	def	5
+	value		-12204	symbol	1     Max*|V|		marker	def	3	color		def	4	size	def	7
+	value		-11004	symbol	1     Max*V_n		marker	def	7	color		def	4	size	def	5
+
+	value		-12203	symbol	1     Max*|{\sigma}|		marker	def	4	color		def	6	size	def	7
+	value		-12003	symbol	1     Max*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	5
+
+	value		-12200	symbol	1     Max*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	5
+	value		-12000	symbol	1     Max*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	5
+
+	value		-2204	symbol	1     lMax*|V|		marker	def	3	color		def	4	size	def	4
+	value		-1004	symbol	1     lMax*V_n		marker	def	7	color		def	4	size	def	4
+
+	value		-2203	symbol	1     lMax*|{\sigma}|		marker	def	4	color		def	6	size	def	4
+	value		-2003	symbol	1     lMax*{\sigma}_{nn}		marker	def	6	color		def	6	size	def	4
+
+	value		-2200	symbol	1     lMax*|{\Delta}U|	marker	def	11	color		abs	curveBlack	size	def	4
+	value		-2000	symbol	1     lMax*{\Delta}U_n	marker	def	9	color		abs	curveBlack	size	def	4
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relCoh 	1.0	4	0	abs	10.0	
+
+

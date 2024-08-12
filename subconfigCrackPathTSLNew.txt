@@ -1,0 +1,3416 @@
+3
+XuN	SL
+110		28	
+		23	11	abs	0.1	24	11	abs	3.0	25	11	abs	0	26	11	abs	0.0	27	11	abs	1000.0	
+		28	11	abs	4.25	29	11	abs	10.0	40	11	abs	5.75		
+		51	1	abs	1	52	11	abs	3	53	1	abs	2	54	1	abs	2	55	1	abs	2	
+		56	1	abs	2	57	1	abs	20.0	58	11	abs	0	59	11	abs	3	60	11	abs	1	
+		61	11	abs	4	62	11	abs	1	63	11	abs	1	69	1	abs	7.12921	70	1	abs	7.12928501
+		90	11	abs	0.00404418775	91	11	abs	0.00065973		92	11	abs	0.000703337
+		93	1	abs	0.40207	94	1	abs	0.3682			
+
+
+TimeValModified		1	1	txt
+TimeValStat			1	-1	txt
+1
+5	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	space	0	axis	1	ymaxDist	-.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+TimeValCohZone			-1	1	txt
+TimeValCohZoneStat		2	-1	txt
+182
+1	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		space	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	0	relF	98	1.0	4	0	abs	10.0	
+
+2	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+3	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		space	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+
+4	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+6	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	1	axis	1	ymaxDist	0.01
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+7	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	64	1.0	4	0	abs	10.0	
+
+8	1	x	colNo		fldx	0	axis	1	xmaxDist	0.05	y	colNo	 	fldx	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	64	1.0	4	0	abs	10.0	
+
+
+9	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+10	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+11	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+12	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+
+13	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	0	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+14	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	0	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+15	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	0	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+16	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	0	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+
+17	1	x	colNo		fldx	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+18	1	x	colNo		fldx	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+19	
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        pz*size	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	64	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        cpLoad	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relMax	1.0	4	0	abs	10.0	
+
+20	
+1
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	6	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	relMax	1.0	4	0	abs	10.0	
+
+21	
+2
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+22	
+1
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+23	
+2
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        vfm_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+24	
+1
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+25	
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+26	
+2
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+27	
+1
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+28	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        ra_{cr}pzCT	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        ra_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        ra_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        ra_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+
+29	
+8
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	space	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        a_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		5	marker	def	1	symbol	-1        afm_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	-1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        a_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	-3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        a_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        a_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        a_{cr}v0	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		1	marker	def	1	symbol	-1        a_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		3	marker	def	1	symbol	-1        a_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+
+
+30	
+8
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		5	marker	def	1	symbol	-1        vfm_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        v_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        v_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        v_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        v_{cr}v0	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		1	marker	def	1	symbol	-1        v_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		3	marker	def	1	symbol	-1        v_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+
+
+
+
+
+31	
+7
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        ra_{cr}CT	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	-1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        ra_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	-3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        ra_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        ra_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        ra_{cr}v0	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		1	marker	def	1	symbol	-1        ra_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		3	marker	def	1	symbol	-1        ra_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32
+1
+x	colNo		LEFMrsRel	3	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+33
+1
+x	colNo		LEFMrsRel	3	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	0	abs	10.0	
+
+34
+1
+x	colNo		LEFMrsRel	3	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	0	abs	10.0	
+
+
+35
+1
+x	colNo		LEFMrsRel	6	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+
+36
+1
+x	colNo		LEFMrsRel	6	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	0	abs	10.0	
+
+37
+1
+x	colNo		LEFMrsRel	6	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	0	abs	10.0	
+
+
+
+38
+2
+x	colNo		LEFMrsRel	6	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+x	colNo		LEFMTheo	1	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+
+39
+2
+x	colNo		LEFMrsRel	6	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+x	colNo		LEFMrsRel	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	7	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+
+
+
+40
+1
+x	colNo		LEFMrsRel	4	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+
+
+
+
+
+41
+1
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	6	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+42
+1
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	6	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	14	1.0	3	1	relF	14	-1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+43
+2
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	6	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheo	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+44
+2
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	6	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	14	1.0	3	1	relF	14	-1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheo	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	14	1.0	3	1	relF	14	-1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+
+
+
+45
+1
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+46
+2
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheo	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+47
+1
+x	colNo		LEFMgen	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	4	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+48
+2
+x	colNo		LEFMgen	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	4	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		LEFMgen	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheo	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	4	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+49
+1
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	104	1.0		4	1	abs	10.0	
+
+
+50
+1
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	14	1.0	3	1	relF	14	-1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	104	1.0		4	1	abs	10.0	
+
+
+
+
+51
+1
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	5	1.0		4	0	abs	10.0	
+
+52
+1
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	5	1.0		4	0	abs	10.0	
+
+
+
+53	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+
+
+54	1	x	colNo		DspaceDT	0	axis	1	xmaxDist	0.05	y	colNo	 	fldx	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	64	1.0	4	0	abs	10.0	
+
+
+
+
+55	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		space	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+
+56	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		space	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+
+57	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+58	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+59	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	DspaceDT	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+60	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	DspaceDT	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+61	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+62	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+63	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+
+64	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+65	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+66	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+
+
+67	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+68	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+69	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	97	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+
+
+70	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+71	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+72	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+
+73	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+74	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+75	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+
+
+76	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+77	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+78	1	x	colNo		space	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	98	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+
+
+79	1	x	colNo		DspaceDT	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+80	1	x	colNo		DspaceDT	0	axis	1	xmaxDist	-1.0	y	colNo		iFwdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	90	1.0	4	0	abs	10.0	
+
+
+81	1	x	colNo		DspaceDT	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+82	1	x	colNo		DspaceDT	0	axis	1	xmaxDist	-1.0	y	colNo		iFtdms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	91	1.0	4	0	abs	10.0	
+
+
+83	1	x	colNo		DspaceDT	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+84	1	x	colNo		DspaceDT	0	axis	1	xmaxDist	-1.0	y	colNo		iFadms	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	92	1.0	4	0	abs	10.0	
+
+
+
+90	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		space	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	81	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	85	1.0	4	0	abs	10.0	
+
+91	1	x	colNo		time	0	axis	1	xmaxDist	-1.0	y	colNo		space	0	axis	1	ymaxDist	-.15
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	81	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	1	relF	28	1.0	3	1	relF	64	1.0	4	0	abs	10.0	
+
+92	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	1	relF	81	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+93	
+1
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	1	1.0	3	0	relF	81	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+100
+1
+x	colNo		LEFMrsRel	9	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+101
+1
+x	colNo		LEFMrsRelnG	9	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbold	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+
+
+
+102
+1
+x	colNo		LEFMrsRel	9	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	0	abs	10.0	
+
+103
+1
+x	colNo		LEFMrsRelnG	9	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	0	abs	10.0	
+
+
+
+104
+1
+x	colNo		LEFMrsRel	9	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	0	abs	10.0
+
+105
+1
+x	colNo		LEFMrsRelnG	9	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	0	abs	10.0
+
+
+
+
+110
+2
+x	colNo		LEFMrsRel	9	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+x	colNo		LEFMTheoFD	1	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+	
+
+
+
+
+112
+2
+x	colNo		LEFMrsRel	9	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+x	colNo		LEFMrsRel	9	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	7	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+113
+2
+x	colNo		LEFMrsRelnG	9	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+x	colNo		LEFMrsRelnG	9	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	8	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+
+
+
+114
+1
+x	colNo		LEFMrsRel	7	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+115
+1
+x	colNo		LEFMrsRelnG	7	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+
+
+
+
+
+116
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	9	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+117
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	9	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	14	1.0	3	1	relF	14	-1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+118
+2
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	9	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheoFD	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+119
+2
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	9	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	14	1.0	3	1	relF	14	-1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheoFD	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	14	1.0	3	1	relF	14	-1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+120
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	9	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+121
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	9	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	14	1.0	3	1	relF	14	-1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+
+
+
+130
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	7	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+131
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRelnG	7	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+
+132
+2
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	7	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheoFD	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+133
+2
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRelnG	7	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheoFDnG	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+
+
+134
+1
+x	colNo		LEFMgen	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	7	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	4	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+135
+1
+x	colNo		LEFMgen	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRelnG	7	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	4	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+136
+2
+x	colNo		LEFMgen	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	7	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	4	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		LEFMgen	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheoFD	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	4	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+137
+2
+x	colNo		LEFMgen	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRelnG	7	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	4	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		LEFMgen	6	axis	1	xmaxDist	-.05	y	colNo	 	LEFMTheoFDnG	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	4	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+140
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	104	1.0		4	1	abs	10.0	
+
+
+141
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	1	relF	14	1.0	3	1	relF	14	-1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	104	1.0		4	1	abs	10.0	
+
+
+
+
+142
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	5	1.0		4	0	abs	10.0	
+
+143
+1
+x	colNo		DspaceDT	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	5	1.0		4	0	abs	10.0	
+
+
+
+
+
+
+200	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+201	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+202	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	8	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+203	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	12	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	9	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}MaxLoc	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+
+204	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	15	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	12	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}MaxLoc	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+205	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	16	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	13	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}MaxLoc	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+
+206	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+
+
+
+207	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+
+208	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	8	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+209	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	12	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+
+210	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	15	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+
+211	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	16	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	316	1.0	4	0	abs	10.0	
+	
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+212	
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+213	
+2
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+
+214	
+2
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+215	
+2
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+
+216	
+4
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+220
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Stat	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdj	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+221
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	4	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+222
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Stat	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdj	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+223
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	4	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+224
+3
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Stat	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdj	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+225
+3
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	4	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-DynAdjM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdjM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+
+226	
+6
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        vMat_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        vMat_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+
+227	
+6
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        \sigma_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        \sigma_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+
+228	
+6
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	8	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	2	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        \sigmaG_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        \sigmaG_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+
+
+241	
+7
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        rv_{cr}CT	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	-1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        rv_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	-3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        rv_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        rv_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        rv_{cr}v0	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		1	marker	def	1	symbol	-1        rv_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		3	marker	def	1	symbol	-1        rv_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+242
+3
+x	colNo		LEFMrsRel	3	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Mx|v|/vF	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+x	colNo		LEFMrsRel	3	axis	1	xmaxDist	-.05	y	colNo	 	fldx	 0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        VcR	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14		1.0		4	1	abs	10.0	
+
+x	colNo		LEFMrsRel	3	axis	1	xmaxDist	-.05	y	colNo	 	fldx	 1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \Delta/\Delta0	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	64		1.0		4	1	abs	10.0	
+
+243
+3
+x	colNo		LEFMrsRel	6	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Mx|v|/vF	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+x	colNo		LEFMrsRel	6	axis	1	xmaxDist	-.05	y	colNo	 	fldx	 0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        VcR	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14		1.0		4	1	abs	10.0	
+
+x	colNo		LEFMrsRel	6	axis	1	xmaxDist	-.05	y	colNo	 	fldx	 1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \Delta/\Delta0	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	64		1.0		4	1	abs	10.0	
+
+
+244
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        KI-Stat	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	3	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        KI-Dyn	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	4	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        KI-DynM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+245
+7
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Stat	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rs-DynAdj	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdj	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	4	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        rs-DynM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	5	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	2	symbol	-1        rs-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	2	symbol	-1        rsV-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+246
+7
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Stat	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rs-DynAdj	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdj	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	4	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        rs-DynM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	5	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	2	symbol	-1        rs-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	2	symbol	-1        rsV-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+247
+3
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        KI-Stat	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	3	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        KI-Dyn	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	4	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        KI-DynM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+248
+7
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Stat	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rs-DynAdj	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdj	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	4	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        rs-DynM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	5	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	2	symbol	-1        rs-DynAdjM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	2	symbol	-1        rsV-DynAdjM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+
+249
+3
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Stat	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdj	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+250
+3
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	4	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-DynAdjM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrs	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdjM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+
+251
+7
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        rs-Stat	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rs-DynAdj	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdj	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	4	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        rs-DynM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	5	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	2	symbol	-1        rs-DynAdjM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	2	symbol	-1        rsV-DynAdjM	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+252
+3
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        maxVel	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-Dyn	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdj	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+
+261
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        maxVel	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	4	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        rs-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMrsRel	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        rsV-DynAdjM	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+
+
+262	
+6
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}	
+markers	0		
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        vMat_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        vMat_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+
+263	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+
+
+264	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	4	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV0	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        vMat_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	rSDrelF	LEFMgen	6	93	1.0	4	0	abs	10.0	
+
+265	
+6
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        \sigma_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        \sigma_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+
+266	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+
+267	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV2	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigma_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	303	1.0	4	0	abs	10.0	
+
+
+
+268	
+6
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	8	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	2	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        \sigmaG_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        \sigmaG_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+270	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	8	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+
+271	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	8	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV6	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        \sigmaG_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	308	1.0	4	0	abs	10.0	
+
+
+272	
+6
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	12	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	2	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        Dsrc_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        Dsrc_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+
+273	
+6
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	12	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	2	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        Dsrc_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        Dsrc_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+274	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	12	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	9	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}MaxLoc	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+
+275	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	12	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV9	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Dsrc_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	312	1.0	4	0	abs	10.0	
+
+
+
+276	
+6
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	15	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	2	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        DissDot_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        DissDot_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+
+277	
+6
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	15	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	2	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        DissDot_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        DissDot_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+278	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	15	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	12	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}MaxLoc	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+
+279	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	15	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV12	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        DissDot_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	315	1.0	4	0	abs	10.0	
+
+
+280	
+6
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	16	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	2	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        Diss_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        Diss_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+
+281	
+6
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	16	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	2	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        Diss_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	2	symbol	-1        Diss_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+282	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	16	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	13	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}MaxLoc	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+
+283	
+4
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	flds	16	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	0	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+x	colNo		fldx	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcclV13	6	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        Diss_{cr}|\sigmaG|	
+markers	0	
+xflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	13	1.0	4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	relF	316	1.0	4	0	abs	10.0	
+
+
+
+290	
+9
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        vfm_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        v_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	3	symbol	-1        v_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	3	symbol	-1        v_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	10	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	4	symbol	-1        v_{cr}|Ddot-src|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	14	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	5	symbol	-1        v_{cr}|DissDot|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+291	
+9
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	space	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        a_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        afm_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	-1	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        a_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	-3	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		abs		runNo	marker	def	1	symbol	-1        a_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	2	symbol	-1        a_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	3	symbol	-1        a_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	6	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	3	symbol	-1        a_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	10	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	4	symbol	-1        a_{cr}|Ddot-src|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	14	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	5	symbol	-1        a_{cr}|DissDot|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+
+292	
+10
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	space	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        a_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		5	marker	def	1	symbol	-1        afm_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	-1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        a_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	-3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        a_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        a_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        a_{cr}v0	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		1	marker	def	1	symbol	-1        a_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		3	marker	def	1	symbol	-1        a_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	10	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		def		1	marker	def	1	symbol	-1        a_{cr}|Ddot-src|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSV	14	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		def		3	marker	def	1	symbol	-1        a_{cr}|DissDot|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+
+
+293	
+10
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	LEFMgen	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		5	marker	def	1	symbol	-1        vfm_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        v_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        v_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        v_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        v_{cr}v0	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		1	marker	def	1	symbol	-1        v_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		3	marker	def	1	symbol	-1        v_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	10	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		def		1	marker	def	1	symbol	-1        v_{cr}|Ddot-src|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	14	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		def		3	marker	def	1	symbol	-1        v_{cr}|DissDot|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+
+
+
+
+294	
+9
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        ra_{cr}CT	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	-1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        ra_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	-3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        ra_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        ra_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        ra_{cr}v0	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		1	marker	def	1	symbol	-1        ra_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		3	marker	def	1	symbol	-1        ra_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	10	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		def		1	marker	def	1	symbol	-1        ra_{cr}|Ddot-src|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSV	14	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		def		3	marker	def	1	symbol	-1        ra_{cr}|DissDot|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0	4	0	abs	10.0	
+
+
+
+
+295	
+9
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		1	marker	def	1	symbol	-1        rv_{cr}CT	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	-1	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		3	marker	def	1	symbol	-1        rv_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	-3	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		def		4	marker	def	1	symbol	-1        rv_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	0	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		1	marker	def	1	symbol	-1        rv_{cr}|v|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		def		3	marker	def	1	symbol	-1        rv_{cr}v0	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	2	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		1	marker	def	1	symbol	-1        rv_{cr}|\sigma|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	6	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		def		3	marker	def	1	symbol	-1        rv_{cr}|\sigma_G|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	10	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		def		1	marker	def	1	symbol	-1        rv_{cr}|Ddot-src|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcrSD	14	axis	1	ymaxDist	0.05
+linespec	style		def	4	color		def		3	marker	def	1	symbol	-1        rv_{cr}|DissDot|	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+
+
+
+
+
+
+
+TimeValModified		3	1	txt
+TimeValStat			3	-1	txt
+1
+5	1	x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	space	0	axis	1	ymaxDist	-.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        none	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+25	
+3
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	-2	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	-1	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}pzStrt	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcvlV	-3	axis	1	ymaxDist	0.05
+linespec	style		def	3	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}pzEnd	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+26	
+2
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	fldx	0	axis	1	ymaxDist	0.05
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+
+x	colNo		time	0	axis	1	xmaxDist	-.05	y	colNo	 	SlcaSD	-2	axis	1	ymaxDist	0.05
+linespec	style		def	2	color		abs		runNo	marker	def	1	symbol	-1        v_{cr}CT_FD	
+markers	0	
+xflagdata	4	4	1	0	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	0	abs	10.0	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	1	relF	14	1.0	4	0	abs	10.0	
+

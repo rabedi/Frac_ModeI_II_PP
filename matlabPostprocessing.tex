@@ -1,0 +1,313 @@
+\documentclass[10pt]{article}
+
+
+
+\setlength{\textwidth}{7in}
+\setlength{\textheight}{9.3in}
+\setlength{\topmargin}{-1.15in}
+\setlength{\oddsidemargin}{-0.5in}
+\setlength{\evensidemargin}{-0.5in}
+
+
+%\usepackage{tablefootnote}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{xspace}
+\usepackage{subfigure}
+%\usepackage{colortbl}
+\usepackage{arydshln}
+\usepackage[pdftex]{graphicx,color}
+\usepackage[table]{xcolor}
+\usepackage[compact]{titlesec}
+\usepackage{paralist} % for compact enumeration and itemize
+\titlespacing{\section}{0pt}{2ex}{1ex}
+\titlespacing{\subsection}{0pt}{1ex}{0ex}
+\titlespacing{\subsubsection}{0pt}{0.5ex}{0ex}
+
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+\usepackage{macros}
+%\graphicspath{{figures/}}
+
+\def\etal{\textit{et al.\@}\xspace}
+\def\cf{\textit{cf.\@}\xspace}          
+\def\ie{\textit{i.e.,}\xspace}          
+\def\eg{\textit{e.g.,}\xspace}
+\def\etc{\textit{etc.}\@\xspace}
+\newtheorem{remark}{Remark}
+\newcommand{\optarg}[1]{\{#1\}}
+\begin{document}
+
+\title{Postprocessing of contact and fracture surfaces with old SDG code and Matlab}
+%\author{Reza~Abedi}
+%\date{\today}
+
+%\maketitle
+
+%\tableofcontents
+
+
+\section{Field symbols}
+
+
+\begin{table}[t]
+\label{tab:pp-mainGroups}
+\caption{Main groups of fields that can be postprocessed}
+%
+\newlength{\colmA}
+\setlength{\colmA}{2.0cm}
+\newlength{\colmB}
+\setlength{\colmB}{2.6cm}
+\newlength{\colmC}
+\setlength{\colmC}{8.5cm}
+\newlength{\colmD}
+\setlength{\colmD}{2.5cm}
+%
+\begin{center}
+\begin{tabular}{ | p{\colmA} | p{\colmB} | p{\colmC} | p{\colmD} | }
+\hline 
+Group flag & Format & Description & Example \\
+\hline 
+time & time & time value & time \\
+\hline 
+space & space & space value (s) along the contact / fracture surface& space\\
+\hline
+X	& X dirInd & spatial Cartesian coordinate	value & X 1 ($y$) \\
+fld0, fld1, flds &	fld(*) fldIndex	 & fields on fracture surface (u, v, s, \etc) 0, 1 are x,y component; x is combined xy (\eg magnitue, effective stress, \etc) Refer to table \ref{tab:pp-fldInd} & fld0	6 is u(0) \\
+\hline 
+fldx	&	fldx	ctIndex	& Crack tip related values $\quad \rightarrow \quad $ ctIndex = 0 (ctSpeed); = 1 (PZ size); = 2, 3 (COD = crack opening displacement - I guess FD and implicit calculation methods) & fldx 0 	\\
+\hline 
+Slc & SlcXXYZ	N & \textcolor{blue}{Accessing extermum points (\eg max traction, velocity)} and computing values based on them (\eg max velocity itself, displacement at that point, or distant to crack tip & Refer to section \ref{sec:Slc} \\
+\hline 
+DspaceDT & DspaceDT & Crack tip speed using finite difference (compare with fldx 0 which is from implicit function) & \\ 
+\hline 
+DXDT & DXDT dirInd & spatial (w.r.t. X) derivative of a field (?) CHECK THIS & \\ 
+\hline 
+DfldDT & DfldDT fldi(?) & temporal (w.r.t. t) derivative of a field (?) CHECK THIS & \\ 
+\hline 
+mesoARCntct & mesoARCntct & $a_{\mathrm{cr}}$ relative area (regularization) of contact mode  in debonded zone = $\kappa$  & mesoARCntct \\
+\hline  
+mesoAACntct & mesoAACntct & $a_{\mathrm{s}}$ absolute area of contact mode  = $d a_{\mathrm{cr}} = d \kappa $ & mesoAACntct \\
+\hline 
+mesoARSep & mesoARSep & $a_{\mathrm{sr}}$ relative area (regularization) of separation mode  in debonded zone = $1 - \kappa$  & mesoARSep \\
+\hline  
+mesoAASep & mesoAASep & $a_{\mathrm{s}}$ absolute area of separation mode  = $d a_{\mathrm{sr}} = d(1 - \kappa) $ & mesoAASep \\
+\hline 
+mesoARStick & mesoARStick & $a_{\mathrm{str}}$ relative area (regularization) of stick mode in contact zone = $\eta$  & mesoARStick \\
+\hline 
+mesoAAStick & mesoAAStick & $a_{\mathrm{st}}$ absolute area of stick mode  = $\eta d$  & mesoAAStick \\
+\hline 
+mesoARSlip & mesoARSlip & $a_{\mathrm{slr}}$ relative area (regularization) of slip mode in contact zone = $1 - \eta$  & mesoARSlip \\
+\hline 
+mesoAASlip & mesoAASlip & $a_{\mathrm{sl}}$ absolute area of slip mode  = $(1 - \eta) d$  & mesoAASlip \\
+\hline
+mesoAABond & mesoAABond & $a_\mathrm{{st}}$ absolute area of bonded mode (boned + stick parts)  = $\eta d + (1 - d)$  & mesoAABond \\
+\hline 
+iF & iF(XdmY)	Z & Fracture energy related (refer to section \ref{sec:Fracture energy}) & \\
+\hline 
+LEFM* %gen, LEFMrs, LEFMrsRel, LEFMTheo, LEFMTheoFD, LEFMrsnG, LEFMrsRelnG, LEFMTheonG, LEFMTheoFDnG} &
+& - & LEFM comparison solution and relative values w.r.t. damage/cohesive models (Refer to zzz) & - \\
+\hline 
+id & id & id of the given point. specific points CT related points, extremum points, and element boundaries are specified by these flags & id \\
+\hline 
+ID & ID & element ID (useful in zoomed view to see what element produces the values) & ID \\
+\hline 
+normal & normal dirInd & normal vector compoent in dirInd direction & normal 1 ($n_y$) \\
+\hline 
+col & col i & directly access components which as stored as a vector (instead of group name and indices within that) & \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[t]
+\caption{Field indices for fld0, fld1, fldx options in table \ref{tab:pp-mainGroups}}
+\label{tab:pp-fldInd}
+\begin{center}
+\begin{tabular}{ | p{2.0cm} | p{6.0cm} | p{2.5cm} | p{6.0cm} | }
+\hline 
+Field index  & field name in SDG code & field notation & description \\
+\hline 
+0 & coh\_post\_process\_loc\_DelU	& $\Delta \vc u$ & Displacement jump \\
+\hline 
+1 & coh\_post\_process\_loc\_SCoh & $\vc s_d$ & Traction in  D ``damage'' part (cohesive value for TSRs) \\
+\hline 
+2 & coh\_post\_process\_loc\_SOut & $\vc s_{\mathrm{out}}$ & Exterior trace of traction \\
+\hline 
+3 & coh\_post\_process\_loc\_Sin  & $\vc s$ & Interior trace of traction \\
+\hline 
+4 & coh\_post\_process\_loc\_V & $\vc v$ & Velocity \\
+\hline 
+5 & coh\_post\_process\_loc\_DelV & $\Delta \vc v$ & Velocity jump \\
+\hline 
+6 & coh\_post\_process\_loc\_U & $\vc u$ & Displacement \\
+\hline 
+7 & coh\_post\_process\_loc\_Sstar & $\vc s^*$ & Target traction \\
+\hline 
+8 & coh\_post\_process\_loc\_SGodunov & $\vc s^R$ & Riemann (bonded) traction \\
+\hline 
+9 & coh\_post\_process\_loc\_UOut		& $\vc u_{\mathrm{out}}$ & Exterior trace of displacement \\
+\hline 
+9 & coh\_post\_process\_loc\_Damage & $D$ & Damage (note for damage models 9 refers to this, TSR to to $\Delta \vc u$ \\
+\hline 
+10 & coh\_post\_process\_loc\_DamageUC & $D_{\mathrm{uc}}$ & Damage value before limiting between $[0,\  1]$ \\
+\hline 
+11 & coh\_post\_process\_loc\_DamageUCdot & $\dot{D}_{\mathrm{uc}}$ & Rate of damage evolution \\
+\hline 
+12 & coh\_post\_process\_loc\_Damage\_evol\_src & $S_d$ & Damage evolution law source term = $\frac{1}{\tau}[1 - H(<d_s - d>_+)]$\\
+\hline 
+13 & coh\_post\_process\_loc\_Damage\_evol\_force & $d_s$ & Static damage = damage force \\ 
+\hline 
+14 & coh\_post\_process\_loc\_CharacteristicVal & $\vc w, w_i = s_i - Z_i v_i$ & Characteristic value \\
+\hline 
+15 & coh\_post\_process\_loc\_DissDot	& $\dot{E}$	& Rate of energy dissipation on contact/fracture surface \\
+\hline 
+16 & coh\_post\_process\_loc\_Diss & $E$	& Energy dissipation on contact/fracture surface \\
+\hline 
+17 & coh\_post\_process\_loc\_DissDamageDot & $\dot{E}$ &  For damage models\\
+\hline 
+18 & coh\_post\_process\_loc\_DissDamage & $E$ & For damage model\\
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Slc data}\label{sec:Slc}
+Special location data corresponds to maximum/ minimum values and their locations (\eg maximum traction or velocity and their spatial location) or other special positions such as crack tip and end points of process zone size. This option is mostly used in quasi-singular velocity analysis. Not only we can access the location of such points and their values (\eg maximum material speed), but also we can access other field values at these points. For example, at maximum velocity location we can access the corresponding normal traction and compare it with reference tensile strength of the interface. Values of Slc are given as:
+
+\begin{equation}
+\text{SlcXXYZ	N}
+\end{equation}
+where	XX Y Z stand for the following:
+
+\begin{enumerate}		
+\item	XX:
+\begin{enumerate}
+			\item rS:		RELATIVE SPACE which is relative distance of point of interest to beginning and end of FEM process zone
+			\item aS:		absolute SPACE location
+			\item vl:		VALUE	of the requested field
+			\item cl:		COLLECTED data for requested field
+\end{enumerate}
+\item Y:
+\begin{enumerate}
+			\item	V:		VALUE of each given in C1.
+			\item D:		DERIVATIVE (temporal) of each given in C1.
+\end{enumerate}
+\item Z	:	only applies to cl for C1		is the COLLECTED field number
+\item N:		the REQUESTED field number 
+\begin{enumerate}
+			\item N:		= -1, -2, -3	stands for Start, CrackTip, End of process zone size
+			\item N:		$\ge$ 0			stands up for standard requested fields. \textcolor{red}{The positions $N \ge 0$ DO NOT CORRESPOND to table \ref{tab:pp-fldInd}}. They correspond to positions that user specifies in the main config file. See discussion below.
+\end{enumerate}
+\end{enumerate}
+
+Positions are provided by the user in the main config file. For example in configCrackPathNew.txt we have
+{\scriptsize
+\begin{tabular} {cccccccccccccccc}
+Name	&	0	&1&2&3&4&5&6&7&8&9&10&11&12&13&14 \\
+TS\_ReqFldsSymbol				&		flds	&fld0		&flds	&fld0	&flds	&fld0	&flds	&fld0	&flds	&flds	&flds	&flds	&flds	&flds	&flds \\
+TS\_ReqFldsIndex						&4	&4		&3	&3	&7	&7	&8	&8	&11	&12	&13	&14	&15	&16	&0\\
+TS\_ReqFldsFinderType\_p5					&max	&maxAbs	&max	&max	&max	&max	&max	&max	&max	&max	&max	&max	&max	&max	&max
+\end{tabular}
+}
+The first line is not included in the file, but its given here to better see how N's map to particular values. For exampl $N = 0$ corresponds to field 4 (velocity from table \ref{tab:pp-fldInd} and its magnitude $flds$ maximum value (max). 
+
+Useful examples of the uses of Slc:
+\begin{itemize}
+\item SlcvlV -1 ,-2, -3: speeds of end points of process zone (-1, -3) and crack tip (-2).
+\item \textcolor{red}{SlcaSD	-2} crack speed computed by finite difference = aS (spatial location) + D (time derivative) + -2 (crack tip with N = -2).
+\item SlcrSV	0: Relative position (rS) of the position where the value (V) of field 0 (velocity) is maximum (velocity based crack tip) to conventional crack tip location (max stress for TSR and $d = 1^{-1}$ for damage model).
+\item SlcrSV	6: Simlar to previous case the relative position of when Riemann traction is maximum (field 6) to crack tip position. 
+\item SlcaSV	-1 (start of PZ), SlcaSV	-3 (end of PZ), SlcaSV	0 (max $|v|$), SlcaSV	1 (max $v_0$), SlcaSV	2 (max traction), SlcaSV	6 (max Riemann traction). These are all Values (s) of location (aS) of points with given properties. Basically, these are different definitions of crack tip.
+\end{itemize}
+
+\subsection{Fracture energy field (iF)} \label{sec:Fracture energy}
+For Fracture Energy Dissipation Based plots:
+\begin{equation}
+\text{iFXdmY	Z}
+\end{equation}
+	where X, Y, Z are,
+\begin{enumerate}
+\item X = type of energy related quantity:
+	\begin{enumerate}	
+	\item w = 	E = total physical dissipation
+	\item t	= dE / dt = Fracture energy flux
+	\item a = dE / da = Energy Release Rate
+	\end{enumerate}
+\item Y = dimension:
+	\begin{enumerate}
+	\item 0 to DIMENSION (2): referring to individual components.
+	\item s: refers to total value.
+	\end{enumerate}
+\item Z = the integration field number:
+	\begin{enumerate}
+	\item 0: for total macroscopic dissipation
+	\item 1: mesoscopic damage dissipation
+\end{enumerate}
+\end{enumerate}
+
+\subsection{LEFM} \label{sec:LEFM} Refers to comparison LEFM solution. 
+Some notations are:
+\begin{itemize}
+\item	M(MODIFIED): FEM velocity is used
+\item	Adj maximum:  average, 0 degree, 180 degree value is computed
+\item \_nG or nG: means the fact that energy release rate G is not equal to work or separation, $\phi_c$ is taken into account in the computation (G/phic is multiplied in radii computation)
+\end{itemize}
+
+There are four groups	for LEFM fields
+\begin{enumerate}
+\item LEFMgen	Z: Z is one of the following:
+				\begin{enumerate}
+			\item 0:	LEFM lDot			crack velocity
+			\item 1:	LEFM l			crack location 
+			\item 2:	LEFM KI\_stat		static stress intensity factor 
+			\item 3:	LEFM KI\_dyn			dynamic stress intensity factor (based on LEFM calculated velocity)
+			\item 4:	LEFM KI\_dynM		dynamic stress intensity factor (based on FEM calculated velocity)
+			\item 5:	LoadFar 			applied on far plate edge readching to crack surface
+			\item 6:	LoadCrack 			Load that impinges on the crack surface
+			\item 7:	vMax/vForce			This is vMax/vForce we should get based on the value of rp(FEM)/rsv (computed from FEM vel)
+			\item 8:	vMax/vForce\_nG		same as above but with nG
+		\end{enumerate}
+
+		\item LEFMrs	Z		:	Dominance radius of LEFM fields (roughly speaking ~ $(K / s_0)^2)$. Z is one of the following:	
+		\begin{enumerate}
+			\item 0:	r\_stat			derived from KI\_stat
+			\item 1:	r\_StrsDyn			derived from KI\_dyn (stress based)
+			\item 2:	r\_StrsDynAdj		derived from KI\_dyn (stress based) considering teta dependence (through stress terms)
+			\item 3:	r\_VelDynAdj			derived from KI\_dyn (velocity based) considering teta dependence of velocity fields (through stress terms)
+			\item 4:	r\_StrsDynM			same as 1 but velocity is coming from FEM solution
+			\item 5:	r\_StrsDynAdjM		same as 2 but velocity is coming from FEM solution
+			\item 6:	r\_VelDynAdjM		same as 3 but velocity is coming from FEM solution
+			\item 7:	r\_StrsDynMFD		same as 5 but velocity is coming from FEM solution (Finite Difference)
+			\item 8:	r\_StrsDynAdjMFD		same as 6 but velocity is coming from FEM solution (Finite Difference)
+			\item 9:	r\_VelDynAdjMFD		same as 7 but velocity is coming from FEM solution (Finite Difference)
+		\end{enumerate}
+		\item LEFMrsRel	Z	:		$r_p$ / dominace radius of LEFM fields (roughly speaking ~ $(K / s0)^2)$. $r_p$ is process zone size based on cohesive/damage model and denominator and Z numbering are exactly the same as previous part:
+				\item LEFMTheo	Z:			Theoretical computations in this order. These are the following rations (except 4) against (modified FEM) crack velocity: 
+		\begin{enumerate}
+			\item rp = process zone size
+			\item rss = dynamic stress dominance radius
+			\item rsv = dynamic velocity dominance radius
+			\item $r_stat$ = static stress dominance radius
+			\item vMax = maximum material velocity (normal to crack surface for mode I) observed.
+			\end{enumerate}
+			That is the ratios are:
+			\begin{enumerate}
+			\item 0:	rprss				rp / rss
+			\item 1:	rprsv				rp / rsv
+			\item 2:	vMax2sigFrce2Crho		vMax / (sigmaForce / (cd rho))
+			\item 3:	vMax2cD			vMax / cd 
+			\item 4:	rsvrss			rsv / rss
+			\item 5:	rstat\_rss			r\_stat / rss
+			\item 6:	cohProcessZoneSize	rp
+			\end{enumerate}
+\item LEFMTheoFD	Z			Same as B4 but quantities are computed based on FD crack velocities.
+\item group 6 to 9 are the same as groups 2. to 6 but whenever applicable the computation is corrected by nG term.
+  			for names just add 'nG' at the end of the name, e.g. LEFMTheoFD $\rightarrow$ LEFMTheoFDnG.
+\end{enumerate}
+\subsection{Further information}: For more information on construction of field values refer to 
+\href{run:SUBCONFIG_LEGEND.txt}{SUBCONFIG\_LEGEND.txt}.
+\end{document}
+

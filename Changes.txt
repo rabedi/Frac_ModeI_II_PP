@@ -1,0 +1,66 @@
+Factors of 0.5 errors are NOT fixed in the postprocessor, rather these issues were changed in the physics code to their (x 0.5) wrong values. 
+So ignore factors of 0.5 message below
+
+
+21	vLoad		
+	Old:	load from one side
+	New:	velocity obtained from characteristic value = w0 / Z0 
+		Change: New is correct, Old is actually HALF the load 
+			We NEED to correct where this is used in Matlab and use HALF of the value being currently used to make it work correctly
+		I will multiply MatlabOldValue by 2
+
+22	sLoad
+		Same story
+		Change old approach is wrong (Multiply old output by 2 and divide its use in Matlab by 2)
+
+
+25	LoadApplication type
+	Old	0 vel, 1 stress, stress w type 2
+	New	0 vel, 1 stress, STRESS W TYPE 1 (so in new code there is NO DIFFERENCE BETWEEN STRESS LOAD AND W LOAD). 
+	I NEED TO CHANGE THIS BY TREATING TYPE 1 as TYPE 2 in NEW MATLAB because all my BCs are W
+
+Can add Load increment type (constant (w), linear, step 1-0(stress), step 0-1-2-3-... (velocity)) as load profile in
+data 
+41 (mode I)
+51 (mode II)
+
+80	sigmaDamage / sigmaC 	Old	-1 (seems incorrect)
+				New	1  (correct)
+			Change: don't think I need to change it
+82	a	damage model	Old -1 (cohesive model)
+				New 1
+			Change: No need to change
+
+
+85	lC
+				Old	0.0064197530864197518	formula cd tauC, tauC = deltaC * Z / sigmaC
+				New	0.010873127313836181	formula E phiC / sigmaC^2
+			Change: No change: both are scales I don't think we need to change as this variable should be used in matlab PP anyway
+
+
+115	coh_post_process_loc_DissDot
+				Old wrong	0.042200234852310663 is in fact energyTotal NOT Dot
+				New correct	0.00033077626130622191	calculates correct value
+
+			Change: Either fix the old code or do nothing
+117	coh_post_process_loc_DissDamageDot
+				Old	0.042200234852310663
+				New	0.00033077626130622191
+			Change: same as before
+
+118 -1 (old) 1 (new) with choesive model. No need to change it
+
+
+150 DisplaceLoad scale in general	
+				Old wrong it's actually strain scale! 	0.012499999999999999
+								uScale(i, 1) = l[i] / E;
+				New correct
+					150	name	disp_uC_uBarBulkI	1	abs	0.002730356528132282
+			Change: Do nothing
+
+151, ... stress scales, ... are factor of 2 difference. new one is the correct value
+
+
+
+
+Some normalizations are 0 (bulk loads in mode II in a pure mode I case). Need to be careful with such regularizations in Matlab

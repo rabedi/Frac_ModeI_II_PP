@@ -1,0 +1,249 @@
+# START_OF_FILE
+{
+#{
+	=============================================================================
+	Configuration File for VDataStat plotting structure
+	
+	Version: 1.0
+	Created: 03/16/2017
+	=============================================================================
+#}
+
+#{
+	=============================================================================
+	Default Plot Specifications
+	=============================================================================
+#}
+_defaults
+{
+	# FIGURE SPECIFICATONS:
+	fig_visible			off
+	fig_fullscreen		no
+	fig_save			yes  { png fig eps }
+	
+	# LINE SPECIFICATIONS:
+	line_all_spec		{ ms none  mw 3 ls -    	  lw 1.0 }
+	line_bfit_spec		{ ms none 	    ls --   lc k  lw 1.0 }
+	
+	# AXIS SPECIFICATIONS:
+	ax_fontsize			20
+	ax_interpreter		latex
+	ax_tic_active		1
+	ax_grid_on			1
+	ax_xlab_vert_align	top
+	ax_ylab_vert_align	top
+	ax_zlab_vert_align	top
+	ax_x_limit			auto
+	ax_y_limit			auto
+	ax_z_limit			auto	
+	
+	# LEGEND SPECIFICATIONS:
+	leg_location		northeast
+	leg_orientation		vertical
+	leg_in_or_out		outside		
+	leg_fontsize		20
+	leg_interpreter		latex
+	leg_box_on			0
+	leg_box_width		1.0
+}
+
+
+#{
+	=============================================================================
+	New Config File for Sigma Epsilon, ... plots (2019)
+	=============================================================================
+#}
+
+_configSyncNew
+# options: 
+#	default:	reads it from _config_AllRun.txt
+#	direct: 	reads this file from here
+#	anyOther	e.g. _config_AllRun_Test.txt : reads it from that file
+
+default
+
+#{
+	=============================================================================
+	Data Field Plot Specifications
+	=============================================================================
+#}
+
+#	Index	String  latexSymbol  	LineSpecs    	limitsBool 	limitVals
+_data
+{
+	0		D		D			 { ms o    ls - }  [ 0 0 ]  	[ -inf inf ]
+	1		s0		\sigma_{0}	 { ms * ls - }  [ 0 0 ]  	[ -inf inf ]
+    2       pf      p_{frac}     { ms +  }         [ 0 0 ]      [ -inf inf ]
+}
+	
+#{
+	=============================================================================
+	Simulation Runs Plot Specifications
+	=============================================================================
+#}
+#	Folder				latexSymbol		LineSpecs
+_runs
+{
+	old_2017_09_29_MicriUST_NA064_NP00_infxinf_tau1ep16em2_x_a013 	{xithal64}  { ms s ls - }	{	( serialMax	399 )	( timeMax 9.975 ) ( serialMin	0 ) }
+}
+
+#{
+	=============================================================================
+	Plot Axis Data
+	=============================================================================
+#}
+#	xData   yData  	singleRunBool    multiRunBool   bestFitBool	  legendLocation
+#	NB: concatenate yy and yyn fields with '|' symbol...e.g. D|p or D|s0
+
+_plots  
+{
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_stssh_xx zpr_stssh_yy }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx_ny }  			y { zpr_stssh_xx_ny zpp_d zpr_stn_rel }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_scalar_d_mean zpr_fraca_scalar_cr_mean	zpr_fraca_scalar_str_mean }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_scalar_sa_mean zpr_fraca_scalar_sla_mean zpr_fraca_scalar_sta_mean }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_scalar_d_max zpr_fraca_scalar_cr_max	zpr_fraca_scalar_str_max }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_scalar_sa_max zpr_fraca_scalar_sla_max zpr_fraca_scalar_sta_max }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_dynerr_rel zpr_dynerr_ind0 zpr_dynerr_ind1 zpr_dynerr_ind2 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fpow_rel }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fpow_indn zpr_fpow_indt }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_mean }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_r zpr_fraca_angle_stat_len_sdiv }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_sym_len_mean }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_sym_len_r zpr_fraca_angle_stat_sym_len_sdiv }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_mean  zpr_fraca_angle_stat_sym_len_mean  }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_r zpr_fraca_angle_stat_sym_len_r }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_fraca_angle_stat_len_sdiv zpr_fraca_angle_stat_sym_len_sdiv }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_stssh_xx zpr_stssh_yy }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar_ny }  			y { zpp_sig_scalar_ny zpp_d zppr_stn_rel zpp_ddot_ny }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar_ny }  			y { zpp_psi_t zpp_psi_r zpp_psi_d }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar_ny }  			y { zpp_psi_t_npsif zpp_psi_r_npsif zpp_psi_d_npsif }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpp_sn 	zpp_sv	zpp_eps_scalar_ny } 			y { zppr_fpow	zppr_fpow_indn zppr_fpow_indt }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial 	zpr_time	zpr_stnst_xx }  			y { zpr_dcracklength zpr_fraca_scalar_d_len_revind0 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+}
+
+#{
+	=============================================================================
+	APENDIX A: Convention on critical field suffix
+	=============================================================================
+	critXXpXX_i denotes the field i being greater than some critical value XXpXX where 'p'
+	denotes the decimal in a floating point value and index 'i' to field can be found below
+	i	fields_enum
+	0	D 
+	1	cr
+	2	str 
+	3	ba 
+	4	sa 
+	5	ca
+	6	sta
+	7	sla
+	8	pf 
+	9	p 
+	10	df
+	11	ds
+#}
+
+} # END_OF_FILE
+
+	old_2017_09_29_MicriUST_NA064_NP00_infxinf_tau1ep16em2_x_a13			 	{xithah64}  { ms p ls - }
+	old_2017_09_29_MicriUST_NA064_NP00_infxinf_tau1ep16em3_x_a013		 	{xitlal64}  { ms o ls - }
+	old_2017_09_29_MicriUST_NA064_NP00_infxinf_tau1ep16em3_x_a13			 	{xitlah64}  { ms * ls - }
+
+
+
+
+	{ x { e00 }  			y { s00L s00R }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{ x { zpp_sn }  			y { zpr_fraca_scalar_d_mean	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_eps_scalar }  			y { zpr_fraca_scalar_d_mean	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_time }  			y { zpr_fraca_scalar_d_mean }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial }  			y { zpr_fraca_scalar_d_mean }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpp_sn }  			y { zpr_fraca_scalar_d_max	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_eps_scalar }  			y { zpr_fraca_scalar_d_max	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_time }  			y { zpr_fraca_scalar_d_max }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial }  			y { zpr_fraca_scalar_d_max }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpp_sn }  			y { zpr_dcracklength	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_eps_scalar }  			y { zpr_dcracklength	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_time }  			y { zpr_dcracklength }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial }  			y { zpr_dcracklength }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpp_sn }  			y { zppr_stn_rel	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_eps_scalar }  			y { zppr_stn_rel	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_time }  			y { zpr_stn_rel }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial }  			y { zpr_stn_rel }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_time }  			y { zpp_d }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_sn }  			y { zpp_d }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial }  			y { zpp_d }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_eps_scalar }  			y { zpp_d }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpr_time }  			y { zpp_sig_scalar }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_sn }  			y { zpp_sig_scalar }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_serial }  			y { zpp_sig_scalar }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_eps_scalar }  			y { zpp_sig_scalar }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+	{ x { zpp_sn }  			y { zpp_sig_scalar  zpp_d zppr_stn_rel	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpp_eps_scalar }  			y { zpp_sig_scalar  zpp_d zppr_stn_rel	 }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_dcracklength }  			y { zpp_d }		srun 1 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+	{ x { zpr_serial }  			y { zpr_stssh_xx  }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+	{ x { zpr_stnst_xx }  			y { zpr_stssh_xx zpr_stssh_yy }		srun 0 		mrun 1		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+
+	{ x { zpp_sn  	zpp_eps_scalar }  			y { zpp_sig_scalar zpp_d }		srun 1 		mrun 0		bfit 0		legloc northeast  suffix { ldnum_all } }
+
+
+
+
+
+
+	old_2017_09_29_MicriUST_NA064_NP00_infxinf_tau1ep16em2_x_a013B 	{xithal64B}  { ms s ls - }	{	( serialMax	300 )	( timeMax 9.975 ) ( serialMin	0 ) }

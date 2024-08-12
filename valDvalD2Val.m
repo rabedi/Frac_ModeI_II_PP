@@ -1,0 +1,9 @@
+function [val, Dval, D2val] = valDvalD2Val(fhandle, x)
+h = 1e-6;
+val = fhandle(x);
+xm1 = x - h;
+xp1 = x + h;
+vm1 = fhandle(xm1);
+vp1 = fhandle(xp1);
+Dval = 1/2/h * (vp1 - vm1);
+D2val = (vp1 + vm1 - 2 * val) / h / h;

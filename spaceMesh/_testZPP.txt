@@ -1,0 +1,89 @@
+{
+
+# components of strain or stress
+# strain
+zppr_stnst_xx
+ # stress
+zppr_stssh_yy
+
+# strain and stress can be added
+zpp_eps_scalar
+zpp_sig_scalar
+#
+
+
+# feed in damage damage
+zppr_d
+
+
+# our homogenized damage
+zpp_d
+
+# rate of it
+zpp_ddot
+
+# cpt_all (all critical points first)
+
+# ################################	ALL critical points	
+#  	##########################		All fields (matrix)
+# all crit points, all fields: a matrix, processed data
+zpp_cpt_all_allfields
+# all crit points, all fields: a matrix, raw data
+zppr_cpt_all_allfields
+
+#  	##########################		Specific fields (column vector)
+
+# all crit points, psi_t field, a vector of size of critical points
+zpp_cpt_all_psi_t
+# all crit points, psi_t field, a vector of size of critical points, this one has their corresponding stresses, normalized by sigmaC
+zpp_cpt_all_sig_scalar_ny
+# all crit points, damage value from raw data
+zppr_cpt_all_d
+
+# ################################	Single critical point
+#  	##########################		All fields (row vector)
+
+
+#### now a single critical point, for example corresponding maximum stress
+zpp_cpt_maxsts_allfields
+
+# same example, now for initiation pooint, normalized fields
+zpp_cpt_homogdini_allfields_ny
+
+
+# same as above, but for external damage initiation point 0
+zpp_cpt_damageext1_allfields_ny
+
+
+# getting all fields corresponding to raw data, critical point
+zppr_cpt_damageext1_allfields
+
+
+#  	##########################		Specific value (scalar)
+# maximum stress value normalized
+zpp_cpt_maxsts_sig_scalar_ny
+
+# maximum stress pt, it's strain value normalized
+zpp_cpt_maxsts_eps_scalar_ny
+
+# Damage at max load
+zpp_cpt_maxsts_d
+
+# ratio of psi_t/psi_t_total for this point
+zpp_cpt_maxsts_psi_t_npsif
+
+# damage initiation point - stress normalized
+zpp_cpt_homogdini_sig_scalar_ny
+
+# damage initiation point - strain normalized
+zpp_cpt_homogdini_eps_scalar_ny
+
+# failure point, strain normalized
+zpp_cpt_fulldamage_eps_scalar_ny
+
+
+
+# specific value of raw data, stress, at damage initiation external 1
+zpp_cpt_damageext1_sig_scalar
+
+}

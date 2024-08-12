@@ -1,0 +1,24 @@
+# START_OF_FILE
+#{
+	=============================================================================
+	Configuration File for Multi VDataStat plotting structure
+	
+	Version: 1.0
+	Created: 12/19/2017
+	=============================================================================
+#}
+# FORMAT: <VDataStat configuration file without extension> <descriptor for organizing plots into subfolder>
+# e.g.  : CONFIG_SAMPLE 		Atol1e9_tau1p16em3_x_a13
+#
+# MOVE 'end' TO INDICATE END OF READING LOCATION
+# << START
+
+Config_MicroUST_05x05_tau1p16em2_a13  	05x05_tau1p16em2_a13
+Config_MicroUST_05x05_tau1p16em2_x_a13  05x05_tau1p16em2__x_a13
+
+end
+
+Config_MicroUST_05x05_tau1p16em2_a013  05x05_tau1p16em2_a013
+
+end
+# __EOF__

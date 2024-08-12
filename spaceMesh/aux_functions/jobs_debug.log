@@ -1,0 +1,206 @@
+SINGLE_RUN[36]:
+ ID:[ 01 02 03 05 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 ]
+axNo.  01  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn_0  latex  
+axNo.  01  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn_1  latex  
+axNo.  01  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn  latex  
+axNo.  02  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_bc4_int_un_yy  latex  
+axNo.  02  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_bc4_int_un_xy  latex  
+axNo.  03  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_bc4_int_sn_y  latex  
+axNo.  03  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_bc4_int_sn_x  latex  
+axNo.  05  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn_0  latex  
+axNo.  05  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn_1  latex  
+axNo.  05  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn  latex  
+axNo.  07  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_mean_scalar1  latex  
+axNo.  07  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_max_scalar1  latex  
+axNo.  08  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn  latex  
+axNo.  08  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn  latex  
+axNo.  09  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn_rel  latex  
+axNo.  09  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn_rel  latex  
+axNo.  10  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_mean_scalar1  latex  
+axNo.  10  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_max_scalar1  latex  
+axNo.  10  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_mean_scalar1  latex  
+axNo.  10  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_max_scalar1  latex  
+axNo.  11  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0101  latex  
+axNo.  11  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0501  latex  
+axNo.  11  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0601  latex  
+axNo.  11  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0701  latex  
+axNo.  11  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0107  latex  
+axNo.  11  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0108  latex  
+axNo.  12  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0101  latex  
+axNo.  12  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0501  latex  
+axNo.  12  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0601  latex  
+axNo.  12  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0107  latex  
+axNo.  13  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0107  latex  
+axNo.  13  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0108  latex  
+axNo.  14  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0102  latex  
+axNo.  14  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0502  latex  
+axNo.  14  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0602  latex  
+axNo.  15  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0103  latex  
+axNo.  16  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0104  latex  
+axNo.  17  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0106  latex  
+axNo.  18  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0108  latex  
+axNo.  18  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0208  latex  
+axNo.  18  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0308  latex  
+axNo.  19  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0109  latex  
+axNo.  19  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0209  latex  
+axNo.  19  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0309  latex  
+axNo.  20  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_stssh_xx  latex  
+axNo.  20  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_stssh_yy  latex  
+axNo.  21  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_stssh_xx  latex  
+axNo.  21  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_stssh_yy  latex  
+axNo.  22  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stssh_xx  latex  
+axNo.  22  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stssh_yy  latex  
+axNo.  23  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_stssh_xx_ny  latex  
+axNo.  23  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpp_d  latex  
+axNo.  23  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_stn_rel  latex  
+axNo.  24  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_stssh_xx_ny  latex  
+axNo.  24  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpp_d  latex  
+axNo.  24  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_stn_rel  latex  
+axNo.  25  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stssh_xx_ny  latex  
+axNo.  25  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpp_d  latex  
+axNo.  25  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stn_rel  latex  
+axNo.  26  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpp_d  latex  
+axNo.  26  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stn_rel  latex  
+axNo.  27  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_d_mean  latex  
+axNo.  27  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_cr_mean  latex  
+axNo.  27  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_str_mean  latex  
+axNo.  28  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_d_mean  latex  
+axNo.  28  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_cr_mean  latex  
+axNo.  28  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_str_mean  latex  
+axNo.  29  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_d_mean  latex  
+axNo.  29  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_cr_mean  latex  
+axNo.  29  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_str_mean  latex  
+axNo.  30  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sa_mean  latex  
+axNo.  30  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sla_mean  latex  
+axNo.  30  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sta_mean  latex  
+axNo.  31  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sa_mean  latex  
+axNo.  31  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sla_mean  latex  
+axNo.  31  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sta_mean  latex  
+axNo.  32  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sa_mean  latex  
+axNo.  32  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sla_mean  latex  
+axNo.  32  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sta_mean  latex  
+axNo.  33  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_d_max  latex  
+axNo.  33  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_cr_max  latex  
+axNo.  33  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_str_max  latex  
+axNo.  34  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_d_max  latex  
+axNo.  34  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_cr_max  latex  
+axNo.  34  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_str_max  latex  
+axNo.  35  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_d_max  latex  
+axNo.  35  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_cr_max  latex  
+axNo.  35  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_str_max  latex  
+axNo.  36  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sa_max  latex  
+axNo.  36  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sla_max  latex  
+axNo.  36  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sta_max  latex  
+axNo.  37  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sa_max  latex  
+axNo.  37  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sla_max  latex  
+axNo.  37  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sta_max  latex  
+axNo.  38  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sa_max  latex  
+axNo.  38  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sla_max  latex  
+axNo.  38  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sta_max  latex  
+MULTI_RUN[105]:
+ ID:[ 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 ]
+axNo.  01  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn_0  latex  P_n^I
+axNo.  02  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn_1  latex  P_t^I
+axNo.  03  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn  latex  P^I
+axNo.  04  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_bc4_int_un_yy  latex  {\Delta}u_y
+axNo.  05  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_bc4_int_un_xy  latex  {\Delta}u_x
+axNo.  06  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_bc4_int_sn_y  latex  P_y
+axNo.  07  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_bc4_int_sn_x  latex  P_x
+axNo.  08  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  zpr_bc4_int_un_yy  latex  {\Delta}u_y  ydata  zpr_bc4_int_sn_y  latex  P_y
+axNo.  09  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn_0  latex  P_n^T
+axNo.  10  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn_1  latex  P_t^T
+axNo.  11  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn  latex  P^T
+axNo.  12  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn_rel  latex  P_{t2n}^T
+axNo.  13  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_mean_scalar1  latex  D_{\mathrm{mean}}^T
+axNo.  14  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_max_scalar1  latex  D_{\mathrm{max}}^T
+axNo.  15  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn  latex  P^T
+axNo.  16  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn  latex  P^I
+axNo.  17  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_int_vsn_rel  latex  P_{t2n}^T
+axNo.  18  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_int_vsn_rel  latex  P_{t2n}^I
+axNo.  19  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_mean_scalar1  latex  D_{\mathrm{mean}}^T
+axNo.  20  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac6_max_scalar1  latex  D_{\mathrm{max}}^T
+axNo.  21  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_mean_scalar1  latex  D_{\mathrm{mean}}^I
+axNo.  22  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_0  xdata  time  latex  t  ydata  zpr_frac9_max_scalar1  latex  D_{\mathrm{max}}^I
+axNo.  23  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0101  latex  \mathcal{E}^{o}
+axNo.  24  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0501  latex  K^{o}
+axNo.  25  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0601  latex  U^{o}
+axNo.  26  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0701  latex  P^{o}
+axNo.  27  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0107  latex  \Delta^{\mathcal{P}}
+axNo.  28  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0108  latex  \Delta^{\mathcal{N}}
+axNo.  29  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0101  latex  \mathcal{E}^{o}
+axNo.  30  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0501  latex  K^{o}
+axNo.  31  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0601  latex  U^{o}
+axNo.  32  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0107  latex  \Delta^{\mathcal{P}}
+axNo.  33  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0107  latex  \Delta^{\mathcal{P}}
+axNo.  34  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0108  latex  \Delta^{\mathcal{N}}
+axNo.  35  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0102  latex  \mathcal{E}^{{IC}}
+axNo.  36  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0502  latex  K^{{IC}}
+axNo.  37  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0602  latex  U^{{IC}}
+axNo.  38  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0103  latex  \mathcal{E}^{{BC}}
+axNo.  39  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0104  latex  \mathcal{E}^{i}
+axNo.  40  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0106  latex  \Delta^{\mathcal{I}}
+axNo.  41  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0108  latex  \Delta^{\mathcal{N}}
+axNo.  42  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0208  latex  \Delta_{t}^{\mathcal{N}}
+axNo.  43  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0308  latex  \Delta_{x}^{\mathcal{N}}
+axNo.  44  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0109  latex  \Delta^{\mathcal{T}}
+axNo.  45  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0209  latex  \Delta_{t}^{\mathcal{T}}
+axNo.  46  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  bflag_all  xdata  time  latex  t  ydata  EN0309  latex  \Delta_{x}^{\mathcal{T}}
+axNo.  47  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_stssh_xx  latex  \sigma_{xx}
+axNo.  48  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_stssh_yy  latex  \sigma_{yy}
+axNo.  49  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_stssh_xx  latex  \sigma_{xx}
+axNo.  50  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_stssh_yy  latex  \sigma_{yy}
+axNo.  51  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stssh_xx  latex  \sigma_{xx}
+axNo.  52  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stssh_yy  latex  \sigma_{yy}
+axNo.  53  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_stssh_xx_ny  latex  \sigma_{xx}/\tilde{\sigma}
+axNo.  54  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpp_d  latex  D
+axNo.  55  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_stn_rel  latex  \bar{\epsilon}_{cr}/\bar{\epsilon}
+axNo.  56  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_stssh_xx_ny  latex  \sigma_{xx}/\tilde{\sigma}
+axNo.  57  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpp_d  latex  D
+axNo.  58  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_stn_rel  latex  \bar{\epsilon}_{cr}/\bar{\epsilon}
+axNo.  59  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stssh_xx_ny  latex  \sigma_{xx}/\tilde{\sigma}
+axNo.  60  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpp_d  latex  D
+axNo.  61  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stn_rel  latex  \bar{\epsilon}_{cr}/\bar{\epsilon}
+axNo.  62  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpp_d  latex  D
+axNo.  63  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_stn_rel  latex  \bar{\epsilon}_{cr}/\bar{\epsilon}
+axNo.  64  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_d_mean  latex  {E}(D)
+axNo.  65  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_cr_mean  latex  {E}(\eta)
+axNo.  66  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_str_mean  latex  {E}(\gamma)
+axNo.  67  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_d_mean  latex  {E}(D)
+axNo.  68  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_cr_mean  latex  {E}(\eta)
+axNo.  69  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_str_mean  latex  {E}(\gamma)
+axNo.  70  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_d_mean  latex  {E}(D)
+axNo.  71  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_cr_mean  latex  {E}(\eta)
+axNo.  72  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_str_mean  latex  {E}(\gamma)
+axNo.  73  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sa_mean  latex  {E}(a_\mathrm{S})
+axNo.  74  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sla_mean  latex  {E}(a_\mathrm{SL})
+axNo.  75  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sta_mean  latex  {E}(a_\mathrm{ST})
+axNo.  76  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sa_mean  latex  {E}(a_\mathrm{S})
+axNo.  77  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sla_mean  latex  {E}(a_\mathrm{SL})
+axNo.  78  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sta_mean  latex  {E}(a_\mathrm{ST})
+axNo.  79  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sa_mean  latex  {E}(a_\mathrm{S})
+axNo.  80  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sla_mean  latex  {E}(a_\mathrm{SL})
+axNo.  81  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sta_mean  latex  {E}(a_\mathrm{ST})
+axNo.  82  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_d_max  latex  \mathrm{max}(D)
+axNo.  83  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_cr_max  latex  \mathrm{max}(\eta)
+axNo.  84  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_str_max  latex  \mathrm{max}(\gamma)
+axNo.  85  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_d_max  latex  \mathrm{max}(D)
+axNo.  86  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_cr_max  latex  \mathrm{max}(\eta)
+axNo.  87  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_str_max  latex  \mathrm{max}(\gamma)
+axNo.  88  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_d_max  latex  \mathrm{max}(D)
+axNo.  89  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_cr_max  latex  \mathrm{max}(\eta)
+axNo.  90  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_str_max  latex  \mathrm{max}(\gamma)
+axNo.  91  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sa_max  latex  \mathrm{max}(a_\mathrm{S})
+axNo.  92  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sla_max  latex  \mathrm{max}(a_\mathrm{SL})
+axNo.  93  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_serial  latex  \mathrm{serial\ number}  ydata  zpr_fraca_scalar_sta_max  latex  \mathrm{max}(a_\mathrm{ST})
+axNo.  94  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sa_max  latex  \mathrm{max}(a_\mathrm{S})
+axNo.  95  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sla_max  latex  \mathrm{max}(a_\mathrm{SL})
+axNo.  96  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_time  latex  t  ydata  zpr_fraca_scalar_sta_max  latex  \mathrm{max}(a_\mathrm{ST})
+axNo.  97  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sa_max  latex  \mathrm{max}(a_\mathrm{S})
+axNo.  98  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sla_max  latex  \mathrm{max}(a_\mathrm{SL})
+axNo.  99  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  zpr_stnst_yy  latex  \epsilon_{yy}  ydata  zpr_fraca_scalar_sta_max  latex  \mathrm{max}(a_\mathrm{ST})
+axNo.  100  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  time  latex  t  ydata  measure  latex  L
+axNo.  101  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  time  latex  t  ydata  D  latex  D
+axNo.  102  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  time  latex  t  ydata  EN0501  latex  K^{o}
+axNo.  103  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  time  latex  t  ydata  EN0601  latex  U^{o}
+axNo.  104  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  time  latex  t  ydata  EN0107  latex  \Delta^{\mathcal{P}}
+axNo.  105  folder  old_2017_12_13_VoronoiY_loadp5_ramTime100_FracRat2p5New_esizep0003_RBH_Damage  suff  ldnum_all  xdata  time  latex  t  ydata  EN0108  latex  \Delta^{\mathcal{N}}

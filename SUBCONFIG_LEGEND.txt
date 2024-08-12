@@ -1,0 +1,206 @@
+relCoh	normalized by cohesive normalizer
+relLoad	normalized by load normalizer
+relMax	value scaled by absMax of the current slab, x (corresponding field)
+absMax	by absoluteMax of the field
+relMin
+absMin
+relExt	max of abs value of min max relative to slab
+absExt		// 						total run
+relMaxCrd  value is equal to the coordinate of current maximum coord, ... (component of coordinate is given as the parameter)
+absMaxCrd
+relMinCrd
+absMinCrd
+relAve	average values	
+absAve
+
+
+
+
+Area fraction symbols are as follows (and self-explanatory)
+mesoARSep
+mesoAASep
+mesoARCntct
+mesoAACntct
+mesoARSlip
+mesoAASlip
+mesoARStick
+mesoAAStick
+mesoAABond
+
+
+
+Field symbols:
+
+general ones are referred by fld0, fld1, flds
+A.	iFXdmY	Z								Fracture Energy Related
+	For Fracture Energy Dissipation Based plots:
+	Symbol is:
+	iFXdmY	Z
+
+	where X is one of the following options:
+	w	E = total physical dissipation
+	t	dE / dt = Fracture energy flux
+	a	dE / da = Energy Release Rate
+
+	Y is dimension
+	0 - DIMENSION are referring to individual components
+	s refers to total value
+
+	Z if the integration field number
+	0 is for total macroscopic dissipation
+	1 for mesoscopic damage dissipation
+
+B.	LEFM										LEFM fracture related fields
+	M(MODIFIED) = FEM velocity is used
+	Adj maximum, average, 0 degree, 180 degree value is computed
+	_nG or nG means the fact that energy release rate G is not equal to work or separation, \phi_c is taken into account in the computation (G/phic is multiplied in radii computation)
+	There are four groups	
+		B1.	LEFMgen	Z		General information	
+			Z is one of the following:
+				
+			0:	LEFM lDot			crack velocity
+			1:	LEFM l			crack location 
+			2:	LEFM KI_stat		static stress intensity factor 
+			3:	LEFM KI_dyn			dynamic stress intensity factor (based on LEFM calculated velocity)
+			4:	LEFM KI_dynM		dynamic stress intensity factor (based on FEM calculated velocity)
+			5:	LoadFar 			applied on far plate edge readching to crack surface
+			6:	LoadCrack 			Load that impinges on the crack surface
+			7:	vMax/vForce			This is vMax/vForce we should get based on the value of rp(FEM)/rsv (computed from FEM vel)
+			8:	vMax/vForce_nG		same as above but with nG
+		
+
+		B2.	LEFMrs	Z			dominace radius of LEFM fields (roughly speaking ~ (K / s0)^2)	
+			Z is one of the following:
+				
+			0:	r_stat			derived from KI_stat
+			1:	r_StrsDyn			derived from KI_dyn (stress based)
+			2:	r_StrsDynAdj		derived from KI_dyn (stress based) considering teta dependence (through \Sigma terms)
+			3:	r_VelDynAdj			derived from KI_dyn (velocity based) considering teta dependence of velocity fields (through \Sigma terms)
+			4:	r_StrsDynM			same as 1 but velocity is coming from FEM solution
+			5:	r_StrsDynAdjM		same as 2 but velocity is coming from FEM solution
+			6:	r_VelDynAdjM		same as 3 but velocity is coming from FEM solution
+			7:	r_StrsDynMFD		same as 5 but velocity is coming from FEM solution (Finite Difference)
+			8:	r_StrsDynAdjMFD		same as 6 but velocity is coming from FEM solution (Finite Difference)
+			9:	r_VelDynAdjMFD		same as 7 but velocity is coming from FEM solution (Finite Difference)
+
+		B3.	LEFMrsRel	Z			r_p / dominace radius of LEFM fields (roughly speaking ~ (K / s0)^2)	
+			here r_p is process zone size based on cohesive/damage model and denominator and Z numbering are exactly the same as previous part
+				
+		B4.	LEFMTheo	Z			Theoretical computations in this order.
+								are ratios (except 4).
+								against (modified FEM) crack velocity 
+								rp = process zone size
+								rss = dynamic stress dominance radius
+								rsv = dynamic velocity dominance radius
+								r_stat = static stress dominance radius
+								vMax = maximum material velocity (normal to crack surface for mode I) observed
+
+			0:	rprss				rp / rss
+			1:	rprsv				rp / rsv
+			2:	vMax2sigFrce2Crho		vMax / (sigmaForce / (cd rho))
+			3:	vMax2cD			vMax / cd 
+			4:	rsvrss			rsv / rss
+			5:	rstat_rss			r_stat / rss
+			6:	cohProcessZoneSize	rp
+
+		B5.	LEFMTheoFD	Z			Same as B4 but quantities are computed based on FD crack velocities.
+
+		B6. to B9 are the same as B2. to B6 but whenever applicable the computation is corrected by nG term.
+  			for names just add 'nG' at the end of the name, e.g. 
+			
+				LEFMTheoFD -> LEFMTheoFDnG
+			 
+C.	SlcXXYZ	N
+	Where	XX Y Z stand for the following:
+		
+		C1.	XX is:
+			rS		RELATIVE SPACE which is relative distance of point of interest to begining and end of FEM process zone
+			aS		absolute SPACE location
+			vl		VALUE	of the requested field
+			cl		COLLECTED data for requested field
+		C2.	Y is:
+			V		VALUE of each given in C1.
+			D		DERIVATIVE of each given in C1.
+		C3.	Z		only applies to cl for C1		is the COLLECTED field number
+		C4.	N		the REQUESTED field number 
+			N		= -1, -2, -3	stands for Start, CrackTip, End of process zone size
+			N		>= 0			stands up for standard requested fields 
+
+
+
+NOTES for quasi singular plots:
+
+NEVER DEACTIVATE or REMOVE or MODIFY the first plot for time slices, otherwise things may break
+
+These data flag numbers are used specifically for regression data rane in front (f) and back(b) of the x0 (core of singularity).
+mn stands for min and mx for max
+    indcmnf = 11;
+    indcmxf = 12;
+    indcmnb = 13;
+    indcmxb = 14;
+
+example is:
+3	1	x	colNo		space	0	axis	1	xmaxDist	1000	y	colNo		flds	4	axis	1	ymaxDist	-1
+linespec	style		def	1	color		abs		runNo	marker	def	1	symbol	-1        runSym	
+markers	1	
+value		-12345678	symbol	1	element*boundary	marker	def	2	color		abs	curveBlack	size	def	5
+xflagdata	14	8	1	1	abs	1	2	1	relF	70   1.0	3	0	abs	1.0		4	1	abs	10.0
+				11	1	abs	-3.9	12	1	abs	-1.25	13	1	abs	-3.9	14	1	abs	-1.25	
+yflagdata	4	4	1	1	abs	1	2	0	abs	0.0	3	0	abs	1.0		4	1	abs	10.0	
+
+
+These are the options generally used for xflagdata:
+
+	A)	for computing the location of x0: the goal is given the location of max velocity and max stress we compute the core of singularity as a 
+		point given by these two coordinate:
+		xv = location of maximum velocity
+		xs = location of maximum stress
+		r  = a relative distance factor that for (r = 0, x0 = xs, r = 1, x0 = xv)
+			
+			x0 = (1 - r) * xs + r * xv
+		
+		The input for this type of coordinate is:
+		
+			pzloc		r	
+		
+			r: described above
+
+			These two options are derived for the type of quasi-singular plot requested:
+					velComp	crackOrientation
+			velComp: which velocity is studied for quasi-singular behavior: 0,1, 2 are options (2 means vel magnitude)
+			crackOrientation:	if crack is in x, or y direction 0 for x, 1 for y	
+	
+	B)	for radii relative to x0:
+			indcmnf = 11;		front min radii
+			indcmxf = 12;		front max radii
+		    	indcmnb = 13;		back  min radii
+    			indcmxb = 14;		back  max radii
+		we may give them as fractions of process zone size:
+
+		format is:
+
+			pzsize	r
+		and the resulting value is:
+			log_base(pzdize * r) where base is the base log used for x - x0 computation.
+
+values used for above arguments are given in subconfig file:
+
+4xx	v0
+	401-5		from my analytical estimates
+	411-5		best fit results
+500	|v|
+	501-5		from my analytical estimates
+	511-5		best fit results
+
+xx1:	pzloc		r	
+xx2 to xx5 are r's given for		
+			indcmnf = 11;		front min radii
+			indcmxf = 12;		front max radii
+		    	indcmnb = 13;		back  min radii
+    			indcmxb = 14;		back  max radii
+example is:
+
+		401	1	abs	1.0	402	1	abs	0.388153	403	1	abs	5.0	404	1	abs	0.388153	405	1	abs	10.0
+		411	1	abs	1.0	412	1	abs	0.05	413	1	abs	5.0	414	1	abs	0.05	415	1	abs	10.0
+		501	1	abs	1.0	502	1	abs	0.388153	503	1	abs	5.0	504	1	abs	0.388153	505	1	abs	10.0
+		511	1	abs	1.0	512	1	abs	0.05	513	1	abs	5.0	514	1	abs	0.05	515	1	abs	10.0

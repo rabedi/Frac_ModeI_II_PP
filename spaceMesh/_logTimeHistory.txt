@@ -1,0 +1,38 @@
+nameFile	Config_split_1_xy=1,random=0.05,tau=0.0116,aDot=0.13,adaptive=0.vconfig
+namePltFolder	output_plots_1_xy=1,random=0.05,tau=0.0116,aDot=0.13,adaptive=0
+sz	1
+{
+	old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa	{\mathrm{res}=28,n_\mathrm{mesh}=-1,\mathrm{tol}=0}	{ ms s ls - }
+}
+nameFile	Config_split_1_xy=1,random=0.05,tau=0.0116,aDot=0.13,adaptive=1.vconfig
+namePltFolder	output_plots_1_xy=1,random=0.05,tau=0.0116,aDot=0.13,adaptive=1
+sz	2
+{
+	old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa	{\mathrm{res}=28,n_\mathrm{mesh}=-1,\mathrm{tol}=0}	{ ms s ls - }
+	old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa	{\mathrm{res}=28,n_\mathrm{mesh}=0,\mathrm{tol}=0}	{ ms s ls - }
+}
+nameFile	Config_split_1_xy=1,random=0.05,tau=0.116,aDot=0.13,adaptive=0.vconfig
+namePltFolder	output_plots_1_xy=1,random=0.05,tau=0.116,aDot=0.13,adaptive=0
+sz	1
+{
+	old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa	{\mathrm{res}=28,n_\mathrm{mesh}=-1,\mathrm{tol}=0}	{ ms s ls - }
+}
+nameFile	Config_split_2_adaptive=0,resolution=28,meshNo=-1,tolerance=0,xy=1,random=0.05.vconfig
+namePltFolder	output_plots_2_adaptive=0,resolution=28,meshNo=-1,tolerance=0,xy=1,random=0.05
+sz	2
+{
+	old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa	{\tau=0.0116,\dot{a}=0.13}	{ ms s ls - }
+	old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa	{\tau=0.116,\dot{a}=0.13}	{ ms s ls - }
+}
+nameFile	Config_split_2_adaptive=1,resolution=28,meshNo=-1,tolerance=0,xy=1,random=0.05.vconfig
+namePltFolder	output_plots_2_adaptive=1,resolution=28,meshNo=-1,tolerance=0,xy=1,random=0.05
+sz	1
+{
+	old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa	{\tau=0.0116,\dot{a}=0.13}	{ ms s ls - }
+}
+nameFile	Config_split_2_adaptive=1,resolution=28,meshNo=0,tolerance=0,xy=1,random=0.05.vconfig
+namePltFolder	output_plots_2_adaptive=1,resolution=28,meshNo=0,tolerance=0,xy=1,random=0.05
+sz	1
+{
+	old_2017_09_29_MicriUST_NA028_NP00_05x05_tau1p16em2_a13_NPa	{\tau=0.0116,\dot{a}=0.13}	{ ms s ls - }
+}
