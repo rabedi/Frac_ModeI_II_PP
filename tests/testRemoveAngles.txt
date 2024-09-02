@@ -1,0 +1,26 @@
+MinAngle			400
+numCrack			0
+tol2OppositeDirOf0NumCrack	5
+numAngles
+8	
+angle(Degrees)		ratio(EffS/Strngth)
+10			0.123
+23			0.78
+54			0.54
+110			0.21
+155			1.3423
+220			0.2342
+260			7.23
+330			15.1231
+
+
+
+
+10			0.123
+23			0.78
+54			0.54
+110			0.21
+220			0.2342
+330			15.1231
+155			1.3423
+260			7.23

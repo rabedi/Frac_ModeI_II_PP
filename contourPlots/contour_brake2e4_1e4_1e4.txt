@@ -1,0 +1,330 @@
+maxNumSlicesPerTime_s0		1
+maxNumRows2ReadBulk_s0.5		20000
+maxNumRows2ReadBulkTotal_s0.6		-1	
+maxNumRows2ReadSliceFiles_s0.5	40000
+serialNum	start	103	step	1	end_s1	-1
+plot_contours			1
+dir_PreName_s2			../../
+dir_RunName				bk_brake2e4_1e4_1e4
+dir_PostName			/output_cohFaces
+runParaPreName			../runPara_
+runParaPostName			.txt
+outputDir				runFolder
+runName				auto
+middleNameData			cohSol
+dataFileFormat_s3_a_b		b
+briefStatMiddleName		cohSolStatBrief
+briefStatMiddleNameFinal_s3.5	NONE
+simNormalizerMidName		CohDataNorm 
+coord2sIndex			0
+folderPostNameGeomMesh		/output_cohGeom
+fileNameGeomMesh			cohMesh	
+readOptionGeomMesh_cInacrive	c
+clr_GeomMesh	val		0.3	0.3	0.3				
+style_GeomMesh			-
+widthGeomMesh			0.5
+
+
+displayOnDeformedGeometry_s4
+x0	bool	0	scaledU_option_p1		0	extraMultiplierFactor_s4	1.0
+x1	bool	0	scaledU_option_p1		0	extraMultiplierFactor_s4	1.0
+printOption		epsc
+lfs		43  
+tfs		26  
+pltfs	19
+symfs   16
+xminT	1     
+yminT	1  
+plotTime		0
+plotAxis		1
+axisXLabel		x
+axisYLabel		t
+numberFields	74
+offset		4
+numAddedFlds_s4.5		0
+addedFlds_option_s4.5	1
+load_axis_direction	1
+addedPltsConfigFileName		contourProcessed_brakeFull2e4_1e2_1e2.txt
+maxNumPtsPerBox_s5		10000	
+precisionRowCounter_s6		1000
+maxNumRowCounter_s7		10000
+maxNumGridPtsSingleContour_s8	40
+maxNumGridPtsALLContour_s9	120
+maxNumDivisions_s10		20
+expansionRatio_s11		0.18
+doPlotSubPlotBounds_s12		0
+colormapInput			Jet
+
+xmin_all			12e33	
+xmax_all			12e33
+ymin_all			12e33
+ymax_all			12e33	
+
+
+number			4		5		6		7		8		9		10		11		12		13		14		15		16		17		18		19		20		21		22		23		24		25		26		27		28		29		30		31		32		33		34		35		36		37		38		39		40		41		42		43		44		45		46		47		48		49		50		51		52		53		54		55		56		57		58		59		60		61		62		63		64		65		66		67		68		69		70		71		72		73
+name				delu0		delu1		Scoh0		Scoh1		Sout0		Sout1		Sin0		Sin1		v0		v1		delv0		delv1		u0		u1		Ss0		Ss1		Sr0		Sr1		D0		D1		D-uc0		D-uc1		D-ucDot0	D-ucDot1	evl-src0	evl-src1	evl-frc0	evl-frc1	char-val0	char-val1	DissDot0	DissDot1	Diss0		Diss1		DissDgDot0	DissDgDot1	DissDg0	DissDg1	delus		Scohs		Souts		Sins		vs		delvs		us		Sss		Srs		Ds		D-ucs		D-ucDots	evl-srcs	evl-frcs	char-vals	DissDots	Disss		DissDgDots	DissDgs	VCP_DU0	VCP_DU1	VCP_S0	VCP_S1	aSpr		aSpa		aCnr		aCna		aSlr		aSla		aStr		aSta		aBna
+extrnalNrmlzr_p2		1		1		1e-3		1e-3		1e-3		1e-3		1e-3		1e-3		1e-3		1e-3		1e-3		1e-3		1		1		1e-3		1e-3		1e-3		1e-3		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1e-3		1e-3		1e-3		1e-3		1e-3		1		1e-3		1e-3		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1
+cnfgBaseNrmlzr_p1,2	0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+cnfgNrmlzrFTmax_p3	0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+cnfgNrmlzrCTmax_p4	0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+origin_p2			0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+logBase_p2			0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+pltFlg_p5			0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+xmin_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+xmax_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+ymin_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+ymax_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+zlimAbsLimType_p7		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+zmin_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+zmax_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+zBasePoint_p7,8		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+title_p9			name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name
+legendLoc_p10		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo
+
+
+dataForColor2DPlot:
+plotTimeSlice			0
+do2DColorPlot			0
+TS_StatName							StatTimeBrief
+TS_readOnlyStat						0
+TS_SliceDataName						TimeSlice
+TS_sliceReadFlag						b
+TS_derOptionForTimeDerivatives			1
+TS_maxPowerVelocitiesRoundOff		 		6
+TS_numReqFlds						20					
+TS_ReqFldsSymbol						id		id	id	id	id	flds	fld0		flds	fld0	flds	fld0	flds	fld0	flds	flds	 flds	 flds	flds	 flds	 flds
+TS_ReqFldsIndex						0		0	0	0	0	4	4		3	3	7	7	8	8	11	12	 13	 14	15	 16	 0
+TS_ReqFldsFinderType_p5					-12345678	-1	-2	-3	-4	max	maxAbs	max	max	max	max	max	max	max	max	 max	 max	max	 max	 max
+TS_ReqFldsNormalizerType_p6relCoh0relLoad1	-1		-1	-1	-1	-1	-1	-1		0	0	0	0	0	0	0	0	 0	 0	0	 0	 0
+TS_ReqFldsName						elBndry	PZ1 	PZ2	PZ3 	PZ4	mxV	mxV0		mxS	mxS0	mxSS	mxSS0	mxSG	mxSG0	mxUdu	mxDsrc mxDfr mxW	mxDssd mxDss mxDu
+TS_ReqFldsMarkerStyle					2		5	5	5	5	3	7		4	6	2	2	2	2	2	2	 2	 2	2	 2	 2
+TS_ReqFldsMarkerColor					k		7	2	5	11	4	4		6	6	k	k	k	k	k	k	 k	 k	k	 k	 k
+TS_ReqFldsMarkerSize					-3		-5	-5	-5	-5	-7	-5		-7	-5	-5	-5	-3	-3	-3	-3	 -3	 -6	1	1	1
+TS_ReqFldsMarkerActive					0		1	1	1	1	1	0		1	0	0	0	0	0	0	0	 0	 0	0	 0	 0
+
+TS_numCollectFlds						15					
+TS_CollectFldsSymbol					flds	fld0		flds	fld0	flds	fld0	flds	fld0	flds	flds	flds	flds	flds	flds	flds
+TS_CollectFldsIndex					4	4		3	3	7	7	8	8	11	12	13	14	15	16	0
+TS_CollectFldsNormalizerType_p6relCoh0relLoad1	-1	-1		0	0	0	0	0	0	0	0	0	0	0	0	0
+
+x0C2D					X		0		
+x1C2D					X		1
+u0C2D					fld0		6
+u1C2D					fld1		6
+delu0C2D				fld0		0
+delu1C2D				fld1		0
+plotFld				flds		10		duc
+
+
+CrackTipDataName						TimeVal
+CrackTipStatName						TimeValStat
+CrackTipFlagNum						-1
+CrackTipDataSerialNum					1
+CrackTipReadFlag						a
+CrackTipFldsName						CT
+CrackTipFldsMarkerStyle					3
+CrackTipFldsMarkerColor					2
+CrackTipFldsMarkerSize					-7
+CrackTipFldsMarkerActive				0
+CrackTipVelSymIndex					fldx		0
+CrackTipPZSizeSymIndex					fldx		1
+CrackTipXSpanPlots_p11					-1
+CrackTipYSpanPlots					-1
+plotTwoSidedCrack				0
+useSameDeluFactorAsAllMesh_p12	1
+plotDistinctDamageLevels		0
+damageLevelsTableL_1L1_-1Lend_2_L1Lend_-2Lall_LegendL1D=1		-2
+numberDistDPts				5
+NumberOfDistinctLevelsDicreadingD
+minDamage	lineClr	lineType	lineWidth
+0.95		sym	r		-		1
+0.8		sym	m		-		0.5
+0.4		sym	b		-		0.5
+0.15		sym	c		-		0.5
+-1		sym	g		-		0.5
+doLegend4OnlyCrackPath		0
+cpLegendLocation			NorthWest
+
+
+
+
+plotOnlyCrackPath		0
+xylimEqual2AlllimitsGivenPrev		1
+activexlim_cp	1
+xmin_cp	-1	
+xmax_cp	17
+activeylim_cp	1
+ymin_cp	-5
+ymax_cp	5	
+
+VELOCITIES WILL BE IN m/s (normalization 1e-3 from mm/microSec) 
+STRESSES   WILL BE IN MPa (normalized from GPa)
+
+//======================================
+brake complete
+pltFlg_p5			-1		-1		0		0		0		0		-1		-1		-1		-1		-1		-1		-1		-1		0		0		-1		-1		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		-1		-1		-101		0		-1		0		-1		0
+bars
+pltFlg_p5			-101		0		0		0		0		0		-101		0		-101		0		-101		0		-101		0		0		0		-101		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		-1		-101		0		0		0		0		0
+none
+pltFlg_p5			0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+//======================================
+
+#CrackTipXSpanPlots_p11					5.0
+#CrackTipYSpanPlots					5.0
+#pltFlg_p5			0	0	0	11	0	11	0	11	0	1	0	0	1	1	1	0	0	0	11		0
+
+
+
+
+s0.5: in each operation only this number of line of data is stored in memory
+s0.6: is the maximum number of lines read in total, if -1 is entered this is assumed to be inf
+s1: -1 means it's equal to start value
+s2: no directory enter NULL
+s3: a	ASCII		b binary
+s3.5 if the name is NONEXXXX
+it creates min max name, .... as default with size XXX, this is useful when you do not have this output file. It may not even be needed
+
+s4: so x = X + u / cnfgNrmlzr(option) * multiplier
+s4.5: we may compute other fields from given ones, for example compute charcteristic values, sigma_i+-crho_i, next input is the option used
+for computing other fields, 
+	option 0, is characteristics 4 is number of fields: 0 s00 + crho v00, 1 s00 - crho v00, 2, s11 + crho v11, s11 - crho v11
+s4.7  normal direction 0 means active load is parallel to 0 axis, 1 parallel to 1 axis
+s5: maxNumPtsPerBox: each "subplot" operation can plot this number for subplot operation
+s6:precisionRowCounter:	we subdivide axes x and y by this number * numberOfBoxPerAxis in each axes to decide axes break points
+s7:maxNumRowCounter: maxNumRowCounter, when trying to subdivide the area we don't let the counter matrix become larger than this size
+s8:maxNumGridPtsSingleContour: is the maximum number of grid points that a single subplot can have on one axis
+s9:maxNumGridPtsALLContour: same as previous but the entire figure should not have more than this number squared
+s10:maxNumDivisions: subdivides a given interval to maxNumDivisions with n * 10^m interval length
+s11:expansionRatio: each individual plot region is enlarged by this factor to make sure good overlap between individual subplots
+s12:doPlotSubPlotBounds: plots bounds of each subplots in contour plots
+
+
+c1: this is an "id" that we check in the input data and if the corresponding value is equal to any of the flags we print it with the specified marker
+c2: we add list of two data for each point either to the title (2), that point (1), or (0) not active
+c3: means that field is not added to the text
+
+
+p1: 0 inactive, 1	load,	2 bulk material, 3 cohesive sigma0, 4 cohesive material (Rayleigh wave speed)
+p2: value v is mapped to log_logBase (v / Extnormalizer / cnfgnormalizer) - origin) Note that if logBase is 0 there is no log operation
+p3: flags 0 or 1 or 2 the scaling obtained here is then scaled by max values of the FINAL max(1) or min(2) value of each config file
+p4: flags 0 or 1 or 2 the scaling obtained here is then scaled by max values of the CURRENT max(1) or min(2) value of each config file
+
+p5:	flgAngles = flg / 10 and flgCntr = flg%10	: flgAngles is plotted using the next data set (for example tauM and tauMT)
+      flgCntr = 0, no contour plot, 1 have contour plot
+	flgAngles = 1, my develped continuous direction plot,		2 quiver Nonscaled by fld magnitude,	3 quiver scaled ....
+
+p6: value 12e33	means option not active
+p7: whether inputa for z values are absolute values or those that are obtained after all the scaling and such log((z - zbase)/normalizer)
+for zlim we have the choice but not for BasePoints default is on transformed values for that
+p8: zBase point: this point is going to be covered in contour plot lines (a line passes through this value)
+p9: name means name of the field is chosen as the title
+p10:
+	North 		n
+	South 		s
+	East  		e
+	West  		w
+	NorthEast		ne
+	NorthWest		nw
+	SouthEast		se
+	SouthWest		sw
+	NorthOutside	no
+	SouthOutside	s0
+	EastOutside		e0	
+	WestOutside		w0
+	Best			b
+
+p11 negative value means the plot region is not limited around the crack tip
+p12: useSameDeluFactorAsAllMesh if 0 we may get non-zero scaling for crack opening, yet no displacement factor for other parts of the mesh if
+bools in x0	bool	.	x1	bool	. are zero
+value equal to 1 uses the same scaling as other parts of the mesh
+
+serialNum	start	25	step	5	end_s1	180
+dir_PreName_s2			../../
+dir_RunName				tempRuns
+dir_PostName			/output
+
+
+serialNum	start	50	step	1	end_s1	-1
+dir_PreName_s2			../../trunk_working/
+dir_RunName				physics
+dir_PostName			/output
+
+
+serialNum	start	40	step	5	end_s1	120
+
+x0	bool	0	scaledU_option_p1		1	extraMultiplierFactor_s4	0.05
+x1	bool	0	scaledU_option_p1		1	extraMultiplierFactor_s4	0.05
+
+
+briefStatMiddleNameFinal_s3.5	BStatTimeFinal
+
+
+0.8		r		-		2
+-1		g		-		1
+
+
+
+
+
+with normalization
+number			4		5		6		7		8		9		10		11		12		13		14		15		16		17		18		19		20		21		22		23		24		25		26		27		28		29		30		31		32		33		34		35		36		37		38		39		40		41		42		43		44		45		46		47		48		49		50		51		52		53		54		55		56		57		58		59		60		61		62		63		64		65		66		67		68		69		70		71		72		73
+name				delu0		delu1		Scoh0		Scoh1		Sout0		Sout1		Sin0		Sin1		v0		v1		delv0		delv1		u0		u1		Ss0		Ss1		Sr0		Sr1		D0		D1		D-uc0		D-uc1		D-ucDot0	D-ucDot1	evl-src0	evl-src1	evl-frc0	evl-frc1	char-val0	char-val1	DissDot0	DissDot1	Diss0		Diss1		DissDgDot0	DissDgDot1	DissDg0	DissDg1	delus		Scohs		Souts		Sins		vs		delvs		us		Sss		Srs		Ds		D-ucs		D-ucDots	evl-srcs	evl-frcs	char-vals	DissDots	Disss		DissDgDots	DissDgs	VCP_DU0	VCP_DU1	VCP_S0	VCP_S1	aSpr		aSpa		aCnr		aCna		aSlr		aSla		aStr		aSta		aBna
+extrnalNrmlzr_p2		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		0		0		0		0		1		1		1		1		0		0		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		0		0		1		1		0		1		1		1		1		1		1		1		1		1		0		0		0		0		0		0		0		0		0
+cnfgBaseNrmlzr_p1,2	3		3		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		1		0		0		0		0		3		3		3		3		0		0		1		1		3		3		3		3		3		3		3		3		3		1		1		1		1		1		1		1		1		0		0		3		3		0		1		3		3		3		3		3		3		3		3		0		0		0		0		0		0		0		0		0
+cnfgNrmlzrFTmax_p3	0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+cnfgNrmlzrCTmax_p4	0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+origin_p2			0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+logBase_p2			0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+pltFlg_p5			-1		-1		0		0		0		0		0		0		-1		0		0		0		-1		-1		-1		0		-1		0		0		0		0		0		0		0		0		0		0		0		-1		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		-1		1		0		0		0		0		0
+xmin_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+xmax_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+ymin_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+ymax_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+zlimAbsLimType_p7		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+zmin_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+zmax_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+zBasePoint_p7,8		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+title_p9			name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name
+legendLoc_p10		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo
+
+ymin_all			0.91
+ymax_all			0.95	
+
+
+
+number			4		5		6		7		8		9		10		11		12		13		14		15		16		17		18		19		20		21		22		23		24		25		26		27		28		29		30		31		32		33		34		35		36		37		38		39		40		41		42		43		44		45		46		47		48		49		50		51		52		53		54		55		56		57		58		59		60		61		62		63		64		65		66		67		68		69		70		71		72		73
+name				delu0		delu1		Scoh0		Scoh1		Sout0		Sout1		Sin0		Sin1		v0		v1		delv0		delv1		u0		u1		Ss0		Ss1		Sr0		Sr1		D0		D1		D-uc0		D-uc1		D-ucDot0	D-ucDot1	evl-src0	evl-src1	evl-frc0	evl-frc1	char-val0	char-val1	DissDot0	DissDot1	Diss0		Diss1		DissDgDot0	DissDgDot1	DissDg0	DissDg1	delus		Scohs		Souts		Sins		vs		delvs		us		Sss		Srs		Ds		D-ucs		D-ucDots	evl-srcs	evl-frcs	char-vals	DissDots	Disss		DissDgDots	DissDgs	VCP_DU0	VCP_DU1	VCP_S0	VCP_S1	aSpr		aSpa		aCnr		aCna		aSlr		aSla		aStr		aSta		aBna
+extrnalNrmlzr_p2		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+cnfgBaseNrmlzr_p1,2	0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+cnfgNrmlzrFTmax_p3	0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+cnfgNrmlzrCTmax_p4	0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+origin_p2			0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+logBase_p2			0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+pltFlg_p5			1		0		0		0		0		0		0		0		1		0		0		0		1		1		1		0		1		0		0		0		0		0		0		0		0		0		0		0		1		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		1		1		0		0		0		0		0
+xmin_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+xmax_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+ymin_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+ymax_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+zlimAbsLimType_p7		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0
+zmin_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+zmax_p6			12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+zBasePoint_p7,8		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33		12e33
+title_p9			name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name		name
+legendLoc_p10		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo		eo
+
+
+
+pltFlg_p5			-1		-1		0		0		0		0		0		0		-1		0		0		0		-1		-1		-1		0		-1		0		0		0		0		0		0		0		0		0		0		0		-1		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		-1		1		0		0		0		0		0
+pltFlg_p5			1		0		0		0		0		0		0		0		1		0		0		0		1		1		1		0		1		0		0		0		0		0		0		0		0		0		0		0		1		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		0		1		1		0		0		0		0		0
+
+
+
+
+dir_RunName			fixed_rampedSlipSideSmall
+dir_RunName			fixed_cntct_1e-3_1e-2_accurate
+dir_RunName			fixed_rampedSlipSide02
+vfixed_cntct_1e-4_1e-3_accurate
+
+
+x0	bool	1	scaledU_option_p1		1	extraMultiplierFactor_s4	0.0625
+x1	bool	0	scaledU_option_p1		1	extraMultiplierFactor_s4	0.0625

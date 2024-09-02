@@ -1,0 +1,46 @@
+startFileName 			SF
+printOption 			png
+plotEndPt                0
+plotSV                   0
+numInterval             1
+layerStart              1
+layerEnd                -1
+outputDirectoryPreName      ../../
+outputDirectoryMidName      _sf_arb
+outputDirectoryPostName     /output/
+outputFolder                images/
+
+
+
+
+
+
+
+
+
+outputDirectoryMidName      ab_pd1e5_r_1e5_t0068_f_8_fsc_04968_sfsc_322_ashld_120_sAve5_withCntct
+outputDirectoryMidName      ab_pd1e5_r_1e5_t0068_f_8_fsc_04968_sfsc_322_ashld_120_sAve5_withCntct
+
+
+outputDirectoryMidName      ab_pd1e5_r_1e5_t0068_f_8_fsc_04968_sfsc_322_ashld_120_sAve5
+outputDirectoryMidName      ab_pd1e5_r_1e5_t00068_f_8_fsc_04968_sfsc_322_ashld_120_sAve5
+outputDirectoryMidName      ab_pd1e5_r_1e5_t0068_f_8_fsc_04968_sfsc_322_ashld_120_sAve5
+
+
+ab_pd1e3_r_1e3_t00068_f_8_fsc_04968_sfsc_322_ashld_120
+
+outputDirectoryMidName      arb_n1em1_tau68e-4_30_radial_num_00001
+outputDirectoryMidName      arb_tau68e-4_30_radial_num_00001_noRadial
+
+
+outputDirectoryMidName      ab_pd1e5_r_1e5_t00068_f_8_fsc_04968_sfsc_322_ashld_120
+outputDirectoryMidName      ab_pd1e3_r_1e3_t00068_f_8_fsc_04968_sfsc_322_ashld_120
+outputDirectoryMidName      ab_pd1e5_r_1e5_t068_f_8_fsc_04968_sfsc_322_ashld_120
+outputDirectoryMidName      ab_pd1e5_r_1e5_t00068_f_5_fsc_04968_sfsc_322_ashld_120
+
+
+outputDirectoryMidName      ab_pd1e7_r_1e5_t00068_f_5_fsc_04968_sfsc_322_ashld_120_sAve5
+outputDirectoryMidName      ab_pd1e5_r_1e5_t00068_f_8_fsc_04968_sfsc_322_ashld_120_sAve5
+outputDirectoryMidName      ab_pd1e7_r_1e5_t068_f_8_fsc_04968_sfsc_322_ashld_120_sAve5
+
+outputDirectoryMidName      ab_pd1e5_r_1e5_t0068_f_8_fsc_04968_sfsc_322_ashld_120_sAve5

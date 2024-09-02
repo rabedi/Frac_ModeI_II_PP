@@ -1,0 +1,12 @@
+numberRuns
+8
+
+runs(version+label)
+12	k=0.001
+11	k=0.01
+10	k=0.1
+9	k=1
+13	k=10
+14	k=100
+15	k=1000
+8	k=\infty

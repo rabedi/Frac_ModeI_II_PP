@@ -1,0 +1,452 @@
+dataModifierClass
+[
+numberModifiers 3
+1 [ log -10 ]
+2 [ log -2 ]  
+3 [ log e ]  
+]
+
+
+
+#### Data index instructions
+#	0	-> run parameters
+
+#		abcdef (a to f are digits)
+#	f:	direction 1 normal, 0 tangential
+#	e:	normalization mode. Options are:
+#		0: raw data / not normalized
+#		1: normalized by base fracture scales (e.g. tau of damage model)
+#		2: normalized by alternative fracture scales (e.g. length / time scales are obtained by k (stiffness) of delu / delv cohesive models
+#	cd:	field index following (two digits):
+##		A. Time histories
+##			time (01) - cot_delta (02), cot_sigma (03), cot_vel (04), cot_ene (05), cot_w (06), cot_D (07), cot_Ddot (08), cot_fy (09), cot_DUC (10)
+##		B. Run critical values
+##			cpfd_time (02), cpfd_delta (03), cpfd_traction (04), cpfd_ene (05)	- critPointFracDat enumeration
+##	ab:	For group B above it corresponds to 
+##		1:	sigmaMaxPOint 		(critical / maximum stress)
+##		2:	0.01 	sigmaC point	(close to end of fracture model)
+##		3:	0.001	sigmaC point	(final - end of fracture model)
+
+
+##	examples	211 = 1 (direction)	1 (normalized (original) fracture) 02 -> Group A( time history) delta
+##			202	similar to above but not normalized AND direction 2 (tangential)
+##			221	 similar to 211 but normalized w.r.t. delu, delk derived deltaC, tauC
+
+##	30512:		Group B ab = 03 (final critical point / i.e. when stress is almost zero in Traction separation relation)	/ cd = 02 (correspond to energy)
+##			(so 0305 : correspond to energy aborbed for a given run)
+##			e = 1: normalized by base fracture scales
+##			f = 2: tangential direction	
+
+## limit types 
+#		0	limit not enforced
+#		2	limit enforced
+#		101,	110,	111	- 101 only min value, 110 - only the max value, 111 both min max values are provided
+#limNo		[a, b] if a or b > 0 the lim value (a for min , b for max) are obtained form the runs specified limit values
+#		they overwirte goven lim values
+#		refer to argument axesForcedLims in GENERAL_DATA_SET_PLOT function
+
+# the order used for fracture runs is [
+#	1	deltaMaxNormalizationOption1 (based on tau)	
+#	2	timeMaxNormalizationOption1 (based on tau)
+#	3	deltaMaxNormalizationOption2 (based on k in delu, delv models)	
+#	4	timeMaxNormalizationOption2 (based on k in delu, delv models)
+#	5	stressMax (stress uses limit type 110 so limit is not enforced if max value is smaller than this)
+	
+plots
+number 24
+1
+[ 
+dataXY number 1 
+1  [ xAxis [ data  211 ] yAxis [ data 311  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthEast lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 1  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 110 lim 0 4.0 limNo -1 5	limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+2
+[ 
+dataXY number 1 
+1  [ xAxis [ data  111 ] yAxis [ data 311  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthEast lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 2  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 110 lim 0 4.0 limNo -1 5	limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+3
+[ 
+dataXY number 1 
+1  [ xAxis [ data  111 ] yAxis [ data 211  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 2  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 1  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+
+4
+[ 
+dataXY number 1 
+1  [ xAxis [ data  221 ] yAxis [ data 321  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthEast lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 3  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 110 lim 0 4.0 limNo -1 5	limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+5
+[ 
+dataXY number 1 
+1  [ xAxis [ data  121 ] yAxis [ data 321  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthEast lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 4  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 110 lim 0 4.0 limNo -1 5	limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+6
+[ 
+dataXY number 1 
+1  [ xAxis [ data  121 ] yAxis [ data 221  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 4  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 3  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+
+7
+[ 
+dataXY number 1 
+1  [ xAxis [ data  211 ] yAxis [ data 511  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc Southeast lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 1  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+
+8
+[ 
+dataXY number 1 
+1  [ xAxis [ data  211 ] yAxis [ data 711  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 1  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 1.05 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+
+9
+[ 
+dataXY number 1 
+1  [ xAxis [ data  111 ] yAxis [ data 711  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 2 limNo -1 2  lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 1.05 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+
+10
+[ 
+dataXY number 1 
+1  [ xAxis [ data  711 ] yAxis [ data 311  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc Northeast lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 1.05 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 110 lim 0 4.0 limNo -1 5	limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+
+11
+[ 
+dataXY number 1 
+1  [ xAxis [ data  711 ] yAxis [ data 811  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc Southwest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 1.05 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+
+12
+[ 
+dataXY number 1 
+1  [ xAxis [ data  711 ] yAxis [ data 911  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc Southwest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 1.05 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+13
+[ 
+dataXY number 1 
+1  [ xAxis [ data  0 ] yAxis [ data 30511  mod num 1 vals 1  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto preLabel log[ postLabel ]  ]
+]
+ ]
+
+
+14
+[ 
+dataXY number 1 
+1  [ xAxis [ data  0 ] yAxis [ data 10511  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+
+15
+[ 
+dataXY number 1 
+1  [ xAxis [ data  0 ] yAxis [ data 30211  mod num 1 vals 1  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto preLabel log[ postLabel ]  ]
+]
+ ]
+
+
+16
+[ 
+dataXY number 1 
+1  [ xAxis [ data  0 ] yAxis [ data 10211  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+
+17
+[ 
+dataXY number 1 
+1  [ xAxis [ data  0 ] yAxis [ data 30311 mod num 1 vals 1  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto preLabel log[ postLabel ]  ]
+]
+ ]
+
+
+18
+[ 
+dataXY number 1 
+1  [ xAxis [ data  0 ] yAxis [ data 10311  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+19
+[ 
+dataXY number 1 
+1  [ xAxis [ data  0 ] yAxis [ data 30321  mod num 1 vals 1	] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto preLabel log[ postLabel ]  ]
+]
+ ]
+
+
+20
+[ 
+dataXY number 1 
+1  [ xAxis [ data  0 ] yAxis [ data 10321  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+21
+[ 
+dataXY number 1 
+1  [ xAxis [ data  0 ] yAxis [ data 10411  mod num 1 vals 1  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto preLabel log[ postLabel ]  ]
+]
+ ]
+
+22
+[ 
+dataXY number 1 
+1  [ xAxis [ data  30211 mod num 1 vals 1 ] yAxis [ data 30511  mod num 1 vals 1	] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc SouthWest lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto preLabel log[ postLabel ]  ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto preLabel log[ postLabel ]  ]
+]
+ ]
+
+23
+[ 
+dataXY number 1 
+1  [ xAxis [ data  411 ] yAxis [ data 811  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthEast lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]
+
+24
+[ 
+dataXY number 1 
+1  [ xAxis [ data  411 ] yAxis [ data 711  ] ]
+active 	1
+plotNo  -1
+[ 
+legend 
+[ box 0 loc NorthEast lfs 21 ]
+xAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+yAxis
+[ scale 0 mTick 1 dir 0 limT 0 lim 0 2.0 limTOpt 2 limTNum 10 label auto ]
+]
+ ]

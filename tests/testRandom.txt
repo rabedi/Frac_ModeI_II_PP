@@ -1,0 +1,32 @@
+#numberOfRandomNumberGroups
+4
+#nameOfGroup
+angles4Strength
+#numberofEntries
+2
+0	{	n	mean	30.0	r1s 	2.5	cdfErr	0.001	}
+1	{	u	mean	50.0	r1s 	5.0	cdfErr	0.001	}
+#nameOfGroup
+values4Strength
+#numberofEntries
+2
+0	{	n	mean	0.1	r1s 	0.02	cdfErr	0.001	}
+1	{	u	mean	0.25	r1s 	0.05	cdfErr	0.001	}
+###Values read for creating random angles 
+
+#nameOfGroup
+angles4CrackAngleData
+#numberofEntries
+1
+0	{	n	mean	0.0	r1s 	1.0	cdfErr	0.001	}
+#nameOfGroup
+values4CrackAngleData
+#numberofEntries
+1
+0	{	u	mean	0.95	r1s 	0.05	cdfErr	0.001	}
+
+{	c	1000.00	gi	i0	1	i1     1	pf	100.0	}
+10000
+
+
+

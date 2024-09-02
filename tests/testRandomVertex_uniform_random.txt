@@ -1,0 +1,125 @@
+#####################################1. Random numbers
+#numberOfRandomNumberGroups
+4
+
+#GROUP0
+#nameOfGroup
+angles4Strength
+#numberofEntries
+2
+0	{	n	mean	0.0	r1s 	2.5	cdfErr	0.001	}
+1	{	u	mean	0.0	r1s 	5.0	cdfErr	0.001	}
+
+#GROUP1
+#nameOfGroup
+values4Strength
+#numberofEntries
+2
+0	{	n	mean	0.1	r1s 	0.02	cdfErr	0.001	}
+1	{	u	mean	0.25	r1s 	0.05	cdfErr	0.001	}
+###Values read for creating random angles 
+
+#GROUP2
+#nameOfGroup
+angles4CrackAngleData
+#numberofEntries
+1
+0	{	n	mean	0.0	r1s 	1.0	cdfErr	0.001	}
+
+#GROUP3
+#nameOfGroup
+values4CrackAngleData
+#numberofEntries
+3
+0	{	u	mean	0.95	r1s 	0.05	cdfErr	0.001	}
+1	{	n	mean	0.99	r1s 	0.01	cdfErr	0.001	}
+2	{	n	mean	0.90	r1s 	0.1	cdfErr	0.001	}
+
+#extra terms for RandomContainerVertext
+{
+#####################################2. functions of angle
+angularFunctionTerms	#type options sin, lin (linear), 3rdC1	(C1 3rd order transition function)
+sz	4
+	0	{ type	sin	angle {	c	30.0	gi	i0	0	i1     0 }	min 	{ c	0.0	gi	i0	1	i1     0 } }
+	1	{ type	lin	angle {	c	60.0	gi	i0	0	i1     1 }	min 	{ c	0.0	gi	i0	1	i1     1 } }
+	2	{ type	3rdC1	angle {	c	90.0	gi	i0	0	i1     0 }	min 	{ c	0.05	gi	i0	1	i1     0 } }
+	3	{ type	lin	angle {	c	30.0	gi	i0	0	i1     1 }	min 	{ c	0.0	gi	i0	1	i1     1 } }
+angularFunctions		# angular dependent function is a product on number of terms from angularFunctionTerms (number specified by sz; term indices follow terms)
+sz	4
+	0	{ sz	1	terms 0	}	
+	1	{ sz	1	terms 1	}	
+	2	{ sz	1	terms 2	}	
+	3	{ sz	2	terms 1	3 }	
+
+#####################################3. Instructions for creating angles
+###how test angles are created:
+#uniform:		angles with uniform angular distance, e.g. numAngles = 100 angular distance = 3.6
+#			THE DISTNANCES can be modified by random parts that may be added to each angle, but the constant parts have intervals of 360 / numAngles
+#fixedN:		a fixed number of angles to check are given (for example 6)
+#randN:			A random number of directions are created to be tested. Below we specify min and max number od directions to test.
+###A
+angleGenT
+#uniform
+randN
+
+###B:	number of angles 
+#numAngles: 	angleGenT == (uniform, fixedN) the number of the created. 		angleGenT == randN  MINIMUM number of directions to be created.
+#numAnglesMax	angleGenT == (uniform, fixedN) INACTIVE (doesn't do anything)		angleGenT == randN  MAXIMUM number of directions to be created.
+numAngles
+4
+numAnglesMax
+-1
+
+###Entries of angleData == (angleValue, normalized strength, parameters)
+###NUMBER OF ENTRIES =
+##					1 		for angleGenT = (uniform, randN)			# master generator
+##					numAngles 	for angleGenT = (fixedN)
+## entries are preceded with their index
+angleDatInst
+0
+	{
+		##############
+		###angle (general random number) the part that will be added for angleGenT == uniform inside the code (no entry needed)
+		# c part (constant) -> constant part of angle (offset for uniform + fixed options)
+		# i0, i1 refer to random numbers in the beginning of data i0	-> group number / i1 index within that group
+		# i0 = 3, i1 = 0 refers to 0th random number chosen for the oscillations (random variations) of angle
+	angle {	c	10.0	gi	i0	2	i1     0 }
+		#If wanted to have NO random variation for the first angle AND set it to minimum strength from angular dependency function let the following to 1
+	fixFirstAngle	1
+
+
+		##############
+		### normalizdStrength
+		# value = const * randomDirect * randomAngular * patchInputNumber
+		##a. const is direct entry for strength factor (e.g. 0.5)
+		##aEntry  	const
+
+		##b. randomDirect: is a gNum that is created from random numbers at the beginning of the file  (i0, i1 ) from randomNum entry below
+		##bEntry	randomDirect
+		##TONOT ENTER THIS CHANGE randomDirect to NoRandomDirect
+
+		##c. randomAngular:	value that is obtained from randomAngularInd below (referring to angularFunctions in block "angularFunctions" 
+		## 			the entry angle is the angle of the line itself
+		##cEntry	randomAngularInd	
+
+		##d. patchINputNumber	-> input number sent from the patch (a random number that is generated based on the area of the pach)
+		##dEntry	bInputrandom
+
+	strengthN	{	const	1.0	randomAngularInd	-1	bInputrandom	1	NoRandomDirect	{	c	0.0	gi	i0	3	i1     0 } }
+
+
+		##############
+		###para:	material parameters
+	para
+		## Number of parameters
+	2
+		# For each parameter enter parameter formation similar to "strenghN" entry (same format)	FOLLOWED BY INDEX	
+	0	{	const	0.6	randomAngularInd	-1	bInputrandom	0	randomDirect	{	c	0.0	gi	i0	3	i1     1 } }
+	1	{	const	1.0	randomAngularInd	2	bInputrandom	0	NoRandomDirect	{	c	0.0	gi	i0	3	i1     2 } }
+
+	}
+
+}
+numTests			17
+tft				1
+numVertexRandomTests		50

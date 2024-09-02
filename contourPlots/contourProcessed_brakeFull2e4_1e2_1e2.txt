@@ -1,0 +1,182 @@
+lfs		43  
+tfs		26  
+pltfs	19
+symfs   20
+xminT	1     
+yminT	1  
+dlwidth		1.8
+dhhlwidth	2.5  
+dhdlwidth	3.0  
+dLlwidth	3.0  
+FollowingForEachEntryThereAreTwoinputs_FirstRegularPrintSecondBlackPrint
+regularPrint	1	0
+psfragPrint		0	0
+writeTitleEPS	0
+psfragSym		0  
+	
+
+l0normalizer		0.0
+l1normalizer		0.0
+plateLength			200.0
+xlim		0.0		-10000
+ylim		0		480
+zlim		0.0		1.0
+xlimForAveMethod_p2,3		st	fl	en	fl
+xlimForAllMethod_p2,3		st	fl	en	fl
+xlimStepForRangeMethod		st	-25	en	25	stp	25
+numNames
+70
+namesAbbreviated
+delu0		delu1		Scoh0		Scoh1		Sout0		Sout1		Sin0		Sin1		v0		v1		delv0		delv1	
+u0		u1		Ss0		Ss1		Sr0		Sr1		D0		D1		D-uc0		D-uc1		D-ucDot0	D-ucDot1
+evl-src0	evl-src1	evl-frc0	evl-frc1	char-val0	char-val1	DissDot0	DissDot1	Diss0		Diss1		DissDgDot0	DissDgDot1
+DissDg0	DissDg1	delus		Scohs		Souts		Sins		vs		delvs		us		Sss		Srs	
+Ds		D-ucs		D-ucDots	evl-srcs	evl-frcs	char-vals	DissDots	Disss		DissDgDots	DissDgs	
+VCP_DU0	VCP_DU1	VCP_S0	VCP_S1	aSpr		aSpa		aCnr		aCna		aSlr		aSla		aStr		aSta		aBna
+
+numPlots	12
+
+1	active	1	title		v01Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	9	clr	1	styl	1
+	x	-2	y	10	clr	13	styl	1
+
+
+2	active	1	title		u01Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	13	clr	1	styl	1
+	x	-2	y	14	clr	13	styl	1
+
+
+3	active	1	title		u0Vsu1Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	0	zlim	st	fl	en	fl	eff	0	
+numCurves
+1
+	x	13	y	14	clr	1	styl	1
+
+
+4	active	1	title		s01Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	7	clr	1	styl	1
+	x	-2	y	8	clr	13	styl	1
+
+
+5	active	1	title		s0Vss1Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	0	zlim	st	fl	en	fl	eff	0	
+numCurves
+1
+	x	7	y	8	clr	1	styl	1
+
+
+6	active	1	title		delv01Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	11	clr	1	styl	1
+	x	-2	y	12	clr	13	styl	1
+
+7	active	1	title		delv0Vsdelv1Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	0	zlim	st	fl	en	fl	eff	0	
+numCurves
+1
+	x	11	y	12	clr	1	styl	1
+
+
+8	active	1	title		asMid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+3
+	x	-2	y	63	clr	13	styl	1
+	x	-2	y	69	clr	1	styl	1
+	x	-2	y	67	clr	1	styl	2
+
+9	active	1	title		aSPMid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+1
+	x	-2	y	63	clr	1	styl	1
+
+10	active	1	title		aSTMid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+1
+	x	-2	y	69	clr	1	styl	1
+
+11	active	1	title		aSLMid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+1
+	x	-2	y	67	clr	1	styl	1
+
+
+12	active	1	title		delu01Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	1	clr	1	styl	1
+	x	-2	y	2	clr	13	styl	1
+
+13	active	1	title		delv0Vsdelv1Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	0	zlim	st	fl	en	fl	eff	0	
+numCurves
+1
+	x	1	y	2	clr	1	styl	1
+
+
+ZZ1	
+	ave	average between ZZ2 and ZZ3
+	all	plots all data between ZZ2:ZZ4:ZZ3 as one ensemble
+	range plots individual ones on ZZ2:ZZ4:ZZ3 (each treated individually)
+
+p2,3(2 min, 3 max)	value fl means it uses xmin given at the start of the file
+p3
+	val stpt entered means xmax is equal to xmin
+
+ZZ4	-1 means it uses value step given start of the file
+
+ylim and zlim are (x and y axis of reduced ploy and eff 1 means it uses y and zlims given start of the file)
+
+in curve data:
+axis number negative means it uses x, y, or z coordinate value of points (-1, -2, -3)
+otherwise it's the given field number
+clr number 
+-1 (clr automatically assigned)
+> 0 reads from the map with given number
+
+stlyle number 
+< 0 -
+readsFrom map
+
+fld 1009 => vOut0
+fld 1010 => vOut1
+fld 1013 => uOut0
+fld 1014 => uOut1
+
+
+
+1	active	1	title		v0Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	SouthWest
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	9	clr	1	styl	1
+	x	-2	y	1009	clr	13	styl	1
+
+
+2	active	1	title		u0Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	13	clr	1	styl	1
+	x	-2	y	1013	clr	13	styl	1
+
+3	active	1	title		s0Mid		yLabel	yLabel	zLabel	zLabel	legendLocation	SouthEast
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+1
+	x	-2	y	7	clr	1	styl	1

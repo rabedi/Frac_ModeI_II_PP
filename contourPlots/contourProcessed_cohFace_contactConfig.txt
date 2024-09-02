@@ -1,0 +1,463 @@
+lfs		43  
+tfs		26  
+pltfs	19
+symfs   20
+xminT	1     
+yminT	1  
+dlwidth		1.8
+dhhlwidth	2.5  
+dhdlwidth	3.0  
+dLlwidth	3.0  
+FollowingForEachEntryThereAreTwoinputs_FirstRegularPrintSecondBlackPrint
+regularPrint	1	0
+psfragPrint		0	0
+writeTitleEPS	0
+psfragSym		0  
+	
+
+l0normalizer		0.0
+l1normalizer		0.0
+plateLength			4.0
+xlim		0.0		4.0
+ylim		0.0		5.0
+zlim		0.0		1.0
+xlimForAveMethod_p2,3		st	fl	en	fl
+xlimForAllMethod_p2,3		st	fl	en	fl
+xlimStepForRangeMethod		st	1.0	en	3.0	stp	1.0
+numNames
+70
+namesAbbreviated
+delu0		delu1		Scoh0		Scoh1		Sout0		Sout1		Sin0		Sin1		v0		v1		delv0		delv1	
+u0		u1		Ss0		Ss1		Sr0		Sr1		D0		D1		D-uc0		D-uc1		D-ucDot0	D-ucDot1
+evl-src0	evl-src1	evl-frc0	evl-frc1	char-val0	char-val1	DissDot0	DissDot1	Diss0		Diss1		DissDgDot0	DissDgDot1
+DissDg0	DissDg1	delus		Scohs		Souts		Sins		vs		delvs		us		Sss		Srs	
+Ds		D-ucs		D-ucDots	evl-srcs	evl-frcs	char-vals	DissDots	Disss		DissDgDots	DissDgs	
+VCP_DU0	VCP_DU1	VCP_S0	VCP_S1	aSpr		aSpa		aCnr		aCna		aSlr		aSla		aStr		aSta		aBna
+
+numPlots	41
+
+1	active	1	title		areasAve		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	1	
+numCurves
+9
+	x	-2	y	62	clr	-1	styl	1
+	x	-2	y	63	clr	-1	styl	1
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	65	clr	-1	styl	1
+	x	-2	y	66	clr	-1	styl	1
+	x	-2	y	67	clr	-1	styl	1
+	x	-2	y	68	clr	-1	styl	1
+	x	-2	y	69	clr	-1	styl	1
+	x	-2	y	70	clr	-1	styl	1
+
+
+2	active	1	title		cntctAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	0	en	1.4	eff	1	
+numCurves
+2
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	65	clr	-1	styl	1
+
+
+3	active	1	title		areasAll		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	1	
+numCurves
+9
+	x	-2	y	62	clr	-1	styl	1
+	x	-2	y	63	clr	-1	styl	1
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	65	clr	-1	styl	1
+	x	-2	y	66	clr	-1	styl	1
+	x	-2	y	67	clr	-1	styl	1
+	x	-2	y	68	clr	-1	styl	1
+	x	-2	y	69	clr	-1	styl	1
+	x	-2	y	70	clr	-1	styl	1
+
+
+4	active	1	title		cntctAll		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	0	en	1.4	eff	1	
+numCurves
+2
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	65	clr	-1	styl	1
+
+5	active	1	title		cntctAll		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	1	
+numCurves
+4
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	65	clr	-1	styl	1
+	x	-2	y	68	clr	-1	styl	1
+	x	-2	y	69	clr	-1	styl	1
+
+
+6	active	1	title		cntct3Pt	yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	range	ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	1	
+numCurves
+1
+	x	-2	y	64	clr	-1	styl	1
+
+
+7	active	1	title		sigmaDeluAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthEast
+xlim	ave		ylim	st	-0.1	en	stpt	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	1	y	15	clr	-1	styl	1
+	x	1	y	17	clr	-1	styl	1
+
+8	active	1	title		sigmaDeluRange		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	range		ylim	st	-0.1	en	stpt	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	1	y	15	clr	-1	styl	1
+	x	1	y	17	clr	-1	styl	1
+
+9	active	1	title		cSigmaRAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthEast
+xlim	ave		ylim	st	fl	en	fl	eff	0	zlim	st	0	en	1.3	eff	1	
+numCurves
+1
+	x	17	y	64	clr	-1	styl	1
+
+10	active	1	title		cSigmaRRange		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	range		ylim	st	fl	en	fl	eff	0	zlim	st	fl	en	fl	eff	1	
+numCurves
+1
+	x	17	y	64	clr	-1	styl	1
+
+11	active	1	title		cDeluAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthEast
+xlim	ave		ylim	st	-0.1	en	stpt	eff	1	zlim	st	fl	en	fl	eff	1	
+numCurves
+1
+	x	1	y	64	clr	-1	styl	1
+
+12	active	1	title		cDeluRange		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthEast
+xlim	range		ylim	st	-0.1	en	stpt	eff	1	zlim	st	fl	en	fl	eff	1	
+numCurves
+1
+	x	1	y	64	clr	-1	styl	1
+
+
+13	active	1	title		sigma0TAve		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+4
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	29	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+14	active	1	title		sigma1TAve		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+4
+	x	-2	y	16	clr	-1	styl	1
+	x	-2	y	18	clr	-1	styl	1
+	x	-2	y	30	clr	-1	styl	1
+	x	-2	y	8	clr	-1	styl	1
+
+15	active	1	title		sigma0TAll		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+4
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	29	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+16	active	1	title		sigma1TAll		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+4
+	x	-2	y	16	clr	-1	styl	1
+	x	-2	y	18	clr	-1	styl	1
+	x	-2	y	30	clr	-1	styl	1
+	x	-2	y	8	clr	-1	styl	1
+
+
+17	active	1	title		w01TAve		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	29	clr	-1	styl	1
+	x	-2	y	30	clr	-1	styl	1
+
+18	active	1	title		w0TAve		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+1
+	x	-2	y	29	clr	-1	styl	1
+
+19	active	1	title		w0cntctTAve		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	29	clr	-1	styl	1
+	x	-2	y	64	clr	-1	styl	1
+
+20	active	1	title		w01TAll		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	29	clr	-1	styl	1
+	x	-2	y	30	clr	-1	styl	1
+
+21	active	1	title		v01TAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	9	clr	-1	styl	1
+	x	-2	y	10	clr	-1	styl	1
+
+22	active	1	title		v01TAll		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	9	clr	-1	styl	1
+	x	-2	y	10	clr	-1	styl	1
+
+23	active	1	title		delu01TAve		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+2
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	2	clr	-1	styl	1
+
+24	active	1	title		allContactTAve		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+6
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	11	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+25	active	1	title		allContactTAll		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+6
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	11	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+
+26	active	1	title		mostContactTAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+5
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+27	active	1	title		mostContactTAll		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+5
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+28	active	1	title		mostNosRRContactTAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+4
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+29	active	1	title		mostNosRRContactTAll		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+4
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+30	active	1	title		mostNosRRVContactTAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+3
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+
+31	active	1	title		mostNosRRVContactTAll		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+3
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+
+
+
+32	active	1	title		mostNoVContactTAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+4
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+
+33	active	1	title		mostNoVContactTAll		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+4
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+
+
+34	active	1	title		mostVContactTAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+5
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	11	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+35	active	1	title		mostVContactTAll		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+5
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	11	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	7	clr	-1	styl	1
+
+
+36	active	0	title		allContactSlipAve		yLabel	yLabel	zLabel	zLabel	legendLocation	NorthWest
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+12
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	65	clr	-1	styl	1
+	x	-2	y	66	clr	-1	styl	1
+	x	-2	y	67	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	11	clr	-1	styl	1
+	x	-2	y	2	clr	-1	styl	1
+	x	-2	y	18	clr	-1	styl	1
+	x	-2	y	16	clr	-1	styl	1
+	x	-2	y	12	clr	-1	styl	1
+37	active	0	title		allContactSlipAll		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+12
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	65	clr	-1	styl	1
+	x	-2	y	66	clr	-1	styl	1
+	x	-2	y	67	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	11	clr	-1	styl	1
+	x	-2	y	2	clr	-1	styl	1
+	x	-2	y	18	clr	-1	styl	1
+	x	-2	y	16	clr	-1	styl	1
+	x	-2	y	12	clr	-1	styl	1
+38	active	0	title		allContactSlipPt2		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+12
+	x	-2	y	64	clr	-1	styl	1
+	x	-2	y	65	clr	-1	styl	1
+	x	-2	y	66	clr	-1	styl	1
+	x	-2	y	67	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	11	clr	-1	styl	1
+	x	-2	y	2	clr	-1	styl	1
+	x	-2	y	18	clr	-1	styl	1
+	x	-2	y	16	clr	-1	styl	1
+	x	-2	y	12	clr	-1	styl	1
+39	active	0	title		mostContactSlipAve		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	ave		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+8
+	x	-2	y	65	clr	-1	styl	1
+	x	-2	y	67	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	2	clr	-1	styl	1
+	x	-2	y	18	clr	-1	styl	1
+	x	-2	y	16	clr	-1	styl	1
+
+40	active	0	title		mostContactSlipAll		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	all		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+8
+	x	-2	y	65	clr	-1	styl	1
+	x	-2	y	67	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	2	clr	-1	styl	1
+	x	-2	y	18	clr	-1	styl	1
+	x	-2	y	16	clr	-1	styl	1
+
+41	active	0	title		mostContactSlipPt2		yLabel	yLabel	zLabel	zLabel	legendLocation	EastOutside
+xlim	-2		ylim	st	fl	en	fl	eff	1	zlim	st	fl	en	fl	eff	0	
+numCurves
+8
+	x	-2	y	65	clr	-1	styl	1
+	x	-2	y	67	clr	-1	styl	1
+	x	-2	y	1	clr	-1	styl	1
+	x	-2	y	17	clr	-1	styl	1
+	x	-2	y	15	clr	-1	styl	1
+	x	-2	y	2	clr	-1	styl	1
+	x	-2	y	18	clr	-1	styl	1
+	x	-2	y	16	clr	-1	styl	1
+
+
+KEY:
+name and field numbers are as follows:
+number			4		5		6		7		8		9		10		11		12		13		14		15		16		17		18		19		20		21		22		23		24		25		26		27		28		29		30		31		32		33		34		35		36		37		38		39		40		41		42		43		44		45		46		47		48		49		50		51		52		53		54		55		56		57		58		59		60		61		62		63		64		65		66		67		68		69		70		71		72		73
+name				delu0		delu1		Scoh0		Scoh1		Sout0		Sout1		Sin0		Sin1		v0		v1		delv0		delv1		u0		u1		Ss0		Ss1		Sr0		Sr1		D0		D1		D-uc0		D-uc1		D-ucDot0	D-ucDot1	evl-src0	evl-src1	evl-frc0	evl-frc1	char-val0	char-val1	DissDot0	DissDot1	Diss0		Diss1		DissDgDot0	DissDgDot1	DissDg0	DissDg1	delus		Scohs		Souts		Sins		vs		delvs		us		Sss		Srs		Ds		D-ucs		D-ucDots	evl-srcs	evl-frcs	char-vals	DissDots	Disss		DissDgDots	DissDgs	VCP_DU0	VCP_DU1	VCP_S0	VCP_S1	aSpr		aSpa		aCnr		aCna		aSlr		aSla		aStr		aSta		aBna
+numbers - 3
+
+xlim	ZZ1	ylim	st	fl	en	fl	eff	0	zlim	st	fl	en	fl	eff	0	
+ZZ1	
+	ave	average between ZZ2 and ZZ3
+	all	plots all data between ZZ2:ZZ4:ZZ3 as one ensemble
+	range plots individual ones on ZZ2:ZZ4:ZZ3 (each treated individually)
+
+p2,3(2 min, 3 max)	value fl means it uses xmin given at the start of the file
+p3
+	val stpt entered means xmax is equal to xmin
+
+ZZ4	-1 means it uses value step given start of the file
+
+ylim and zlim are (x and y axis of reduced ploy and eff 1 means it uses y and zlims given start of the file)
+
+in curve data:
+axis number negative means it uses x, y, or z coordinate value of points (-1, -2, -3)
+otherwise it's the given field number
+clr number 
+-1 (clr automatically assigned)
+> 0 reads from the map with given number
+
+stlyle number 
+< 0 -
+readsFrom map
+
+ylim		0.91		0.95
